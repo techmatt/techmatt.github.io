@@ -2,4 +2,4 @@
 layout: default
 ---
 
-Projects here.
+Publications here.
