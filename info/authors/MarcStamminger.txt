@@ -1,0 +1,3 @@
+name=Marc Stamminger
+website=https://google.com
+affiliation=University of Erlangen-Nuremberg

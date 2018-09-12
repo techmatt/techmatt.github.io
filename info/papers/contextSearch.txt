@@ -1,0 +1,8 @@
+title=Context-Based Search for 3D Models
+authors=matt,pat
+conference=SIGGRAPH Asia 2010
+pdf=papers/contextSearch.pdf
+thumbnail=papers/contextSearchThumbnail.png
+teaser=papers/contextSearchTeaser.png
+scholar=http://scholar.google.com/citations?view_op=view_citation&hl=en&user=PUSWc4EAAAAJ&citation_for_view=PUSWc4EAAAAJ:2osOgNQ5qMEC
+blurb=Describe a data-driven method that uses scenes from Google 3D Warehouse to enable context-based model search of 3D scenes.

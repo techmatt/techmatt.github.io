@@ -1,0 +1,3 @@
+name=Gilbert Bernstein
+website=http://www.gilbertbernstein.com/
+affiliation=Stanford University

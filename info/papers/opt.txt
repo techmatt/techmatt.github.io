@@ -1,0 +1,9 @@
+title=Opt: A Domain Specific Language for Non-linear Least Squares Optimization in Graphics and Imaging
+authors=zach,Michael Mara,Michael Zollhoefer,gilbert,Jonathan Ragan-Kelley, Christian Theobalt,pat,matt,matthias
+conference=SIGGRAPH 2018
+pdf=papers/opt.pdf
+thumbnail=papers/optThumbnail.png
+teaser=papers/optTeaser.png
+project=http://optlang.org/
+scholar=http://scholar.google.com/scholar?hl=en&q=Real-time+Non-rigid+Reconstruction+using+an+RGB-D+Camera&btnG=&as_sdt=1%2C5&as_sdtp=
+blurb=We propose a new language, Opt, in which a user simply writes energy functions over image- or graph-structured unknowns, and a compiler automatically generates state-of-the-art GPU optimization kernels.

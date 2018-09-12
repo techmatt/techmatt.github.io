@@ -1,0 +1,3 @@
+name=Sharon Lin
+website=http://graphics.stanford.edu/~sharonl/
+affiliation=Stanford University

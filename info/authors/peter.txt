@@ -1,0 +1,3 @@
+name=Peter Schröder
+website=http://www.multires.caltech.edu/pubs/pubs.htm
+affiliation=California Institute of Technology

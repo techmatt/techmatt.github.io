@@ -1,0 +1,3 @@
+name=Yi-Ting Yeh
+website=http://graphics.stanford.edu/~yitingy/
+affiliation=Stanford University

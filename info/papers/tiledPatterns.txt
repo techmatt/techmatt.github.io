@@ -1,0 +1,8 @@
+title= 	Synthesis of Tiled Patterns using Factor Graphs
+authors=yiting,katherine,ling,matt,pat
+conference=Transactions on Graphics 2013
+pdf=papers/tiledPatterns.pdf
+thumbnail=papers/tiledPatternsThumbnail.png
+teaser=papers/tiledPatternsTeaser.png
+scholar=http://scholar.google.com/citations?view_op=view_citation&hl=en&user=PUSWc4EAAAAJ&citation_for_view=PUSWc4EAAAAJ:Y0pCki6q_DkC
+blurb=Describes a method for synthesizing new patterns of tiles that are similar in appearance to a set of example patterns.

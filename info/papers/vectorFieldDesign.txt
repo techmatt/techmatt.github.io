@@ -1,0 +1,8 @@
+title=Design of Tangent Vector Fields
+authors=matt,peter,mathieu,hugues
+conference=SIGGRAPH 2007
+pdf=papers/vectorFieldDesign.pdf
+thumbnail=papers/vectorFieldDesignThumbnail.png
+teaser=papers/vectorFieldDesignTeaser.png
+scholar=http://scholar.google.com/citations?view_op=view_citation&hl=en&user=PUSWc4EAAAAJ&citation_for_view=PUSWc4EAAAAJ:u5HHmVD_uO8C
+blurb=Using tools from Discrete Exterior Calculus, we present a simple and efficient algorithm for designing tangent vector fields over arbitrary triangle meshes.

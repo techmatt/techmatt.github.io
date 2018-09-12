@@ -1,0 +1,3 @@
+name=Crystal Lemire
+website=http://www.stanford.edu/
+affiliation=Stanford University

@@ -1,0 +1,3 @@
+name=Henry Schäfer
+website=http://google.com
+affiliation=University of Erlangen-Nuremberg

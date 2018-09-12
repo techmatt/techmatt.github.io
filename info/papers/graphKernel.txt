@@ -1,0 +1,8 @@
+title=Characterizing Structural Relationships in Scenes Using Graph Kernels
+authors=matt,manolis,pat
+conference=SIGGRAPH 2011
+pdf=papers/graphKernel.pdf
+thumbnail=papers/graphKernelThumbnail.png
+teaser=papers/graphKernelTeaser.png
+scholar=http://scholar.google.com/citations?view_op=view_citation&hl=en&user=PUSWc4EAAAAJ&citation_for_view=PUSWc4EAAAAJ:qjMakFHDy7sC
+blurb=Represents scenes as graphs that encode models and their semantic relationships, then defines a kernel between these relationship graphs that compares common virtual substructures and captures the similarity between scenes.

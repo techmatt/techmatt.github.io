@@ -1,0 +1,3 @@
+name=Mathieu Desbrun
+website=http://www.geometry.caltech.edu/~mathieu/
+affiliation=California Institute of Technology

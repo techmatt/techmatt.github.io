@@ -1,0 +1,3 @@
+name=Lingfeng Yang
+website=http://graphics.stanford.edu/~lfyg/
+affiliation=Stanford University

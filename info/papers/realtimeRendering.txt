@@ -1,0 +1,8 @@
+title=Real-time Rendering Techniques with Hardware Tessellation
+authors=matthias,BenjaminKeinert,matt,MarcStamminger,CharlesLoop,HenryShafer
+conference=Computer Graphics Forum 2015
+pdf=papers/realtimeRendering.pdf
+thumbnail=papers/realtimeRenderingThumbnail.png
+teaser=papers/realtimeRenderingTeaser.png
+scholar=https://scholar.google.com/scholar?hl=en&q=Real-time+Rendering+Techniques+with+Hardware+Tessellation&btnG=&as_sdt=1%2C5&as_sdtp=
+blurb=In this survey, we provide an overview of real-time rendering techniques with hardware tessellation by summarizing, discussing, and comparing state-of-the art approaches.

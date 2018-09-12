@@ -1,0 +1,3 @@
+name=Bill Mark
+website=http://visual-computing.intel-research.net/people/bill.htm
+affiliation=Intel Corporation

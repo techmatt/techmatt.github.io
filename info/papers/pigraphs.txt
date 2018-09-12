@@ -1,0 +1,10 @@
+title=PiGraphs: Learning Interaction Snapshots from Observations
+authors=manolis,angel,pat,matt,matthias
+conference=SIGGRAPH 2016
+pdf=papers/pigraphs.pdf
+thumbnail=papers/pigraphsThumbnail.png
+teaser=papers/pigraphsTeaser.png
+project=http://graphics.stanford.edu/projects/pigraphs/
+video=https://www.youtube.com/watch?v=Ws9jPxCAFrg
+scholar=http://scholar.google.com/scholar?hl=en&q=Real-time+Non-rigid+Reconstruction+using+an+RGB-D+Camera&btnG=&as_sdt=1%2C5&as_sdtp=
+blurb=We learn a probabilistic model connecting human poses and arrangements of objects from observations of interactions collected with commodity RGB-D sensors. This model is encoded as a set of Prototypical Interaction Graphs (PiGraphs): a human-centric representation capturing physical contact and attention linkages between geometry and the human body.

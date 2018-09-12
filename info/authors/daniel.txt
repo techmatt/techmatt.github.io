@@ -1,0 +1,3 @@
+name=Daniel Ritchie
+website=http://www.stanford.edu/~dritchie/index.html
+affiliation=Stanford University

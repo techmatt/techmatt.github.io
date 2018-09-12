@@ -1,0 +1,3 @@
+name=Katherine Breeden
+website=http://graphics.stanford.edu/~kbreeden/
+affiliation=Stanford University

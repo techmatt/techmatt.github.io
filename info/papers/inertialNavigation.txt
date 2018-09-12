@@ -1,0 +1,9 @@
+title=Combining Inertial Navigation and ICP for Real-time 3D Surface Reconstruction
+authors=matthias,angie,matt
+conference=Eurographics 2014
+pdf=papers/inertialNavigation.pdf
+thumbnail=papers/inertialNavigationThumbnail.png
+teaser=papers/inertialNavigationTeaser.png
+video=papers/inertialNavigationVideo.mp4
+scholar=http://scholar.google.com/scholar?hl=en&q=Combining+Inertial+Navigation+and+ICP+for+Real-time+3D+Surface+Reconstruction&btnG=&as_sdt=1%2C5&as_sdtp=
+blurb=Presents a novel method to improve the robustness of real-time 3D surface reconstruction by incorporating inertial sensor data when determining inter-frame alignment.

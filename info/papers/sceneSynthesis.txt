@@ -1,0 +1,12 @@
+title=Example-based Synthesis of 3D Object Arrangements
+authors=matt,daniel,manolis,tom,pat
+conference=SIGGRAPH Asia 2012
+pdf=papers/sceneSynthesis.pdf
+thumbnail=papers/sceneSynthesisThumbnail.png
+teaser=papers/sceneSynthesisTeaser.jpg
+supplemental=papers/sceneSynthesisSupplemental.zip
+slides=papers/sceneSynthesisSlides.pptx
+database=papers/sceneSynthesisDatabase.zip
+code=http://code.google.com/p/stanford-scene-database/
+scholar=http://scholar.google.com/citations?view_op=view_citation&hl=en&user=PUSWc4EAAAAJ&citation_for_view=PUSWc4EAAAAJ:IjCSPb-OGe4C
+blurb=Presents a system that synthesizes new 3D scenes from a few examples by learning from a larger scene database.

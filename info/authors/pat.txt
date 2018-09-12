@@ -1,0 +1,3 @@
+name=Pat Hanrahan
+website=http://graphics.stanford.edu/~hanrahan/
+affiliation=Stanford University
