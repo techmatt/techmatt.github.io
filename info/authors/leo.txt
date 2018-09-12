@@ -1,0 +1,3 @@
+name=Leonidas Guibas
+website=https://geometry.stanford.edu/member/guibas/
+affiliation=Stanford University

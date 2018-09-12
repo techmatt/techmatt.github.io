@@ -1,0 +1,4 @@
+title=Multi-Content GAN for Few-Shot Font Style Transfer
+authors=samaneh,matt,vova,Zhaowen Wang,eli,trevor
+conference=CVPR 2018 Spotlight
+project=https://github.com/azadis/MC-GAN

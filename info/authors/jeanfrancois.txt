@@ -1,0 +1,3 @@
+name=Jean-Francois Lalonde
+website=http://vision.gel.ulaval.ca/~jflalonde/
+affiliation=Stanford University

@@ -1,3 +1,3 @@
 name=Angela Dai
-website=http://graphics.stanford.edu/
+website=https://cs.stanford.edu/people/adai/
 affiliation=Stanford University

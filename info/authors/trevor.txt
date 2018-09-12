@@ -1,0 +1,2 @@
+name=Trevor Darrell
+website=https://people.eecs.berkeley.edu/~trevor/

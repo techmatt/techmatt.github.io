@@ -1,0 +1,4 @@
+title=A Perceptual Measure for Deep Single Image Camera Calibration
+authors=yannick,kalyan,Jonathan Eisenmann,matt,Emiliano Gambaretto,sunil,jeanfrancois
+conference=CVPR 2018
+project=https://arxiv.org/abs/1712.01259

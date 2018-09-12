@@ -1,0 +1,4 @@
+title=AtlasNet: A Papier-Mache Approach to Learning 3D Surface Generation
+authors=thibault,matt,vova,bryan,mathieuAubry
+conference=CVPR 2018 Spotlight
+project=http://imagine.enpc.fr/~groueixt/atlasnet/

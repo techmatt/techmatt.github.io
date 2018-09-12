@@ -65,12 +65,7 @@ namespace WebGenerator
                 //string title = p["title"].Replace("<br/>"," ");
                 string title = p["title"];
                 string conference = p["conference"];
-                string thumbnail = p["thumbnail"];
-                string pdf = p["pdf"];
-
-                if (pdf.StartsWith("papers"))
-                    pdf = "";
-
+                
                 string authorText = "";
                 foreach (string author in p["authors"].Split(','))
                 {
@@ -91,7 +86,7 @@ namespace WebGenerator
 
                 lines.Add("<div class=\"rTableRow\">");
                 lines.Add("<div class=\"rTableCellA\">");
-                lines.Add("<img src=\"thumbnails/" + thumbnail + "\" />");
+                lines.Add("<img src=\"thumbnails/" + paperID + ".png\" />");
                 lines.Add("</div>");
                 lines.Add("<div class=\"rTableCellB\">");
 
@@ -110,13 +105,16 @@ namespace WebGenerator
                 string webpageLink = "";
                 string bibtexLink = "";
 
-                if (pdf == "")
-                    pdfLink = "<a href=\"pdfs/" + paperID + ".pdf\">pdf</a>";
-                else
-                    pdfLink = "<a href=\"" + pdf + "\">pdf</a>";
+                pdfLink = "<a href=\"pdfs/" + paperID + ".pdf\">pdf</a>";
 
+                string pdfFilename = @"C:\Code\techmatt.github.io\pdfs\" + paperID + ".pdf";
                 string bibtexFilename = @"C:\Code\techmatt.github.io\info\bibs\" + paperID + ".txt";
-                
+
+                if (!File.Exists(pdfFilename))
+                {
+                    pdfLink = "pdf";
+                }
+
                 if (p.ContainsKey("project"))
                 {
                     webpageLink = "<a href=\"" + p["project"] + "\">webpage</a>";

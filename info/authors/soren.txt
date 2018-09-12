@@ -1,0 +1,3 @@
+name=Soren Pirk
+website=http://www.pirk.info/
+affiliation=Stanford University

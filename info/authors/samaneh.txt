@@ -1,0 +1,2 @@
+name=Samaneh Azadi
+website=https://people.eecs.berkeley.edu/~sazadi/

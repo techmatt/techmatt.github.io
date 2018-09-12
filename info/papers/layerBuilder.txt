@@ -1,0 +1,4 @@
+title=LayerBuilder: Layer Decomposition for Interactive Image and Video Color Editing
+authors=sharon,matt,angie,pat
+conference=arXiv 2017
+project=https://arxiv.org/abs/1701.03754
