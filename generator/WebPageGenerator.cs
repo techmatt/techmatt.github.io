@@ -59,22 +59,31 @@ namespace WebGenerator
 
             lines.Add(publicationsHTMLHeader);
 
-            foreach (string paper in paperOrder)
+            foreach (string paperID in paperOrder)
             {
-                var p = papers[paper];
+                var p = papers[paperID];
                 //string title = p["title"].Replace("<br/>"," ");
                 string title = p["title"];
                 string conference = p["conference"];
                 string thumbnail = p["thumbnail"];
                 string pdf = p["pdf"];
 
+                if (pdf.StartsWith("papers"))
+                    pdf = "";
+
                 string authorText = "";
                 foreach (string author in p["authors"].Split(','))
                 {
                     string name = author;
-                    
-                    if(authors.ContainsKey(author))
+                    string link = "";
+
+                    if (authors.ContainsKey(author))
+                    {
                         name = authors[author]["name"];
+                        link = authors[author]["website"];
+
+                        name = "<a href=\"" + link + "\">" + name + "</a>";
+                    }
 
                     if (authorText.Length == 0) authorText = name;
                     else authorText = authorText + ", " + name;
@@ -86,40 +95,46 @@ namespace WebGenerator
                 lines.Add("</div>");
                 lines.Add("<div class=\"rTableCellB\">");
 
-                lines.Add("<p class=\"titleP\"><a href=\"" + p["pdf"] + "\">" + title + "</a></p>");
-
-                /*if (p.ContainsKey("project"))
-                {
-
-                    lines.Add("<p class=\"titleP\"><a href=\"" + p["project"] + "\">" + title + "</a></p>");
-                }
+                string pubLink = "ERROR.pdf";
+                if (p.ContainsKey("project"))
+                    pubLink = p["project"];
                 else
-                {
-                    lines.Add("<p class=\"titleP\"><a href=\"" + paper + ".html\">" + title + "</a></p>");
-                }
-                lines.Add("<p class=\"authorsP\">" + authorText + "</p>");
-                lines.Add("<p class=\"venueP\">" + conference + "</p>");
-                lines.Add("<p class=\"descP\">" + blurb + "</p>");*/
+                    pubLink = p["pdf"];
+                lines.Add("<div class = \"pubName\"><a href=\"" + pubLink + "\">" + title + "</a></div>");
 
-                string paperLink = "<a href=\"" + pdf + "\">paper</a>";
-                string projectLink = "<a href=\"" + paper + ".html\">project page</a>";
-                string bibtexLink = "<a href=\"bibs/" + paper + ".txt\">bibtex</a>";
+                lines.Add("<div class = \"pubAuthors\">" + authorText + "</div>");
+                lines.Add("<div class = \"pubConference\">" + conference + "</div>");
+                //lines.Add("<div class = \"pubLinks\">" + conference + "</p>");
+
+                string pdfLink = "";
+                string webpageLink = "";
+                string bibtexLink = "";
+
+                if (pdf == "")
+                    pdfLink = "<a href=\"pdfs/" + paperID + ".pdf\">pdf</a>";
+                else
+                    pdfLink = "<a href=\"" + pdf + "\">pdf</a>";
+
+                string bibtexFilename = @"C:\Code\techmatt.github.io\info\bibs\" + paperID + ".txt";
                 
                 if (p.ContainsKey("project"))
                 {
-                    projectLink = "<a href=\"" + p["project"] + "\">project page</a>";
+                    webpageLink = "<a href=\"" + p["project"] + "\">webpage</a>";
                 }
 
-                string linkLine;
-                if(p.ContainsKey("video"))
+                if(File.Exists(bibtexFilename))
                 {
-                    string videoLink = "<a href=\"" + p["video"] + "\">video</a>";
-                    linkLine = paperLink + " | " + videoLink + " | " + bibtexLink + " | " + projectLink;
+                    bibtexLink = "<a href=\"info/bibs/" + paperID + ".txt\">bib</a>";
                 }
-                else
-                {
-                    linkLine = paperLink + " | " + bibtexLink + " | " + projectLink;
-                }
+
+                string linkLine = pdfLink;
+
+                if (bibtexLink.Length > 0)
+                    linkLine += " | " + bibtexLink;
+
+                if (webpageLink.Length > 0)
+                    linkLine += " | " + webpageLink;
+
                 lines.Add(linkLine);
                 
                 lines.Add("</div>");

@@ -1,3 +1,3 @@
 name=Angel X. Chang
-website=http://web.stanford.edu/~angelx/
+website=https://angelxuanchang.github.io/
 affiliation=Stanford University

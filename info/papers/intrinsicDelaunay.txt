@@ -1,6 +1,6 @@
 title=An Algorithm for the Construction of Intrinsic Delaunay Triangulations
 authors=matt,boris,bobenko,peter
-conference=Computing 2006
+conference=SIGGRAPH 2006 Courses
 pdf=papers/intrinsicDelaunay.pdf
 thumbnail=intrinsicDelaunay.png
 teaser=papers/intrinsicDelaunayTeaser.png

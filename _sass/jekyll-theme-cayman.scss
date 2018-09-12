@@ -34,6 +34,28 @@ body {
   color: $body-text-color;
 }
 
+.pubName {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: normal;
+	font-weight: bold;
+	font-size: 18px;
+    color: $section-headings-color;
+  }
+
+.pubAuthors {
+    margin-bottom: 0em;
+  }
+
+.pubConference {
+	font-weight: bold;
+    margin-bottom: 0em;
+  }
+  
+.pubLinks {
+    margin-bottom: 0em;
+  }
+  
 #skip-to-content {
   height: 1px;
   width: 1px;
@@ -214,7 +236,7 @@ a {
   }
 
   @include large {
-    max-width: 64rem;
+    max-width: 80rem;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 0.9rem;

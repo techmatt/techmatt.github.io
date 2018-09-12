@@ -1,3 +1,3 @@
 name=Matthew Fisher
-website=http://graphics.stanford.edu/~mdfisher/publications.html
+website=https://techmatt.github.io/
 affiliation=Stanford University
