@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<head>
 
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    <meta charset="UTF-8">
+  {% if site.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+  {% endif %}
+  <meta charset="UTF-8">
 
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+  {% seo %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+<body>
+  <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+  <header class="page-header" role="banner">
+    <h1 class="project-name"> {{ site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+
+    <a href="index.html" class="btn">Publications</a>
+    <a href="projects.html" class="btn">Projects</a>
+    <a href="recipes.html" class="btn">Recipes</a>
+  </header>
+
+  <main id="content" class="main-content" role="main">
+    <table>
+      <col width="180px" />
+      <tr>
+        <td>
+          <img src="assets/MatthewFisher.png" />
+        </td>
+        <td border = 0>
+          I received my PhD from <a href="https://www.stanford.edu/">Stanford University</a> supported by a <a href="http://hertzfoundation.org/">Hertz Fellowship</a> where I worked with <a href="https://graphics.stanford.edu/~hanrahan/">Pat Hanrahan</a> in the <a href="https://graphics.stanford.edu/">Graphics Lab</a>. I recieved my undergraduate degree at the <a href="http://www.caltech.edu/">California Institute of Technology</a> working with <a href="http://www.multires.caltech.edu/~mathieu/">Mathieu Desbrun</a>. During a postdoc at Stanford, I have also worked on the data analytics team at <a href="https://www.khanacademy.org/">Khan Academy</a>.
+          <br />
+          My research focuses on combining computer graphics, vision, and machine learning to make it faster and more fun to complete creative tasks.
+          <div>
+            <a href='mailto:mdfisher@cs.stanford.edu' title='email' style='text-decoration:none'>
+              <img src='assets/email.png' width=42px style='vertical-align:middle'>
+            </a>
+            &nbsp;
+            <a target='_blank' href='https://github.com/techmatt' title='GitHub' style='text-decoration:none'>
+              <img src='assets/github.png' width=42px style='vertical-align:middle'>
+            </a>
+            &nbsp;
+            <a target='_blank' href='https://scholar.google.com/citations?user=PUSWc4EAAAAJ&hl=en' title='Google Scholar' style='text-decoration:none'>
+              <img src='assets/scholar.png' width=42px style='vertical-align:middle'>
+            </a>
+            <a target='_blank' href='pdfs/MatthewFisher_CV.pdf' title='CV / Resume' style='text-decoration:none'>
+              <img src='assets/resume.png' width=40px style='vertical-align:middle'>
+            </a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    {{ content }}
+
+    <footer class="site-footer">
+      Visit my old Stanford website <a href="http://graphics.stanford.edu/~mdfisher/">here</a>.
+      {% if site.github.is_project_page %}
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <a href="index.html" class="btn">Home</a>
-      <a href="publications.html" class="btn">Publications</a>
-      <a href="projects.html" class="btn">Projects</a>
-    </header>
+      <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+      <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.  techmatttt</span>
+      {% endif %}
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.  techmatttt</span>
-      </footer>
-    </main>
-  </body>
+    </footer>
+  </main>
+</body>
 </html>

@@ -2,4 +2,4 @@
 layout: default
 ---
 
-Publications here.
+Recipes here.
