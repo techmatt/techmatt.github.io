@@ -1,11 +1,11 @@
 ---
 layout: default
-title: About
+title: Recipes
 ---
 
 <h1>Recipes</h1>
 
-I maintain a list of recipes I cook frequently here so I can reference them more easily whike cooking. My old Stanford recipe list is [here](https://graphics.stanford.edu/~mdfisher/recipes.html)
+I maintain a list of recipes I cook frequently here so I can reference them more easily while cooking. My old Stanford recipe list is [here](https://graphics.stanford.edu/~mdfisher/recipes.html).
 
 <h2>Chicken</h2>
  * [Schnitzel Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/SchnitzelChicken.html)
