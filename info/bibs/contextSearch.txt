@@ -1,0 +1,10 @@
+@inproceedings{fisher2010context,
+  title={Context-based search for 3D models},
+  author={Fisher, Matthew and Hanrahan, Pat},
+  booktitle={ACM Transactions on Graphics (TOG)},
+  volume={29},
+  number={6},
+  pages={182},
+  year={2010},
+  organization={ACM}
+}

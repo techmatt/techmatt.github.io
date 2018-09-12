@@ -2,7 +2,7 @@ title=DiagSplit: Parallel, Crack-Free, Adaptive Tessellation for Micropolygon Re
 authors=matt,kayvon,solomon,kurt,bill,pat
 conference=SIGGRAPH Asia 2009
 pdf=papers/diagSplit.pdf
-thumbnail=papers/diagSplitThumbnail.png
+thumbnail=diagSplit.png
 teaser=papers/diagSplitTeaser.png
 scholar=http://scholar.google.com/citations?view_op=view_citation&hl=en&user=PUSWc4EAAAAJ&citation_for_view=PUSWc4EAAAAJ:d1gkVwhDpl0C
 blurb=Presents DiagSplit, a parallel algorithm for adaptively tessellating displaced parametric surfaces into high-quality, crack-free micropolygon meshes.

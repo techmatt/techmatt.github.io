@@ -1,0 +1,6 @@
+---
+layout: default
+---
+
+<h1>Publications</h1>
+<div class="rTable">

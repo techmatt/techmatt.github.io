@@ -1,0 +1,6 @@
+@inproceedings{valentin2015cvpr,
+  author = {Julien Valentin and Matthias Nie{\ss}ner and Jamie Shotton and Andrew Fitzgibbon and Shahram Izadi and Philip H. S. Torr},
+  title = {Exploiting Uncertainty in Regression Forests for Accurate Camera Relocalization},
+  booktitle = {Proc. Computer Vision and Pattern Recognition (CVPR), IEEE, June 2015},
+  year = {2015}
+}

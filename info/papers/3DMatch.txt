@@ -2,7 +2,7 @@ title=3DMatch: Learning the Matching of Local 3D Geometry in Range Scans
 authors=andy,shuran,matthias,matt,jianxiong
 conference=CVPR 2017
 pdf=papers/3DMatch.pdf
-thumbnail=papers/3DMatchThumbnail.png
+thumbnail=3DMatch.png
 teaser=papers/3DMatchTeaser.png
 project=http://3dmatch.cs.princeton.edu/
 scholar=http://scholar.google.com/scholar?hl=en&q=Real-time+Non-rigid+Reconstruction+using+an+RGB-D+Camera&btnG=&as_sdt=1%2C5&as_sdtp=

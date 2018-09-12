@@ -2,6 +2,6 @@ title=First-class Runtime Generation of High-performance Types using Exotypes
 authors=zach,daniel,matt,alex,pat
 conference=Programming Language Design and Implementation 2014
 pdf=papers/exotypes.pdf
-thumbnail=papers/exotypesThumbnail.png
+thumbnail=exotypes.png
 teaser=papers/exotypesTeaser.png
 blurb=Introduces exotypes, which are user-defined types that combine the flexibility of meta-object protocols in dynamically-typed languages with the performance control of low-level languages.

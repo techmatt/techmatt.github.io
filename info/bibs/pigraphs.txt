@@ -1,0 +1,9 @@
+@article{savva2016pigs,
+	author = {Manolis Savva and Angel X. Chang and Pat Hanrahan and Matthew Fisher and Matthias Nie{\ss}ner},
+	title = {PiGraphs: Learning Interaction Snapshots from Observations},
+	journal = {ACM Transactions on Graphics (TOG)},
+	volume={-},
+	number={-},
+	year = {2016},
+	publisher = {ACM}
+}

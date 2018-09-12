@@ -1,8 +1,8 @@
 title=Ebb: A DSL for Physical Simulation on CPUs and GPUs
 authors=gilbert,chinmayee,crystal,zach,matt,philip,pat
-conferenceShort=SIGGRAPH 2016
+conference=Transactions on Graphics 2016
 pdf=papers/ebb.pdf
-thumbnail=papers/ebbThumbnail.png
+thumbnail=ebb.png
 teaser=papers/ebbTeaser.png
 code=https://gilbo.github.io/liszt-ebb/
 blurb=We present Ebb, a domain-specific language (DSL) for simulation, that runs efficiently on both CPUs and GPUs.

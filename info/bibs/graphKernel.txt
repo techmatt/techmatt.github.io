@@ -1,0 +1,10 @@
+@inproceedings{fisher2011characterizing,
+  title={Characterizing structural relationships in scenes using graph kernels},
+  author={Fisher, Matthew and Savva, Manolis and Hanrahan, Pat},
+  booktitle={ACM Transactions on Graphics (TOG)},
+  volume={30},
+  number={4},
+  pages={34},
+  year={2011},
+  organization={ACM}
+}

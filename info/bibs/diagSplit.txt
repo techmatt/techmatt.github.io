@@ -1,0 +1,10 @@
+@inproceedings{fisher2009diagsplit,
+  title={DiagSplit: parallel, crack-free, adaptive tessellation for micropolygon rendering},
+  author={Fisher, Matthew and Fatahalian, Kayvon and Boulos, Solomon and Akeley, Kurt and Mark, William R and Hanrahan, Pat},
+  booktitle={ACM Transactions on Graphics (TOG)},
+  volume={28},
+  number={5},
+  pages={150},
+  year={2009},
+  organization={ACM}
+}

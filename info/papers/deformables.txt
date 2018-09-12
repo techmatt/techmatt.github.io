@@ -2,7 +2,7 @@ title=Real-time Non-rigid Reconstruction using an RGB-D Camera
 authors=Michael Zollhoefer,matthias,Sharam Izadi,Christoph Rehmann,matt,Chenglei Wu,Andrew Fitzbiggon,Charles Loop,Christian Theobolt,Marc Stamminger
 conference=SIGGRAPH 2014
 pdf=papers/deformables.pdf
-thumbnail=papers/deformablesThumbnail.png
+thumbnail=deformables.png
 teaser=papers/deformablesTeaser.png
 video=papers/deformablesVideo.mp4
 scholar=http://scholar.google.com/scholar?hl=en&q=Real-time+Non-rigid+Reconstruction+using+an+RGB-D+Camera&btnG=&as_sdt=1%2C5&as_sdtp=

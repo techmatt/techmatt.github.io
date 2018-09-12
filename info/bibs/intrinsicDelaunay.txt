@@ -1,0 +1,8 @@
+@inproceedings{fisher2006algorithm,
+  title={An algorithm for the construction of intrinsic Delaunay triangulations with applications to digital geometry processing},
+  author={Fisher, Matthew and Springborn, Boris and Bobenko, Alexander I and Schroder, Peter},
+  booktitle={ACM SIGGRAPH 2006 Courses},
+  pages={69--74},
+  year={2006},
+  organization={ACM}
+}

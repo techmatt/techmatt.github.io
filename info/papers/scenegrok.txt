@@ -2,7 +2,7 @@ title=SceneGrok: Inferring Action Maps in 3D Environments
 authors=manolis,angel,pat,matt,matthias
 conference=SIGGRAPH Asia 2014
 pdf=papers/scenegrok.pdf
-thumbnail=papers/scenegrokThumbnail.png
+thumbnail=scenegrok.png
 teaser=papers/scenegrokTeaser.png
 video=papers/scenegrok.mp4
 scholar=http://scholar.google.com/scholar?hl=en&q=Real-time+Non-rigid+Reconstruction+using+an+RGB-D+Camera&btnG=&as_sdt=1%2C5&as_sdtp=

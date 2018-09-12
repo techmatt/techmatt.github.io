@@ -1,0 +1,9 @@
+@article{zollhoefer2014deformable,
+	title={Real-time Non-rigid Reconstruction using an RGB-D Camera},
+	author={Zollh{\"o}fer, Michael and Nie{\ss}ner, Matthias and Izadi, Shahram and Rehmann, Christoph and Zach, Christopher and Fisher, Matthew and Wu, Chenglei and Fitzgibbon, Andrew and Loop, Charles and Theobalt, Christian and Stamminger, Marc},
+	journal = {ACM Transactions on Graphics (TOG)},
+	publisher = {ACM},
+	volume = {33},
+	number = {4},
+	year = {2014}
+}

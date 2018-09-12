@@ -1,0 +1,6 @@
+@inproceedings{2013-patternColoring,
+author = {Sharon Lin and Daniel Ritchie and Matthew Fisher and Pat Hanrahan},
+title = {Probabilistic Color-by-Numbers: Suggesting Pattern Colorizations Using Factor Graphs},
+booktitle = {ACM SIGGRAPH 2013 papers},
+series = {SIGGRAPH '13},
+year = {2013}} 

@@ -2,7 +2,7 @@ title=Opt: A Domain Specific Language for Non-linear Least Squares Optimization 
 authors=zach,Michael Mara,Michael Zollhoefer,gilbert,Jonathan Ragan-Kelley, Christian Theobalt,pat,matt,matthias
 conference=SIGGRAPH 2018
 pdf=papers/opt.pdf
-thumbnail=papers/optThumbnail.png
+thumbnail=opt.png
 teaser=papers/optTeaser.png
 project=http://optlang.org/
 scholar=http://scholar.google.com/scholar?hl=en&q=Real-time+Non-rigid+Reconstruction+using+an+RGB-D+Camera&btnG=&as_sdt=1%2C5&as_sdtp=

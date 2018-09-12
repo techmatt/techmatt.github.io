@@ -61,6 +61,52 @@ a {
   }
 }
 
+.rTable {
+	table-layout: fixed;
+  	display: table;
+  	width: 100%;
+	vertical-align: middle;
+}
+.rTableRow {
+  	display: table-row;
+	vertical-align: middle;
+}
+
+.rTableCellA {
+  	display: table-cell;
+  	padding: 4px 4px;
+  	border: 0px solid #999999;
+	width: 300px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.rTableCellB {
+  	display: table-cell;
+  	padding: 4px 4px;
+  	border: 0px solid #999999;
+	vertical-align: middle;
+}
+
+.rTableBody {
+  	display: table-row-group;
+}
+
+.rTableFoot {
+  	display: table-footer-group;
+  	font-weight: bold;
+  	background-color: #ddd;
+}
+.rTableHeading {
+  	display: table-header-group;
+  	background-color: #ddd;
+}
+.rTableHeading {
+  	display: table-header-group;
+  	background-color: #ddd;
+  	font-weight: bold;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;

@@ -1,0 +1,10 @@
+@inproceedings{fisher2007design,
+  title={Design of tangent vector fields},
+  author={Fisher, Matthew and Schr{\"o}der, Peter and Desbrun, Mathieu and Hoppe, Hugues},
+  booktitle={ACM Transactions on Graphics (TOG)},
+  volume={26},
+  number={3},
+  pages={56},
+  year={2007},
+  organization={ACM}
+}

@@ -1,0 +1,9 @@
+@article{savva2014scenegrok,
+	title={SceneGrok: Inferring Action Maps in 3D Environments},
+	author={Manolis Savva and Angel X. Chang and Pat Hanrahan and Matthew Fisher and Matthias Nie{\ss}ner},
+	journal = {ACM Transactions on Graphics (TOG)},
+	publisher = {ACM},
+	volume = {33},
+	number = {6},
+	year = {2014}
+}

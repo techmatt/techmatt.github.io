@@ -1,0 +1,6 @@
+@inproceedings{2012-scenesynth,
+author = {Matthew Fisher and Daniel Ritchie and Manolis Savva and Thomas Funkhouser and Pat Hanrahan},
+title = {Example-based Synthesis of 3D Object Arrangements},
+booktitle = {ACM SIGGRAPH Asia 2012 papers},
+series = {SIGGRAPH Asia '12},
+year = {2012}} 

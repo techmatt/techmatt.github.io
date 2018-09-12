@@ -1,0 +1,6 @@
+@article{zeng2016match,
+  title={3DMatch: Learning the Matching of Local 3D Geometry in Range Scans},
+  author={Zeng, Andy and Song, Shuran and Nie{\ss}ner, Matthias and Fisher, Matthew and Jianxiong Xiao},
+  journal={arXiv preprint arXiv:1603.08182},
+  year={2016}
+}

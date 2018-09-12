@@ -2,7 +2,7 @@ title=An Algorithm for the Construction of Intrinsic Delaunay Triangulations
 authors=matt,boris,bobenko,peter
 conference=Computing 2006
 pdf=papers/intrinsicDelaunay.pdf
-thumbnail=papers/intrinsicDelaunayThumbnail.png
+thumbnail=intrinsicDelaunay.png
 teaser=papers/intrinsicDelaunayTeaser.png
 scholar=http://scholar.google.com/citations?view_op=view_citation&hl=en&user=PUSWc4EAAAAJ&citation_for_view=PUSWc4EAAAAJ:Tyk-4Ss8FVUC
 blurb=Presents an algorithm for computing an intrinsic Laplace-Beltrami operator based on an intrinsic Delaunay triangulation of the surface.

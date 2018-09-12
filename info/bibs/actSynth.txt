@@ -1,0 +1,10 @@
+@article{fisher2015activity,
+	author = {Fisher, M. and Savva, M. and Li, Y. and Hanrahan, P. and Nie{\ss}ner, M.},
+	title = {Activity-centric Scene Synthesis for Functional 3D Scene Modeling},
+	journal = {ACM Transactions on Graphics (TOG)},
+	volume={34},
+	number={6},
+	year = {2015},
+	publisher = {ACM}
+	
+}

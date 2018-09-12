@@ -1,0 +1,6 @@
+@article{devito2016opt,
+  title={Opt: A Domain Specific Language for Non-linear Least Squares Optimization in Graphics and Imaging},
+  author={DeVito, Zachary and Mara, Michael and Zoll{\"o}fer, Michael and Bernstein, Gilbert and Theobalt, Christian and Hanrahan, Pat and Fisher, Matthew and Nie{\ss}ner, Matthias},
+  journal={arXiv preprint arXiv:1604.06525},
+  year={2016}
+}

@@ -2,7 +2,7 @@ title=PiGraphs: Learning Interaction Snapshots from Observations
 authors=manolis,angel,pat,matt,matthias
 conference=SIGGRAPH 2016
 pdf=papers/pigraphs.pdf
-thumbnail=papers/pigraphsThumbnail.png
+thumbnail=pigraphs.png
 teaser=papers/pigraphsTeaser.png
 project=http://graphics.stanford.edu/projects/pigraphs/
 video=https://www.youtube.com/watch?v=Ws9jPxCAFrg
