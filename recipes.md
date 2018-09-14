@@ -53,4 +53,6 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 <h2>Sides</h2>
  * [Oven Cornbread](https://www.bettycrocker.com/recipes/cornbread/8990e15c-fc1d-4a8d-b8b3-4b37f45eca49)
  * [Skillet Cornbread](https://www.worthwhisking.com/southern-style-skillet-cornbread/)
+ * [Yellow Indian Rice](https://www.budgetbytes.com/yellow-jasmine-rice/)
+ * [Sichuan Green Beans](https://dinnerthendessert.com/spicy-chinese-sichuan-green-beans/)
  
