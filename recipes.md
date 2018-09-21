@@ -25,6 +25,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
  * [Creamy Sausage Pasta](http://www.smells-like-home.com/2015/02/one-pot-creamy-sausage-pasta/)
  * [Hamburgers](https://www.onceuponachef.com/recipes/steakhouse-burgers.html)
+ * [Creamy sausage pasta](https://docs.google.com/document/d/1CZevn5--yB-AByZfbFtVayvIKSdT2PoniLwo4DW5gIE)
 
 <h2>Asian</h2>
  * [Stir-fry Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
