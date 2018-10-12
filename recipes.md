@@ -18,14 +18,16 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Chicken Costoletta](https://docs.google.com/document/d/1E5l6b-7IUEy5f8ACUPpyda_nkJDjhB5m1WUsNk51Fk8)
  * [Honey Mustard Chicken](https://damndelicious.net/2014/09/01/baked-honey-mustard-chicken/)
  * [Curried Chicken](https://www.onceuponachef.com/recipes/chicken-curry.html)
+ * [Chicken in Creamy Dill Sauce](https://docs.google.com/document/d/1u1LjJs5MKAXI_C87ZeAru2k4cwE0ZFCUKfQiaLPdT7k)
+ * [Bacon Chicken Pasta](https://www.yummly.com/recipe/Bacon-Chicken-Pasta-1531611#directions)
  
 <h2>American</h2>
  * [Jambalaya](https://graphics.stanford.edu/~mdfisher/Recipes/Jambalaya.html)
  * [Chimichurri Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/ChimichurriSauce.html)
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
- * [Creamy Sausage Pasta](http://www.smells-like-home.com/2015/02/one-pot-creamy-sausage-pasta/)
  * [Hamburgers](https://www.onceuponachef.com/recipes/steakhouse-burgers.html)
  * [Creamy sausage pasta](https://docs.google.com/document/d/1CZevn5--yB-AByZfbFtVayvIKSdT2PoniLwo4DW5gIE)
+ * [Rigatoni with Sausage and Fennel](https://www.foodnetwork.com/recipes/ina-garten/rigatoni-with-sausage-and-fennel-3753750)
 
 <h2>Asian</h2>
  * [Stir-fry Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
