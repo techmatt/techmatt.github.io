@@ -20,6 +20,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Curried Chicken](https://www.onceuponachef.com/recipes/chicken-curry.html)
  * [Chicken in Creamy Dill Sauce](https://docs.google.com/document/d/1u1LjJs5MKAXI_C87ZeAru2k4cwE0ZFCUKfQiaLPdT7k)
  * [Bacon Chicken Pasta](https://www.yummly.com/recipe/Bacon-Chicken-Pasta-1531611#directions)
+ * [Lemon Chicken Orzo Soup](https://www.allrecipes.com/recipe/233968/lemon-chicken-orzo-soup/)
  
 <h2>American</h2>
  * [Jambalaya](https://graphics.stanford.edu/~mdfisher/Recipes/Jambalaya.html)
@@ -58,4 +59,5 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Skillet Cornbread](https://www.worthwhisking.com/southern-style-skillet-cornbread/)
  * [Yellow Indian Rice](https://www.budgetbytes.com/yellow-jasmine-rice/)
  * [Sichuan Green Beans](https://dinnerthendessert.com/spicy-chinese-sichuan-green-beans/)
+ * [Spinach Walnut Strawberry Salad](https://aggieskitchen.com/spinach-strawberry-and-walnut-salad-with-raspberry-balsamic-vinaigrette/)
  
