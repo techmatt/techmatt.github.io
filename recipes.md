@@ -20,7 +20,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Curried Chicken](https://www.onceuponachef.com/recipes/chicken-curry.html)
  * [Chicken in Creamy Dill Sauce](https://docs.google.com/document/d/1u1LjJs5MKAXI_C87ZeAru2k4cwE0ZFCUKfQiaLPdT7k)
  * [Bacon Chicken Pasta](https://www.yummly.com/recipe/Bacon-Chicken-Pasta-1531611#directions)
- * [Lemon Chicken Orzo Soup](https://www.allrecipes.com/recipe/233968/lemon-chicken-orzo-soup/)
+ * [Lemon Chicken Orzo Soup](https://www.twopeasandtheirpod.com/lemon-chicken-orzo-soup/)
  
 <h2>American</h2>
  * [Jambalaya](https://graphics.stanford.edu/~mdfisher/Recipes/Jambalaya.html)
@@ -39,6 +39,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Pasta with Sun Gold Tomatoes](https://graphics.stanford.edu/~mdfisher/Recipes/SunTomatoPasta.html)
  * [Wild Mushroom Risotto](https://graphics.stanford.edu/~mdfisher/Recipes/WildMushroomRisotto.html)
  * [Curried Couscous with Roasted Cauliflower](https://themissinglokness.com/2018/05/02/mendocino-farms-curried-couscous-with-roasted-cauliflower/)
+ * [Lentil Soup](https://www.foodnetwork.com/recipes/alton-brown/lentil-soup-recipe-1947017)
 
 <h2>Slow Cooker</h2>
  * [Cajun Pot Roast](https://graphics.stanford.edu/~mdfisher/Recipes/CajunPotRoast.html)
