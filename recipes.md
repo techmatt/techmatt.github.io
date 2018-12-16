@@ -45,9 +45,10 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Cajun Pot Roast](https://graphics.stanford.edu/~mdfisher/Recipes/CajunPotRoast.html)
  * [Curried Chicken](https://www.allrecipes.com/recipe/222178/slow-cooker-coconut-curry-chicken/)
 
-<h2>Soups</h2>
+<h2>Soups and stews</h2>
  * [Clam Chowder](https://graphics.stanford.edu/~mdfisher/Recipes/ClamChowder.html)
  * [Zuppa Toscana](https://graphics.stanford.edu/~mdfisher/Recipes/ZuppaToscana.html)
+ * [Beef Stew](https://docs.google.com/document/d/1hpa0w-i3sVhfP_Y_Nvw96CgphiVFxhAWiEWONK5KEnM)
 
 <h2>TexMex</h2>
  * [Cavatappi](https://graphics.stanford.edu/~mdfisher/Recipes/Cavatappi.html)
