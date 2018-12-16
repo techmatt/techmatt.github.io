@@ -23,7 +23,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Lemon Chicken Orzo Soup](https://www.twopeasandtheirpod.com/lemon-chicken-orzo-soup/)
  
 <h2>American</h2>
- * [Jambalaya](https://graphics.stanford.edu/~mdfisher/Recipes/Jambalaya.html)
+ * [Jambalaya](https://docs.google.com/document/d/14X4xxPyGXkeuWIv6M9Guix8jC8WxiCdO5VIE34nzKaY)
  * [Chimichurri Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/ChimichurriSauce.html)
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
  * [Hamburgers](https://www.onceuponachef.com/recipes/steakhouse-burgers.html)
