@@ -21,6 +21,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Chicken in Creamy Dill Sauce](https://docs.google.com/document/d/1u1LjJs5MKAXI_C87ZeAru2k4cwE0ZFCUKfQiaLPdT7k)
  * [Bacon Chicken Pasta](https://www.yummly.com/recipe/Bacon-Chicken-Pasta-1531611#directions)
  * [Lemon Chicken Orzo Soup](https://www.twopeasandtheirpod.com/lemon-chicken-orzo-soup/)
+ * [Lemon Chicken with Orzo](https://www.tasteofhome.com/recipes/lemon-chicken-with-orzo/)
  
 <h2>American</h2>
  * [Jambalaya](https://docs.google.com/document/d/14X4xxPyGXkeuWIv6M9Guix8jC8WxiCdO5VIE34nzKaY)
