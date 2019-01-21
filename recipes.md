@@ -23,6 +23,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Lemon Chicken Orzo Soup](https://www.twopeasandtheirpod.com/lemon-chicken-orzo-soup/)
  * [Lemon Chicken with Orzo](https://www.tasteofhome.com/recipes/lemon-chicken-with-orzo/)
  * [White Bean Chicken Chili](https://docs.google.com/document/d/1WDDhKE3x90qINgOtcucKiodekgkx2-fG_5TZw5ogi8U/edit)
+ * [Paprika Chicken](https://docs.google.com/document/d/1jOVlfiKVe3NLC-9DTUCVWlUcsPCUQbla5x_j_BghmSs/edit?usp=sharing)
  
 <h2>American</h2>
  * [Jambalaya](https://docs.google.com/document/d/14X4xxPyGXkeuWIv6M9Guix8jC8WxiCdO5VIE34nzKaY)
@@ -30,7 +31,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
  * [Hamburgers](https://www.onceuponachef.com/recipes/steakhouse-burgers.html)
  * [Creamy sausage pasta](https://docs.google.com/document/d/1CZevn5--yB-AByZfbFtVayvIKSdT2PoniLwo4DW5gIE)
- * [Rigatoni with Sausage and Fennel](https://www.foodnetwork.com/recipes/ina-garten/rigatoni-with-sausage-and-fennel-3753750)
+ * [Rigatoni with Sausage and Fennel](https://docs.google.com/document/d/15F0M9jhXFkpZ03cLdd9ElNrFdXjrwDSxDykE6mcDbpQ/edit)
 
 <h2>Asian</h2>
  * [Stir-fry Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
@@ -45,7 +46,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 
 <h2>Slow Cooker</h2>
  * [Cajun Pot Roast](https://graphics.stanford.edu/~mdfisher/Recipes/CajunPotRoast.html)
- * [Curried Chicken](https://www.allrecipes.com/recipe/222178/slow-cooker-coconut-curry-chicken/)
+ * [Curried Chicken](https://www.allrecipes.com/recipe/222178/slow-cooker-coconut-curry-chicken/) (TODO: this is bland, find a better version)
 
 <h2>Soups and stews</h2>
  * [Clam Chowder](https://graphics.stanford.edu/~mdfisher/Recipes/ClamChowder.html)
