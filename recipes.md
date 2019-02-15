@@ -24,7 +24,8 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Lemon Chicken with Orzo](https://www.tasteofhome.com/recipes/lemon-chicken-with-orzo/)
  * [White Bean Chicken Chili](https://docs.google.com/document/d/1WDDhKE3x90qINgOtcucKiodekgkx2-fG_5TZw5ogi8U/edit)
  * [Paprika Chicken](https://docs.google.com/document/d/1jOVlfiKVe3NLC-9DTUCVWlUcsPCUQbla5x_j_BghmSs/edit?usp=sharing)
- 
+ * [Maryland Fried CHicken](https://www.seriouseats.com/recipes/2015/01/maryland-fried-chicken-white-gravy-recipe.html)
+
 <h2>American</h2>
  * [Jambalaya](https://docs.google.com/document/d/14X4xxPyGXkeuWIv6M9Guix8jC8WxiCdO5VIE34nzKaY)
  * [Chimichurri Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/ChimichurriSauce.html)
@@ -61,7 +62,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  
 <h2>Sides</h2>
  * [Oven Cornbread](https://www.bettycrocker.com/recipes/cornbread/8990e15c-fc1d-4a8d-b8b3-4b37f45eca49)
- * [Skillet Cornbread](https://www.worthwhisking.com/southern-style-skillet-cornbread/)
+ * [Best Skillet Cornbread](https://www.foodnetwork.com/recipes/alexandra-guarnaschelli/cast-iron-skillet-corn-bread-recipe-2012669)
  * [Yellow Indian Rice](https://www.budgetbytes.com/yellow-jasmine-rice/)
  * [Sichuan Green Beans](https://dinnerthendessert.com/spicy-chinese-sichuan-green-beans/)
  * [Spinach Walnut Strawberry Salad](https://aggieskitchen.com/spinach-strawberry-and-walnut-salad-with-raspberry-balsamic-vinaigrette/)
