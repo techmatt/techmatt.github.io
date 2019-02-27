@@ -28,6 +28,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 
 <h2>American</h2>
  * [Jambalaya](https://docs.google.com/document/d/14X4xxPyGXkeuWIv6M9Guix8jC8WxiCdO5VIE34nzKaY)
+ * [Spicy Cajun Shrimp](https://juliasalbum.com/easy-spicy-cajun-shrimp/)
  * [Chimichurri Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/ChimichurriSauce.html)
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
  * [Hamburgers](https://www.onceuponachef.com/recipes/steakhouse-burgers.html)
