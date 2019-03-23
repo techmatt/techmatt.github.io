@@ -25,6 +25,8 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [White Bean Chicken Chili](https://docs.google.com/document/d/1WDDhKE3x90qINgOtcucKiodekgkx2-fG_5TZw5ogi8U/edit)
  * [Paprika Chicken](https://docs.google.com/document/d/1jOVlfiKVe3NLC-9DTUCVWlUcsPCUQbla5x_j_BghmSs/edit?usp=sharing)
  * [Maryland Fried CHicken](https://www.seriouseats.com/recipes/2015/01/maryland-fried-chicken-white-gravy-recipe.html)
+ * [Spicy Szechuan Chicken](https://www.delish.com/cooking/recipe-ideas/a20651283/szechuan-chicken-recipe/)
+ * [Spicy Orange Chicken](https://www.allrecipes.com/recipe/221069/spicy-orange-chicken/)
 
 <h2>American</h2>
  * [Jambalaya](https://docs.google.com/document/d/14X4xxPyGXkeuWIv6M9Guix8jC8WxiCdO5VIE34nzKaY)
