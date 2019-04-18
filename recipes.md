@@ -42,6 +42,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Stir-fry Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
  * [Black Sauce Udon](https://www.seasonsandsuppers.ca/15-minute-spicy-udon-vegetable-stir-fry/)
  * [Broiled Chicken Tikka Masala](https://www.bonappetit.com/recipe/chicken-tikka-masala)
+ * [Spicy Pork Stiry Fry](https://www.tasteofhome.com/recipes/spicy-pork-stir-fry/)
  
 <h2>Vegetarian</h2>
  * [Pasta with Sun Gold Tomatoes](https://graphics.stanford.edu/~mdfisher/Recipes/SunTomatoPasta.html)
