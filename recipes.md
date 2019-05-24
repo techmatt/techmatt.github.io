@@ -21,10 +21,10 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Chicken in Creamy Dill Sauce](https://docs.google.com/document/d/1u1LjJs5MKAXI_C87ZeAru2k4cwE0ZFCUKfQiaLPdT7k)
  * [Bacon Chicken Pasta](https://www.yummly.com/recipe/Bacon-Chicken-Pasta-1531611#directions)
  * [Lemon Chicken Orzo Soup](https://www.twopeasandtheirpod.com/lemon-chicken-orzo-soup/)
- * [Lemon Chicken with Orzo](https://www.tasteofhome.com/recipes/lemon-chicken-with-orzo/)
+ * [Lemon Chicken with Orzo](https://www.tasteofhome.com/recipes/lemon-chicken-with-orzo/) (all veggie amounts listed should be doubled)
  * [White Bean Chicken Chili](https://docs.google.com/document/d/1WDDhKE3x90qINgOtcucKiodekgkx2-fG_5TZw5ogi8U/edit)
  * [Paprika Chicken](https://docs.google.com/document/d/1jOVlfiKVe3NLC-9DTUCVWlUcsPCUQbla5x_j_BghmSs/edit?usp=sharing)
- * [Maryland Fried CHicken](https://www.seriouseats.com/recipes/2015/01/maryland-fried-chicken-white-gravy-recipe.html)
+ * [Maryland Fried Chicken](https://www.seriouseats.com/recipes/2015/01/maryland-fried-chicken-white-gravy-recipe.html)
  * [Spicy Szechuan Chicken](https://www.delish.com/cooking/recipe-ideas/a20651283/szechuan-chicken-recipe/)
  * [Spicy Orange Chicken](https://www.allrecipes.com/recipe/221069/spicy-orange-chicken/)
 
@@ -66,7 +66,6 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Salsa Verde Pasta](https://docs.google.com/document/d/1TAWAG6rMdHTfxTKeQvtz1tIVPQP9eJdQhLaWjHHpALc)
  
 <h2>Sides</h2>
- * [Oven Cornbread](https://www.bettycrocker.com/recipes/cornbread/8990e15c-fc1d-4a8d-b8b3-4b37f45eca49)
  * [Best Skillet Cornbread](https://www.foodnetwork.com/recipes/alexandra-guarnaschelli/cast-iron-skillet-corn-bread-recipe-2012669)
  * [Spicy Pickled Onions](https://docs.google.com/document/d/14mD_9HYr9YbKyn27RuaXvUs_b3rPuF2RR1BMM4NoUWk/edit?usp=sharing)
  * [Yellow Indian Rice](https://www.budgetbytes.com/yellow-jasmine-rice/)
