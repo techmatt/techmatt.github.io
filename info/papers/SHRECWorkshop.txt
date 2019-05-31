@@ -1,4 +1,4 @@
-title=SHREC’19: Shape Correspondence with Isometric and Non-Isometric Deformations
+title=SHREC'19: Shape Correspondence with Isometric and Non-Isometric Deformations
 authors=thibault,matt,vova,bryan,mathieuAubry
 conference=Eurographics Workshop on 3D Object Retrieval 
 project=https://orca-mwe.cf.ac.uk/121530/1/ShapeCorrespondence_SHREC19.pdf

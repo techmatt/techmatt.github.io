@@ -1,4 +1,4 @@
 title=Finding Layers Using Hover Visualizations
 authors=evan,sylvain,matt,kayvon
-conference=Eurographics 2019
+conference=Graphics Interface 2019
 project=http://graphics.cs.cmu.edu/projects/hover-viz/
