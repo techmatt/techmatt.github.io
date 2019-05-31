@@ -1,4 +1,4 @@
 title=Language-Driven Synthesis of 3D Scenes from Scene Databases
 authors=Rui Ma,akshay,matt,Manyi Li,soren,binhson,saikit,Xin Tong,leo,haoZhang
 conference=SIGGRAPH Asia 2018
-project=http://www.sfu.ca/~agadipat/publications/2018/T2S/project_page.html
+project=https://manyili12345.github.io/Publication/2018/T2S/index.html
