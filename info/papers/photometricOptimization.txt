@@ -1,0 +1,4 @@
+title=Photometric Mesh Optimization for Video-Aligned 3D Object Reconstruction
+authors=Chen-Hsuan Lin,oliver,bryan,eli,vova,matt,Simon Lucey
+conference=CVPR 2019
+project=https://arxiv.org/abs/1903.08642

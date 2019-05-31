@@ -1,0 +1,4 @@
+title=Exploratory Stage Lighting Design using Visual Objectives
+authors=evan,sylvain,matt,Ersin Yumer,kayvon
+conference=Eurographics 2019
+project=http://graphics.cs.cmu.edu/projects/visobj/

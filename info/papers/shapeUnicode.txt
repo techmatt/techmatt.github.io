@@ -1,0 +1,4 @@
+title=Shape Unicode: A Unified Shape Representation
+authors=Sanjeev Muralikrishnan,vova,matt,sid
+conference=CVPR 2019
+project=http://InProgress/

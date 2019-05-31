@@ -1,3 +1,8 @@
+shapeUnicode
+photometricOptimization
+SHRECWorkshop
+hoverVisualization
+lightingDesign
 sceneLanguageEditing
 templateCorrespondences
 multiContentGAN

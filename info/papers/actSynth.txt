@@ -1,5 +1,5 @@
 title=Activity-centric Scene Synthesis for Functional 3D Scene Modeling
-authors=matt,manolis,yangyan,pat,matthias
+authors=matt,manolis,Yangyan Li,pat,matthias
 conference=SIGGRAPH Asia 2015
 pdf=papers/actSynth.pdf
 thumbnail=actSynth.png

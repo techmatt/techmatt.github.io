@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Diagnostics;
 
 namespace WebGenerator
 {
@@ -78,6 +79,11 @@ namespace WebGenerator
                         link = authors[author]["website"];
 
                         name = "<a href=\"" + link + "\">" + name + "</a>";
+                    }
+                    else
+                    {
+                        //throw new Exception("author not found: " + author);
+                        Debug.WriteLine("author not found: " + author);
                     }
 
                     if (authorText.Length == 0) authorText = name;
