@@ -20,8 +20,8 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Curried Chicken](https://www.onceuponachef.com/recipes/chicken-curry.html)
  * [Chicken in Creamy Dill Sauce](https://docs.google.com/document/d/1u1LjJs5MKAXI_C87ZeAru2k4cwE0ZFCUKfQiaLPdT7k)
  * [Bacon Chicken Pasta](https://www.yummly.com/recipe/Bacon-Chicken-Pasta-1531611#directions)
- * [Lemon Chicken Orzo Soup](https://www.twopeasandtheirpod.com/lemon-chicken-orzo-soup/)
- * [Lemon Chicken with Orzo](https://www.tasteofhome.com/recipes/lemon-chicken-with-orzo/) (all veggie amounts listed should be doubled)
+ * [Lemon Chicken Orzo Soup](https://www.twopeasandtheirpod.com/lemon-chicken-orzo-soup/)  (all veggie amounts listed should be doubled)
+ * [Lemon Chicken with Orzo](https://www.tasteofhome.com/recipes/lemon-chicken-with-orzo/)
  * [White Bean Chicken Chili](https://docs.google.com/document/d/1WDDhKE3x90qINgOtcucKiodekgkx2-fG_5TZw5ogi8U/edit)
  * [Paprika Chicken](https://docs.google.com/document/d/1jOVlfiKVe3NLC-9DTUCVWlUcsPCUQbla5x_j_BghmSs/edit?usp=sharing)
  * [Maryland Fried Chicken](https://www.seriouseats.com/recipes/2015/01/maryland-fried-chicken-white-gravy-recipe.html)
@@ -58,6 +58,8 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Clam Chowder](https://graphics.stanford.edu/~mdfisher/Recipes/ClamChowder.html)
  * [Zuppa Toscana](https://graphics.stanford.edu/~mdfisher/Recipes/ZuppaToscana.html)
  * [Beef Stew](https://docs.google.com/document/d/1hpa0w-i3sVhfP_Y_Nvw96CgphiVFxhAWiEWONK5KEnM)
+ * [Best Beef Stew](https://docs.google.com/document/d/1Ec5VIbdQzsJoax3-dyzR2YzImbmvjEz8S1mAjnC9Yhg/edit)
+
 
 <h2>TexMex</h2>
  * [Cavatappi](https://graphics.stanford.edu/~mdfisher/Recipes/Cavatappi.html)
