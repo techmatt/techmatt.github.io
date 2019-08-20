@@ -1,0 +1,4 @@
+title=Deep Parametric Shape Predictions using Distance Fields
+authors=dima,matt,vova,richardZhang,justinSolomon
+conference=arXiv 2019
+project=https://arxiv.org/abs/1904.08921

@@ -1,0 +1,4 @@
+title=Learning Elementary Structures for 3D Shape Generation and Matching
+authors=theo,thibault,matt,vova,bryan,mathieuAubry
+conference=arXiv 2019
+project=https://arxiv.org/abs/1908.04725

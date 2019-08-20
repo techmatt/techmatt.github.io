@@ -1,0 +1,4 @@
+title=BAE-NET: Branched Autoencoder for Shape Co-Segmentation
+authors=zhiqin,kangxue,matt,sid,haoZhang
+conference=ICCV 2019
+project=https://arxiv.org/abs/1903.11228

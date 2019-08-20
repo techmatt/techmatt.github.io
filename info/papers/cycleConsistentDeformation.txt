@@ -1,0 +1,4 @@
+title=Unsupervised Cycle-consistent Deformation for Shape Matching
+authors=thibault,matt,vova,bryan,mathieuAubry
+conference=Symposium on Geometry Processing 2019
+project=https://arxiv.org/abs/1907.03165
