@@ -1,4 +1,4 @@
 title=UprightNet: Geometry-Aware Camera Orientation Estimation from Single Images
 authors=wenqi,zhengqi,matt,Jonathan Eisenmann,eli,noah
 conference=ICCV 2019
-project=https://www.cs.cornell.edu/~zl548/
+project=https://arxiv.org/pdf/1908.06277.pdf
