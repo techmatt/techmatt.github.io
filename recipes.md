@@ -44,6 +44,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Broiled Chicken Tikka Masala](https://www.bonappetit.com/recipe/chicken-tikka-masala)
  * [Spicy Pork Stiry Fry](https://www.tasteofhome.com/recipes/spicy-pork-stir-fry/)
  * [Prawn Manchurian](https://docs.google.com/document/d/1jErWe895N8k8F3iogJO4oUhSacrpBH6JKPXll5OzR4U/edit#)
+ * Japanese curry
  
 <h2>Vegetarian</h2>
  * [Pasta with Sun Gold Tomatoes](https://graphics.stanford.edu/~mdfisher/Recipes/SunTomatoPasta.html)
@@ -74,4 +75,8 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Yellow Indian Rice](https://www.budgetbytes.com/yellow-jasmine-rice/)
  * [Sichuan Green Beans](https://dinnerthendessert.com/spicy-chinese-sichuan-green-beans/)
  * [Spinach Walnut Strawberry Salad](https://aggieskitchen.com/spinach-strawberry-and-walnut-salad-with-raspberry-balsamic-vinaigrette/)
+ * Skillet potatoes
+
  
+ <h2>Baking</h2>
+ * [3-layer Chocolate Cake](https://docs.google.com/document/d/1CaOWEWPosfuRCCVqP1jn7BWJGbVHIAruJaGCrCeKBTs/edit)
