@@ -75,7 +75,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Yellow Indian Rice](https://www.budgetbytes.com/yellow-jasmine-rice/)
  * [Sichuan Green Beans](https://dinnerthendessert.com/spicy-chinese-sichuan-green-beans/)
  * [Spinach Walnut Strawberry Salad](https://aggieskitchen.com/spinach-strawberry-and-walnut-salad-with-raspberry-balsamic-vinaigrette/)
- * Skillet potatoes
+ * [Skillet potatoes](https://docs.google.com/document/d/1dtIO2rtytks0XU-SP1J3zwhdEW2SFRGjGeAYfx5bzy0/edit?usp=sharing)
 
  
  <h2>Baking</h2>
