@@ -12,7 +12,6 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Lemon Chicken in Cream Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/LemonChickenInCreamSauce.html)
  * [Lemon Chicken with Thyme](https://graphics.stanford.edu/~mdfisher/Recipes/LemonChickenWithThyme.html)
  * [Grilled Chicken Parmesan](https://graphics.stanford.edu/~mdfisher/Recipes/GrilledChickenParmesan.html)
- * [Japanese Crispy Fried Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/Karaage.html)
  * [Buffalo Wings](https://www.dinneratthezoo.com/baked-buffalo-wings/)
  * [Chicken Kiev](https://graphics.stanford.edu/~mdfisher/Recipes/ChickenKiev.html)
  * [Chicken Costoletta](https://docs.google.com/document/d/1E5l6b-7IUEy5f8ACUPpyda_nkJDjhB5m1WUsNk51Fk8)
@@ -45,6 +44,9 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Spicy Pork Stiry Fry](https://www.tasteofhome.com/recipes/spicy-pork-stir-fry/)
  * [Prawn Manchurian](https://docs.google.com/document/d/1jErWe895N8k8F3iogJO4oUhSacrpBH6JKPXll5OzR4U/edit#)
  * Japanese curry
+ * [Japanese Crispy Fried Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/Karaage.html)
+ * [Beef Bulgogi](https://docs.google.com/document/d/1lUyhlG1_VNoxfzLHAJksjssMgnR3fldBc47anvFYMFs/edit#heading=h.ccrzh72itc7n)
+ * [Japchae](https://docs.google.com/document/d/17AqPUg8lChlmqldddotUNPOuj8RgeqZsaJqqn-5f1Oc/edit#heading=h.rmxhpg118123)
  
 <h2>Vegetarian</h2>
  * [Pasta with Sun Gold Tomatoes](https://graphics.stanford.edu/~mdfisher/Recipes/SunTomatoPasta.html)
