@@ -48,6 +48,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Beef Bulgogi](https://docs.google.com/document/d/1lUyhlG1_VNoxfzLHAJksjssMgnR3fldBc47anvFYMFs/edit#heading=h.ccrzh72itc7n)
  * [Japchae](https://docs.google.com/document/d/17AqPUg8lChlmqldddotUNPOuj8RgeqZsaJqqn-5f1Oc/edit#heading=h.rmxhpg118123)
  * [Chicken Feta Saag](https://docs.google.com/document/d/1XSE0-XSyUp_EDVQ9Mr-M-x6gbmU6xo6uBcnv1FxKUR4/edit)
+ * [Japanese Ginger Pork](https://www.allrecipes.com/recipe/87392/japanese-ginger-pork/)
  
 <h2>Vegetarian</h2>
  * [Pasta with Sun Gold Tomatoes](https://graphics.stanford.edu/~mdfisher/Recipes/SunTomatoPasta.html)
