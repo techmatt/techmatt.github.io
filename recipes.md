@@ -80,7 +80,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Sichuan Green Beans](https://dinnerthendessert.com/spicy-chinese-sichuan-green-beans/)
  * [Spinach Walnut Strawberry Salad](https://aggieskitchen.com/spinach-strawberry-and-walnut-salad-with-raspberry-balsamic-vinaigrette/)
  * [Skillet potatoes](https://docs.google.com/document/d/1dtIO2rtytks0XU-SP1J3zwhdEW2SFRGjGeAYfx5bzy0/edit?usp=sharing)
-
+ * [Melting Potatoes](https://docs.google.com/document/d/1aojcDomrKIp2avzbe0rmGmVm9wG0ZsFNC5m3A2eOfy8/edit?usp=sharing)
  
  <h2>Baking</h2>
  * [3-layer Chocolate Cake](https://docs.google.com/document/d/1CaOWEWPosfuRCCVqP1jn7BWJGbVHIAruJaGCrCeKBTs/edit)
