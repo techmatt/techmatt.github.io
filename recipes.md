@@ -36,6 +36,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Creamy sausage pasta](https://docs.google.com/document/d/1CZevn5--yB-AByZfbFtVayvIKSdT2PoniLwo4DW5gIE)
  * [Rigatoni with Sausage and Fennel](https://docs.google.com/document/d/15F0M9jhXFkpZ03cLdd9ElNrFdXjrwDSxDykE6mcDbpQ/edit)
  * [Spicy Glazed Pork Tenderloin](https://docs.google.com/document/d/1gpomaaLQM3B7Kf4GQIRFVDSFx47Fpr4IRLwkm4U9Iy8/edit?usp=sharing)
+ * [Chili con Carne](https://docs.google.com/document/d/1wc888OOfWNWjOyQ6VWfp6QL54ouaEbuGE5N4pWSXxxg/edit?usp=sharing)
 
 <h2>Asian</h2>
  * [Stir-fry Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
