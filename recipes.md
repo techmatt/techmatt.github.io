@@ -41,7 +41,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Stir-fry Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
  * [Black Sauce Udon](https://www.seasonsandsuppers.ca/15-minute-spicy-udon-vegetable-stir-fry/)
  * [Broiled Chicken Tikka Masala](https://www.bonappetit.com/recipe/chicken-tikka-masala)
- * [Spicy Pork Stiry Fry](https://www.tasteofhome.com/recipes/spicy-pork-stir-fry/)
+ * [Spicy Pork Stiry Fry](https://docs.google.com/document/d/1-k0JRIhdEZK-zAJqxOzZZgY_7pbe73yoPu1YDqOJLgA/edit)
  * [Prawn Manchurian](https://docs.google.com/document/d/1jErWe895N8k8F3iogJO4oUhSacrpBH6JKPXll5OzR4U/edit#)
  * Japanese curry
  * [Japanese Crispy Fried Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/Karaage.html)
