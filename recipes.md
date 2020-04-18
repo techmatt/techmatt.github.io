@@ -85,3 +85,4 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  
  <h2>Baking</h2>
  * [3-layer Chocolate Cake](https://docs.google.com/document/d/1CaOWEWPosfuRCCVqP1jn7BWJGbVHIAruJaGCrCeKBTs/edit)
+ * [Walnut Chocolate Chip Cookies](https://docs.google.com/document/d/142IjfIdpvpPyR1mcuQhL_8jFn2oK2zMFHMG1goLjqtQ/edit?usp=sharing)
