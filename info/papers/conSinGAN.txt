@@ -1,0 +1,4 @@
+title=Improved Techniques for Training Single-Image GANs
+authors=tobias,matt,oliver,stefan
+conference=arXiv 2020
+project=https://arxiv.org/pdf/2003.11512

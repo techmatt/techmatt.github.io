@@ -1,8 +1,11 @@
+modelingArtisticWorkflows
+explicitImplicitSurfaceRep
+deepShapes
+conSinGAN
 elementaryStructures
 uprightNet
 BAENet
 cycleConsistentDeformation
-deepShapes
 shapeUnicode
 photometricOptimization
 SHRECWorkshop

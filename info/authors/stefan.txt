@@ -1,0 +1,2 @@
+name=Stefan Wermter
+website=https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html

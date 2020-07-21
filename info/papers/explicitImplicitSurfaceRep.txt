@@ -1,0 +1,4 @@
+title=Coupling Explicit and Implicit Surface Representations for Generative 3D Modeling
+authors=omid,matt,noam,vova
+conference=ECCV 2020
+project=https://arxiv.org/pdf/2007.10294
