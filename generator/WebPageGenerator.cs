@@ -109,6 +109,7 @@ namespace WebGenerator
 
                 string pdfLink = "";
                 string webpageLink = "";
+                string codeLink = "";
                 string bibtexLink = "";
 
                 pdfLink = "<a href=\"pdfs/" + paperID + ".pdf\">pdf</a>";
@@ -123,10 +124,14 @@ namespace WebGenerator
 
                 if (p.ContainsKey("project"))
                 {
-                    webpageLink = "<a href=\"" + p["project"] + "\">webpage</a>";
+                    webpageLink = "<a href=\"" + p["project"] + "\">project</a>";
+                }
+                if (p.ContainsKey("code"))
+                {
+                    codeLink = "<a href=\"" + p["code"] + "\">code</a>";
                 }
 
-                if(File.Exists(bibtexFilename))
+                if (File.Exists(bibtexFilename))
                 {
                     bibtexLink = "<a href=\"info/bibs/" + paperID + ".txt\">bib</a>";
                 }
@@ -138,6 +143,9 @@ namespace WebGenerator
 
                 if (webpageLink.Length > 0)
                     linkLine += " | " + webpageLink;
+
+                if (codeLink.Length > 0)
+                    linkLine += " | " + codeLink;
 
                 lines.Add(linkLine);
                 
