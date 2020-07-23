@@ -60,6 +60,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 <h2>Slow Cooker</h2>
  * [Cajun Pot Roast](https://graphics.stanford.edu/~mdfisher/Recipes/CajunPotRoast.html)
  * [Curried Chicken](https://www.allrecipes.com/recipe/222178/slow-cooker-coconut-curry-chicken/) (TODO: this is bland, find a better version)
+ * [Chicken Tortilla Soup](https://docs.google.com/document/d/1rtZom7DF-x4ryLCNYPVBHSs3z8KGFJiFdcQd1qrXRXc/edit#heading=h.kpt57slarqcm)
 
 <h2>Soups and stews</h2>
  * [Clam Chowder](https://graphics.stanford.edu/~mdfisher/Recipes/ClamChowder.html)
