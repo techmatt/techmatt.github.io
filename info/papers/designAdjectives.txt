@@ -1,0 +1,5 @@
+title=Design Adjectives: A Framework for Interactive Model-Guided Exploration of Parameterized Design Spaces
+authors=evan,matt,sylvain,James McCann,kayvon
+conference=UIST 2020
+project=http://graphics.cs.cmu.edu/projects/design-adjectives/
+code=https://github.com/ebshimizu/DesignAdjectives

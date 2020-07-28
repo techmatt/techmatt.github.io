@@ -1,3 +1,4 @@
+designAdjectives
 modelingArtisticWorkflows
 explicitImplicitSurfaceRep
 deepShapes
