@@ -1,9 +1,9 @@
 coalesceComponentAssembly
+conSinGAN
 designAdjectives
 modelingArtisticWorkflows
 explicitImplicitSurfaceRep
 deepShapes
-conSinGAN
 elementaryStructures
 uprightNet
 BAENet
