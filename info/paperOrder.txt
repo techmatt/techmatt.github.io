@@ -1,3 +1,4 @@
+differentiableCompositing
 coalesceComponentAssembly
 conSinGAN
 designAdjectives

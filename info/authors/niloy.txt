@@ -1,0 +1,3 @@
+name=‪Niloy Mitra
+website=http://www0.cs.ucl.ac.uk/staff/n.mitra/
+affiliation=Adobe Research

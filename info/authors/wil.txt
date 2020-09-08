@@ -1,0 +1,3 @@
+name=‪Wilmot Li
+website=https://wilmotli.com/
+affiliation=Adobe Research
