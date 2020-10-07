@@ -40,6 +40,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Sausages with Balsamic Vinegar](https://docs.google.com/document/d/12WBzZdcfmqFuXGLODHXlJv2JYECc7FdAB_J9ImVRUyU/edit#heading=h.10fl1y55fgcf)
 
 <h2>Asian</h2>
+ * [Vietnamese beef stew](https://docs.google.com/document/d/1yFBHsswHQdtEq9jjrhOKNkt08V34GaYc7hN9PcKGhVw/edit?usp=sharing)
  * [Stir-fry Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
  * [Black Sauce Udon](https://www.seasonsandsuppers.ca/15-minute-spicy-udon-vegetable-stir-fry/)
  * [Broiled Chicken Tikka Masala](https://www.bonappetit.com/recipe/chicken-tikka-masala)
