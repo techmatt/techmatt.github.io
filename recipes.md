@@ -66,6 +66,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Chicken Tortilla Soup](https://docs.google.com/document/d/1rtZom7DF-x4ryLCNYPVBHSs3z8KGFJiFdcQd1qrXRXc/edit#heading=h.kpt57slarqcm)
 
 <h2>Soups and stews</h2>
+ * [French Cassoulet](https://www.jocooks.com/recipes/classic-french-cassoulet/)
  * [Clam Chowder](https://graphics.stanford.edu/~mdfisher/Recipes/ClamChowder.html)
  * [Zuppa Toscana](https://docs.google.com/document/d/1sX-EVwGxkd615IcAmkSbd8XCkn5swyUL1qKp7BTa6TA/edit?folder=0B6uWj6vvbcVVRm9XUmU1eGYxWTg#)
  * [Beef Stew](https://docs.google.com/document/d/1hpa0w-i3sVhfP_Y_Nvw96CgphiVFxhAWiEWONK5KEnM)
