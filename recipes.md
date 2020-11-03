@@ -42,7 +42,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 <h2>Asian</h2>
  * [Vietnamese beef stew](https://docs.google.com/document/d/1yFBHsswHQdtEq9jjrhOKNkt08V34GaYc7hN9PcKGhVw/edit?usp=sharing)
  * [Stir-fry Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
- * [Black Sauce Udon](https://www.seasonsandsuppers.ca/15-minute-spicy-udon-vegetable-stir-fry/)
+ * [Spicy Chicken Veggie Udon](https://docs.google.com/document/d/1s-Pb0z3gBYwz1aohguNRfDTUX90oW0i4lGI1gnPbPeo/edit?usp=sharing)
  * [Broiled Chicken Tikka Masala](https://www.bonappetit.com/recipe/chicken-tikka-masala)
  * [Spicy Pork Stiry Fry](https://docs.google.com/document/d/1-k0JRIhdEZK-zAJqxOzZZgY_7pbe73yoPu1YDqOJLgA/edit)
  * [Prawn Manchurian](https://docs.google.com/document/d/1jErWe895N8k8F3iogJO4oUhSacrpBH6JKPXll5OzR4U/edit#)
