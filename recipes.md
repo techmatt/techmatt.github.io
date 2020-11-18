@@ -9,7 +9,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 
 <h2>To be evaluated</h2>
  * [Barley Soup](https://nmwsharp.com/recipes/post/barley-soup/)
-* [https://nmwsharp.com/recipes/post/chili/](Chorizo  and Beef Chili)
+* [Chorizo  and Beef Chili](https://nmwsharp.com/recipes/post/chili/)
 * [Spicy Shrimp Pasta](https://nmwsharp.com/recipes/post/spicy-parmesan-shrimp-skillet/)
 * [Sausage Tomato Cream Pasta](https://nmwsharp.com/recipes/post/sausage-tomato-cream-pasta/)
 * [Sausage and Kale Pasta](https://nmwsharp.com/recipes/post/sausage-and-kale-pasta/)
