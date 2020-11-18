@@ -7,6 +7,14 @@ title: Recipes
 
 I maintain a list of recipes I cook frequently here so I can reference them more easily while cooking. My old Stanford recipe list is [here](https://graphics.stanford.edu/~mdfisher/recipes.html).
 
+<h2>To be evaluated</h2>
+ * [Barley Soup](https://nmwsharp.com/recipes/post/barley-soup/)
+* [https://nmwsharp.com/recipes/post/chili/](Chorizo  and Beef Chili)
+* [Spicy Shrimp Pasta](https://nmwsharp.com/recipes/post/spicy-parmesan-shrimp-skillet/)
+* [Sausage Tomato Cream Pasta](https://nmwsharp.com/recipes/post/sausage-tomato-cream-pasta/)
+* [Sausage and Kale Pasta](https://nmwsharp.com/recipes/post/sausage-and-kale-pasta/)
+* [Chicken Tikka Masala](https://nmwsharp.com/recipes/post/chicken-tikka-masala/)
+
 <h2>Chicken</h2>
  * [Schnitzel Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/SchnitzelChicken.html)
  * [Lemon Chicken in Cream Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/LemonChickenInCreamSauce.html)
