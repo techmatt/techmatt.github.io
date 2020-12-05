@@ -1,6 +1,6 @@
+conSinGAN
 differentiableCompositing
 coalesceComponentAssembly
-conSinGAN
 designAdjectives
 modelingArtisticWorkflows
 explicitImplicitSurfaceRep

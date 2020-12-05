@@ -11,10 +11,9 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Barley Soup](https://nmwsharp.com/recipes/post/barley-soup/)
 * [Chorizo  and Beef Chili](https://nmwsharp.com/recipes/post/chili/)
 * [Spicy Shrimp Pasta](https://nmwsharp.com/recipes/post/spicy-parmesan-shrimp-skillet/)
-* [Sausage Tomato Cream Pasta](https://nmwsharp.com/recipes/post/sausage-tomato-cream-pasta/)
 * [Sausage and Kale Pasta](https://nmwsharp.com/recipes/post/sausage-and-kale-pasta/)
 * [Chicken Tikka Masala](https://nmwsharp.com/recipes/post/chicken-tikka-masala/)
-
+ 
 <h2>Chicken</h2>
  * [Schnitzel Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/SchnitzelChicken.html)
  * [Lemon Chicken in Cream Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/LemonChickenInCreamSauce.html)
@@ -35,6 +34,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Spicy Orange Chicken](https://www.allrecipes.com/recipe/221069/spicy-orange-chicken/)
 
 <h2>American</h2>
+ * [Sausage Tomato Cream Pasta](https://docs.google.com/document/d/1Gql2YxaVid29OWHVbCKiFphHe4AOZhcvr9-p907Rl3o/edit#)
  * [Jambalaya](https://docs.google.com/document/d/14X4xxPyGXkeuWIv6M9Guix8jC8WxiCdO5VIE34nzKaY)
  * [Spicy Cajun Shrimp](https://juliasalbum.com/easy-spicy-cajun-shrimp/)
  * [Chimichurri Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/ChimichurriSauce.html)

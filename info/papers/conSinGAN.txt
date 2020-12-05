@@ -1,5 +1,5 @@
 title=Improved Techniques for Training Single-Image GANs
 authors=tobias,matt,oliver,stefan
-conference=arXiv 2020
+conference=WACV 2021
 project=http://www.tobiashinz.com/2020/03/24/improved-techniques-for-training-single-image-gans.html
 code=https://github.com/tohinz/ConSinGAN
