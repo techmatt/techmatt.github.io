@@ -98,6 +98,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Basic Polenta](https://docs.google.com/document/d/1F8H75sVoHhtxvMp8PfXxsyZE2K7aBzpt5y9ylQ2s_hk/edit)
 
  <h2>Baking</h2>
+ * [Indian Rice Pudding](https://docs.google.com/document/d/1qkaa4UnKJntMt2_u-CY9Hdv64iAm4u0rBaWyG1028V4/edit?usp=sharing)
  * [3-layer Chocolate Cake](https://docs.google.com/document/d/1CaOWEWPosfuRCCVqP1jn7BWJGbVHIAruJaGCrCeKBTs/edit)
  * [Walnut Chocolate Chip Cookies](https://docs.google.com/document/d/142IjfIdpvpPyR1mcuQhL_8jFn2oK2zMFHMG1goLjqtQ/edit?usp=sharing)
  * [Lemon Bars](https://docs.google.com/document/d/1j4gQPXNJ0gxxDe93lx-4RkuKGrf9ARr3to4KNuzE9CY/edit?usp=sharing)
