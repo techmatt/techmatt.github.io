@@ -1,3 +1,4 @@
+layoutGMN
 conSinGAN
 differentiableCompositing
 coalesceComponentAssembly

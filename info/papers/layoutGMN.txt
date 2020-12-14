@@ -1,0 +1,4 @@
+title=LayoutGMN: Neural Graph Matching for Structural Layout Similarity
+authors=akshay,Manyi Li,matt,manolis,haoZhang
+conference=ArXiv 2021
+project=https://arxiv.org/abs/2012.06547
