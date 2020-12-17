@@ -1,7 +1,7 @@
 title=Ebb: A DSL for Physical Simulation on CPUs and GPUs
 authors=gilbert,chinmayee,crystal,zach,matt,philip,pat
 conference=Transactions on Graphics 2016
-pdf=papers/ebb.pdf
+pdf=pdfs/ebb.pdf
 thumbnail=ebb.png
 teaser=papers/ebbTeaser.png
 code=https://gilbo.github.io/liszt-ebb/

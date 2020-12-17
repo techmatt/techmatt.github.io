@@ -101,6 +101,7 @@ namespace WebGenerator
                     pubLink = p["project"];
                 else
                     pubLink = p["pdf"];
+                pubLink = pubLink.Replace("papers/", "pdfs/");
                 lines.Add("<div class = \"pubName\"><a href=\"" + pubLink + "\">" + title + "</a></div>");
 
                 lines.Add("<div class = \"pubAuthors\">" + authorText + "</div>");
