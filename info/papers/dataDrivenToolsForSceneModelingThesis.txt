@@ -1,4 +1,4 @@
 title=Data-driven Tools for Scene Modeling
 authors=matt
-conference=Stanford University PhD Thesis
+conference=Stanford University PhD Thesis 2013
 pdf=dataDrivenToolsForSceneModelingThesis
