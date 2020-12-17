@@ -2,3 +2,5 @@ title=COALESCE: Component Assembly by Learning to Synthesize Connections
 authors=kangxue,zhiqin,sid,matt,vova,haoZhang
 conference=3DV 2020 (Oral)
 project=https://arxiv.org/abs/2008.01936
+video=https://kangxue.org/papers/COALESCE.mp4
+code=https://github.com/kangxue/COALESCE
