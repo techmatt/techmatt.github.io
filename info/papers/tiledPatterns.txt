@@ -1,4 +1,4 @@
-title= 	Synthesis of Tiled Patterns using Factor Graphs
+title=Synthesis of Tiled Patterns using Factor Graphs
 authors=yiting,katherine,ling,matt,pat
 conference=Transactions on Graphics 2013
 pdf=papers/tiledPatterns.pdf

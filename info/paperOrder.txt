@@ -32,6 +32,7 @@ scenegrok
 deformables
 exotypes
 inertialNavigation
+dataDrivenToolsForSceneModelingThesis
 patternColoring
 tiledPatterns
 sceneSynthesis
