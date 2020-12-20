@@ -88,6 +88,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Salsa Verde Pasta](https://docs.google.com/document/d/1TAWAG6rMdHTfxTKeQvtz1tIVPQP9eJdQhLaWjHHpALc)
  
 <h2>Sides</h2>
+ * [Chai Tea](https://docs.google.com/document/d/1x2-FUnFK0LcT4wv9nkJh3kEa0oG6_B3Cfrrs9DFItEE/edit?usp=sharing)
  * [Best Skillet Cornbread](https://www.foodnetwork.com/recipes/alexandra-guarnaschelli/cast-iron-skillet-corn-bread-recipe-2012669)
  * [Spicy Pickled Onions](https://docs.google.com/document/d/14mD_9HYr9YbKyn27RuaXvUs_b3rPuF2RR1BMM4NoUWk/edit?usp=sharing)
  * [Yellow Indian Rice](https://www.budgetbytes.com/yellow-jasmine-rice/)
