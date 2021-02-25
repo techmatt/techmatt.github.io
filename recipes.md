@@ -82,7 +82,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 
 
 <h2>TexMex</h2>
- * [Cavatappi](https://graphics.stanford.edu/~mdfisher/Recipes/Cavatappi.html)
+ * [Cavatappi](https://docs.google.com/document/d/1YHpelHguPS8SVrwx_CuBKVMzKToGMVPmyBCZcCfb5GA/edit#)
  * [Southwest Beef and Chile Pizza](https://graphics.stanford.edu/~mdfisher/Recipes/SouthwestBeefAndChilePizza.html)
  * [Chorizo-lemon Butter Shrimp](https://graphics.stanford.edu/~mdfisher/Recipes/ChorizoLemonShimp.html)
  * [Salsa Verde Pasta](https://docs.google.com/document/d/1TAWAG6rMdHTfxTKeQvtz1tIVPQP9eJdQhLaWjHHpALc)
