@@ -1,3 +1,4 @@
+characterGAN
 decorGAN
 layoutGMN
 conSinGAN

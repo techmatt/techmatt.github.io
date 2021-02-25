@@ -1,0 +1,4 @@
+title=CharacterGAN: Few-Shot Keypoint Character Animation and Reposing
+authors=tobias,matt,oliver,eli,Stefan Wermter
+conference=ArXiv 2021
+project=https://arxiv.org/abs/2102.03141
