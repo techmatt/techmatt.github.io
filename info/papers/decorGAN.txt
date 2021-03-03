@@ -1,5 +1,5 @@
 title=DECOR-GAN: 3D Shape Detailization by Conditional Refinement
 authors=zhiqin,vova,matt,noam,haoZhang,sid
-conference=ArXiv 2021
+conference=CVPR 2021 Oral
 project=https://arxiv.org/abs/2012.09159
 video=https://www.youtube.com/watch?v=xIQ0aslpn8g&feature=youtu.be
