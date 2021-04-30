@@ -1,0 +1,3 @@
+name=Michaël Gharbi
+website=http://mgharbi.com/
+affiliation=Adobe Research
