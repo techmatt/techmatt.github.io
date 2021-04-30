@@ -1,3 +1,4 @@
+marioNette
 characterGAN
 decorGAN
 layoutGMN
