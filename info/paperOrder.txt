@@ -1,8 +1,10 @@
+interactiveMonteCarloDenoising
 marioNette
 characterGAN
 decorGAN
 layoutGMN
 conSinGAN
+automaticArrangementOfVectorDesigns
 differentiableCompositing
 coalesceComponentAssembly
 designAdjectives

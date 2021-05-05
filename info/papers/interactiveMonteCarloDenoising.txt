@@ -1,0 +1,5 @@
+title=Interactive Monte Carlo Denoising using Affinity of Neural Features
+authors=mustafa,Krishna Mullia,matt,Jonathan Eisenmann,michaelGharbi
+conference=SIGGRAPH 2021
+project=https://www.mustafaisik.net/anf/
+video=https://www.mustafaisik.net/anf/viewer/index.html
