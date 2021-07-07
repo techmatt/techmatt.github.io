@@ -15,6 +15,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 * [Chicken Tikka Masala](https://nmwsharp.com/recipes/post/chicken-tikka-masala/)
  
 <h2>Chicken</h2>
+ * [Lawang Chicken](https://docs.google.com/document/d/1hFXKM_FYg6PhXC_yNhXdZdTIEo7eoU0VH5i8lz6UGF0)
  * [Chicken Karaage](https://docs.google.com/document/d/1E5BAlxXhCCTFCPITEpwBYamc9uKT3ZwVyW5bnqyVoyU/edit#)
  * [Schnitzel Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/SchnitzelChicken.html)
  * [Lemon Chicken in Cream Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/LemonChickenInCreamSauce.html)
@@ -64,6 +65,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Curried Coconut Chicken](https://www.allrecipes.com/recipe/68532/curried-coconut-chicken/) (Add two peppers, double everything except the chicken, and use only 1 tbsp of sugar)
  
 <h2>Vegetarian</h2>
+ * [Shakshuka](https://docs.google.com/document/d/1e-8LGIoEM8aTt4SBS9wUdDlBz-ADS6x9EQv7zeD8dls)
  * [Pasta with Sun Gold Tomatoes](https://graphics.stanford.edu/~mdfisher/Recipes/SunTomatoPasta.html)
  * [Wild Mushroom Risotto](https://graphics.stanford.edu/~mdfisher/Recipes/WildMushroomRisotto.html)
  * [Curried Couscous with Roasted Cauliflower](https://themissinglokness.com/2018/05/02/mendocino-farms-curried-couscous-with-roasted-cauliflower/)
