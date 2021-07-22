@@ -15,6 +15,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 * [Chicken Tikka Masala](https://nmwsharp.com/recipes/post/chicken-tikka-masala/)
  
 <h2>Chicken</h2>
+ * [Coconut Red Curry](https://cooking.nytimes.com/recipes/1016196-coconut-red-curry-with-tofu)
  * [Lawang Chicken](https://docs.google.com/document/d/1hFXKM_FYg6PhXC_yNhXdZdTIEo7eoU0VH5i8lz6UGF0)
  * [Chicken Karaage](https://docs.google.com/document/d/1E5BAlxXhCCTFCPITEpwBYamc9uKT3ZwVyW5bnqyVoyU/edit#)
  * [Schnitzel Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/SchnitzelChicken.html)
