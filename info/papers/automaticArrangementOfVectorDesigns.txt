@@ -1,5 +1,5 @@
 title=Automatic Hierarchical Arrangement of Vector Designs
 authors=matt,Vineet Agarwal,Tarun Beri
 conference=Eurographics 2021
-project=https://virtual.eurographics2021.at/contributions/automatic-hierarchical-arrangement-vector-designs
+project=https://techmatt.github.io/pdfs/automaticArrangementOfVectorDesigns.pdf
 video=https://www.youtube.com/watch?v=uVqyxGSRWeo
