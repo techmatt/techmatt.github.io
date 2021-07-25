@@ -1,4 +1,4 @@
 title=Discovering Pattern Structure Using Differentiable Compositing
 authors=reddy,paul,matt,wil,niloy
 conference=SIGGRAPH Asia 2020
-project=https://paulguerrero.net/papers/DifferentiableCompositing.pdf
+project=http://geometry.cs.ucl.ac.uk/projects/2020/diffcompositing/
