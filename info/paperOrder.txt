@@ -1,3 +1,4 @@
+multiImplicitFonts
 interactiveMonteCarloDenoising
 marioNette
 characterGAN
