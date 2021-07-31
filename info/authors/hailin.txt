@@ -1,0 +1,3 @@
+name=Hailin Jin
+website=https://sites.google.com/view/hailinjin
+affiliation=Adobe Research
