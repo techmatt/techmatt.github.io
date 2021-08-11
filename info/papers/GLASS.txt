@@ -1,0 +1,4 @@
+title=GLASS: Geometric Latent Augmentation for Shape Spaces
+authors=Sanjeev Muralikrishnan,sid,noam,vova,matt,niloy
+conference=ArXiv 2021
+project=https://arxiv.org/abs/2108.03225
