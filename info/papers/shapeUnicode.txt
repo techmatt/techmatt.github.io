@@ -1,4 +1,4 @@
 title=Shape Unicode: A Unified Shape Representation
-authors=Sanjeev Muralikrishnan,vova,matt,sid
+authors=sanjeev,vova,matt,sid
 conference=CVPR 2019
 project=http://openaccess.thecvf.com/content_CVPR_2019/html/Muralikrishnan_Shape_Unicode_A_Unified_Shape_Representation_CVPR_2019_paper.html
