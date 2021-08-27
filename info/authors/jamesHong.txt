@@ -1,0 +1,3 @@
+name=James Hong
+website=https://jhong93.github.io/
+affiliation=Stanford University

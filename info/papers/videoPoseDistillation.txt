@@ -1,0 +1,4 @@
+title=Video Pose Distillation for Few-Shot, Fine-Grained Sports Action Recognition
+authors=jamesHong,matt,michaelGharbi,kayvon
+conference=ICCV 2021
+project=https://jhong93.github.io/projects/vpd.html
