@@ -83,7 +83,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Zuppa Toscana](https://docs.google.com/document/d/1sX-EVwGxkd615IcAmkSbd8XCkn5swyUL1qKp7BTa6TA/edit?folder=0B6uWj6vvbcVVRm9XUmU1eGYxWTg#)
  * [Beef Stew](https://docs.google.com/document/d/1hpa0w-i3sVhfP_Y_Nvw96CgphiVFxhAWiEWONK5KEnM)
  * [Best Beef Stew](https://docs.google.com/document/d/1Ec5VIbdQzsJoax3-dyzR2YzImbmvjEz8S1mAjnC9Yhg/edit)
- * [Minestrone}(https://docs.google.com/document/d/1mi8oMGFdnP70Xu5f5QsFjdznqCamt6R5xCXoR_hzRIM/edit#)
+ * [Minestrone](https://docs.google.com/document/d/1mi8oMGFdnP70Xu5f5QsFjdznqCamt6R5xCXoR_hzRIM/edit#)
 
 <h2>TexMex</h2>
  * [Cavatappi](https://docs.google.com/document/d/1YHpelHguPS8SVrwx_CuBKVMzKToGMVPmyBCZcCfb5GA/edit#)
