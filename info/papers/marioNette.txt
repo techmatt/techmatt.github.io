@@ -1,4 +1,4 @@
 title=MarioNette: Self-Supervised Sprite Learning
 authors=dima,michaelGharbi,matt,Vitor Guizilini,Alexei A. Efros,justinSolomon
-conference=ArXiv 2021
+conference=NeurIPS 2021
 project=https://arxiv.org/abs/2104.14553

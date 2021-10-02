@@ -1,4 +1,4 @@
 title=A Multi-Implicit Neural Representation for Fonts
 authors=reddy,zhifei,matt,hailin,zhaowen,niloy
-conference=ArXiv 2021
+conference=NeurIPS 2021
 project=https://arxiv.org/abs/2106.06866

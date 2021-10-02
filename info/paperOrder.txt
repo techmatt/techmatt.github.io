@@ -1,8 +1,8 @@
+marioNette
+multiImplicitFonts
 videoPoseDistillation
 GLASS
-multiImplicitFonts
 interactiveMonteCarloDenoising
-marioNette
 characterGAN
 decorGAN
 layoutGMN
