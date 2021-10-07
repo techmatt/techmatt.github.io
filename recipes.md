@@ -58,7 +58,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Pan Fried Porkchops](https://docs.google.com/document/d/1pPN6X_iVLhcD19JZk3QvwVwaWl4zb9GqfpF4PX3MDrI/edit?usp=sharing)
  * [Stir-fry Pork Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
  * [Japanese Ginger Pork](https://www.allrecipes.com/recipe/87392/japanese-ginger-pork/)
- * (Jason TODO) Korean pork chop glaze
+ * [Gochujang Glazed Pork Chops](https://docs.google.com/document/d/1HCGttzmW8BRlhrLad6RmbvdAQlWtplFQSIcDRAthWFw/edit?usp=sharing)
  
 <h2>Beef</h2>
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
@@ -90,7 +90,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Skillet potatoes](https://docs.google.com/document/d/1dtIO2rtytks0XU-SP1J3zwhdEW2SFRGjGeAYfx5bzy0/edit?usp=sharing)
  * [Melting Potatoes](https://docs.google.com/document/d/1aojcDomrKIp2avzbe0rmGmVm9wG0ZsFNC5m3A2eOfy8/edit?usp=sharing)
  * [Basic Polenta](https://docs.google.com/document/d/1F8H75sVoHhtxvMp8PfXxsyZE2K7aBzpt5y9ylQ2s_hk/edit)
- * (Jason TODO) Skillet Fried Snow Peas
+ * [Glazed Sugar Snap Peas](https://docs.google.com/document/d/1X2-nYGZrYB1iX4ppSfL0K1dF7hvySvy5tpmB4kIzBy4/edit?usp=sharing)
 
  <h2>Baking</h2>
  * [Indian Rice Pudding](https://docs.google.com/document/d/1qkaa4UnKJntMt2_u-CY9Hdv64iAm4u0rBaWyG1028V4/edit?usp=sharing)
@@ -100,6 +100,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Lemon Bars](https://docs.google.com/document/d/1j4gQPXNJ0gxxDe93lx-4RkuKGrf9ARr3to4KNuzE9CY/edit?usp=sharing)
  * [Millionaire’s Shortbread](https://docs.google.com/document/d/1IMl_nmjvZl09Q9f9FAzZNKyhl--w0OpJZ-LD-dvRDLU/edit#)
  * [English Muffin Bread](https://docs.google.com/document/d/1JLDeuajWiR4tJTkYcii5DTdy49JxE6r7KMVRBPkNARs/edit)
+ * [Lemon Bundt Cake](https://docs.google.com/document/d/1CtFu4W2K0mmwpPE-S6DVR5eeW9jl9SWmjP_rFbtfTrg/edit?usp=sharing)
  
 <h2>To be evaluated</h2>
 * [Barley Soup](https://nmwsharp.com/recipes/post/barley-soup/)

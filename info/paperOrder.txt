@@ -1,9 +1,9 @@
+characterGAN
 marioNette
 multiImplicitFonts
 videoPoseDistillation
 GLASS
 interactiveMonteCarloDenoising
-characterGAN
 decorGAN
 layoutGMN
 conSinGAN
