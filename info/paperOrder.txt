@@ -1,7 +1,7 @@
 characterGAN
-neuralStrokes
 marioNette
 multiImplicitFonts
+neuralStrokes
 videoPoseDistillation
 GLASS
 interactiveMonteCarloDenoising
