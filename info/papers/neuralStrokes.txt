@@ -1,0 +1,5 @@
+title=Neural Strokes: Stylized Line Drawing of 3D Shapes
+authors=difan,matt,aaronHertzmann,evangelosKalogerakis
+conference=ICCV 2021
+project=https://people.cs.umass.edu/~dliu/projects/NeuralStrokes/?fbclid=IwAR2yYZVy_PA0UxeZaYPJXJiab0UMlI1RzwASJ3wpul5L5bZupqvuaTZmKSg
+code=https://github.com/DifanLiu/NeuralStrokes

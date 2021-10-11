@@ -1,0 +1,3 @@
+name=Evangelos Kalogerakis
+website=https://people.cs.umass.edu/~kalo/
+affiliation=University of Massachusetts Amherst

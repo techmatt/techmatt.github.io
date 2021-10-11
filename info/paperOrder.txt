@@ -1,4 +1,5 @@
 characterGAN
+neuralStrokes
 marioNette
 multiImplicitFonts
 videoPoseDistillation

@@ -1,0 +1,3 @@
+name=Aaron Hertzmann
+website=https://www.dgp.toronto.edu/~hertzman/
+affiliation=Adobe Research
