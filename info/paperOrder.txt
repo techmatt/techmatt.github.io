@@ -7,6 +7,7 @@ GLASS
 interactiveMonteCarloDenoising
 decorGAN
 layoutGMN
+characterColorization
 conSinGAN
 automaticArrangementOfVectorDesigns
 differentiableCompositing
