@@ -1,5 +1,5 @@
 title=Exploring Sketch-based Character Design Guided by Automatic Colorization
 authors=Rawan Alghofaili,matt,richardZhang,Michal Lukac, Lap-Fai Yu
-conference=GI 2021
+conference=Graphics Interface 2021
 project=https://rawanmg.github.io/research/gi21.html
 video=https://www.youtube.com/watch?v=yuvrHfr0AJQ
