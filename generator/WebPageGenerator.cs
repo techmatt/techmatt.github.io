@@ -60,13 +60,27 @@ namespace WebGenerator
 
             lines.Add(publicationsHTMLHeader);
 
+            List<string> linesForCV = new List<string>();
+
             foreach (string paperID in paperOrder)
             {
                 var p = papers[paperID];
                 //string title = p["title"].Replace("<br/>"," ");
                 string title = p["title"];
                 string conference = p["conference"];
-                
+
+                string conferenceFull = conference;
+                conferenceFull = conferenceFull.Replace("ICCV", "International Conference on Computer Vision");
+                conferenceFull = conferenceFull.Replace("ECCV", "European Conference on Computer Vision");
+                conferenceFull = conferenceFull.Replace("NeurIPS", "Neural Information Processing Systems");
+                conferenceFull = conferenceFull.Replace("WACV", "Winter Conference on Applications of Computer Vision");
+                conferenceFull = conferenceFull.Replace("CVPR", "Computer Vision and Pattern Recognition");
+                //conferenceFull = conferenceFull.Replace("", "");
+                //conferenceFull = conferenceFull.Replace("", "");
+                //conferenceFull = conferenceFull.Replace("", "");
+                //conferenceFull = conferenceFull.Replace("", "");
+                linesForCV.Add("<b>" + title + ".</b> <i>" + conferenceFull + ".</i>");
+
                 string authorText = "";
                 foreach (string author in p["authors"].Split(','))
                 {
@@ -166,6 +180,9 @@ namespace WebGenerator
 
             string allText = String.Join("\n", lines);
             System.IO.File.WriteAllText(outputDir + "index.html", allText, new UTF8Encoding(false));
+
+            string allTextCV = String.Join("<br>\n", linesForCV);
+            System.IO.File.WriteAllText(outputDir + "CV.html", allTextCV, new UTF8Encoding(false));
 
             //System.IO.File.WriteAllLines(outputDir + "index.html", lines, Encoding.GetEncoding("UTF-8"));
         }
