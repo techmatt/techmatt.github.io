@@ -93,6 +93,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Glazed Sugar Snap Peas](https://docs.google.com/document/d/1X2-nYGZrYB1iX4ppSfL0K1dF7hvySvy5tpmB4kIzBy4/edit?usp=sharing)
 
  <h2>Baking</h2>
+ * [Best Blueberry Lemon Muffins](https://docs.google.com/document/d/1nW5SwQ1XZv1w5PPM-e7QarcTEJrLpJtJpqZXX98wCJA/edit?usp=sharing)
  * [Indian Rice Pudding](https://docs.google.com/document/d/1qkaa4UnKJntMt2_u-CY9Hdv64iAm4u0rBaWyG1028V4/edit?usp=sharing)
  * [3-layer Chocolate Cake](https://docs.google.com/document/d/1CaOWEWPosfuRCCVqP1jn7BWJGbVHIAruJaGCrCeKBTs/edit)
  * [Perfect Chocolate Chip Cookies](https://docs.google.com/document/d/1R4OAapMQTRckXLydJ_OxV5Wi42BrxzFML1_pXzfEUks/edit#)
