@@ -59,6 +59,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Stir-fry Pork Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
  * [Japanese Ginger Pork](https://www.allrecipes.com/recipe/87392/japanese-ginger-pork/)
  * [Gochujang Glazed Pork Chops](https://docs.google.com/document/d/1HCGttzmW8BRlhrLad6RmbvdAQlWtplFQSIcDRAthWFw/edit?usp=sharing)
+ * [Japanese Ginger Pork](https://docs.google.com/document/d/1lVBeksf0I28VDc-jO6LxFaCPfHJ02UObjB4DqfPRSGU/edit#)
  
 <h2>Beef</h2>
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
