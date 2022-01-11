@@ -57,7 +57,6 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Spicy Pork Stiry Fry](https://docs.google.com/document/d/1-k0JRIhdEZK-zAJqxOzZZgY_7pbe73yoPu1YDqOJLgA/edit)
  * [Pan Fried Porkchops](https://docs.google.com/document/d/1pPN6X_iVLhcD19JZk3QvwVwaWl4zb9GqfpF4PX3MDrI/edit?usp=sharing)
  * [Stir-fry Pork Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
- * [Japanese Ginger Pork](https://www.allrecipes.com/recipe/87392/japanese-ginger-pork/)
  * [Gochujang Glazed Pork Chops](https://docs.google.com/document/d/1HCGttzmW8BRlhrLad6RmbvdAQlWtplFQSIcDRAthWFw/edit?usp=sharing)
  * [Japanese Ginger Pork](https://docs.google.com/document/d/1lVBeksf0I28VDc-jO6LxFaCPfHJ02UObjB4DqfPRSGU/edit#)
  
