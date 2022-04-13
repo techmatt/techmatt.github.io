@@ -59,6 +59,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Stir-fry Pork Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
  * [Gochujang Glazed Pork Chops](https://docs.google.com/document/d/1HCGttzmW8BRlhrLad6RmbvdAQlWtplFQSIcDRAthWFw/edit?usp=sharing)
  * [Japanese Ginger Pork](https://docs.google.com/document/d/1lVBeksf0I28VDc-jO6LxFaCPfHJ02UObjB4DqfPRSGU/edit#)
+ * [Slow Cooker Apple Cider Pork](https://docs.google.com/document/d/116bhvbBJqXs75EItpjSJPEFTe8ZFnszj6rVzD6pcTYw/edit?usp=sharing)
  
 <h2>Beef</h2>
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
@@ -91,6 +92,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Melting Potatoes](https://docs.google.com/document/d/1aojcDomrKIp2avzbe0rmGmVm9wG0ZsFNC5m3A2eOfy8/edit?usp=sharing)
  * [Basic Polenta](https://docs.google.com/document/d/1F8H75sVoHhtxvMp8PfXxsyZE2K7aBzpt5y9ylQ2s_hk/edit)
  * [Glazed Sugar Snap Peas](https://docs.google.com/document/d/1X2-nYGZrYB1iX4ppSfL0K1dF7hvySvy5tpmB4kIzBy4/edit?usp=sharing)
+ * [State Fair Lemonade](https://docs.google.com/document/d/1wU3xwzgjKqcV-g0Otrm3AoTrIBBtVjhICjdmjChET3Q/edit)
 
  <h2>Baking</h2>
  * [Best Blueberry Lemon Muffins](https://docs.google.com/document/d/1nW5SwQ1XZv1w5PPM-e7QarcTEJrLpJtJpqZXX98wCJA/edit?usp=sharing)
