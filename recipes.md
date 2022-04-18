@@ -14,7 +14,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 <h2>Chicken</h2>
  * [Chicken Karaage](https://docs.google.com/document/d/1E5BAlxXhCCTFCPITEpwBYamc9uKT3ZwVyW5bnqyVoyU/edit#)
  * [Schnitzel Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/SchnitzelChicken.html)
- * [Lemon Chicken in Cream Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/LemonChickenInCreamSauce.html)
+ * [Lemon Chicken in Cream Sauce](https://docs.google.com/document/d/1BxGbkJRDdHq42LynJELMZd3SlTMij0Ke9sx2-KqNKsw/edit?usp=sharing)
  * [Lemon Chicken with Thyme](https://graphics.stanford.edu/~mdfisher/Recipes/LemonChickenWithThyme.html)
  * [Grilled Chicken Parmesan](https://graphics.stanford.edu/~mdfisher/Recipes/GrilledChickenParmesan.html)
  * [Buffalo Wings](https://www.dinneratthezoo.com/baked-buffalo-wings/)
