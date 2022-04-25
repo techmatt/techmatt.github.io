@@ -1,4 +1,4 @@
 title=GLASS: Geometric Latent Augmentation for Shape Spaces
 authors=sanjeev,sid,noam,vova,matt,niloy
-conference=ArXiv 2021
+conference=CVPR 2022
 project=http://neuralgeometry.com/glass/
