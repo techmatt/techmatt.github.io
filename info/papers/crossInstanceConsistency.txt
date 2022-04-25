@@ -1,0 +1,4 @@
+title=Share With Thy Neighbors: Single-View Reconstruction by Cross-Instance Consistency
+authors=tomMonnier,matt,efros,mathieuAubry
+conference=ArXiv 2022
+project=https://arxiv.org/pdf/2204.10310

@@ -1,9 +1,10 @@
+crossInstanceConsistency
+GLASS
 characterGAN
 marioNette
 multiImplicitFonts
 neuralStrokes
 videoPoseDistillation
-GLASS
 interactiveMonteCarloDenoising
 decorGAN
 layoutGMN

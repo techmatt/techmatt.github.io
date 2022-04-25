@@ -1,0 +1,3 @@
+name=Alexei Efros
+website=http://people.eecs.berkeley.edu/~efros/
+affiliation=UC Berkeley
