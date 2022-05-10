@@ -38,7 +38,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Curried Coconut Chicken](https://www.allrecipes.com/recipe/68532/curried-coconut-chicken/) (Add two bell peppers)
  * [Chicken Tortilla Soup](https://docs.google.com/document/d/1rtZom7DF-x4ryLCNYPVBHSs3z8KGFJiFdcQd1qrXRXc/edit#heading=h.kpt57slarqcm)
  * [Salsa Verde Pasta](https://docs.google.com/document/d/1TAWAG6rMdHTfxTKeQvtz1tIVPQP9eJdQhLaWjHHpALc)
- 
+ * [Garlic Teriyaki Chicken Thighs](https://docs.google.com/document/d/18Ic2xpqRpbKGnFVPb5L_7SlEwdI30OTAm6GyF09KvqI/edit?usp=sharing)
 <h2>Sausage</h2>
  * [Sausage Tomato Cream Pasta](https://docs.google.com/document/d/1Gql2YxaVid29OWHVbCKiFphHe4AOZhcvr9-p907Rl3o/edit#)
  * [Creamy sausage pasta](https://docs.google.com/document/d/1CZevn5--yB-AByZfbFtVayvIKSdT2PoniLwo4DW5gIE)
