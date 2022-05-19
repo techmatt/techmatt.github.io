@@ -1,0 +1,3 @@
+name=Taesung Park
+website=https://taesung.me/
+affiliation=UC Berkeley

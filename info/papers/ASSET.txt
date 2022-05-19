@@ -1,0 +1,5 @@
+title=ASSET: Autoregressive Semantic Scene Editing with Transformers at High Resolutions
+authors=difan,Sandesh Shetty,tobias,matt,richardZhang,taesung,evangelosKalogerakis
+conference=SIGGRAPH 2022 (Journal track)
+project=https://people.cs.umass.edu/~dliu/projects/ASSET/
+code=https://github.com/DifanLiu/ASSET
