@@ -47,7 +47,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Zuppa Toscana](https://docs.google.com/document/d/1sX-EVwGxkd615IcAmkSbd8XCkn5swyUL1qKp7BTa6TA/edit?folder=0B6uWj6vvbcVVRm9XUmU1eGYxWTg#)
 
 <h2>Shrimp and Seafood</h2>
- * [Spicy Cajun Shrimp](https://juliasalbum.com/easy-spicy-cajun-shrimp/)
+ * [Spicy Cajun Shrimp](https://docs.google.com/document/d/1gbyZNfkzgqLJMmin9H1ERRfeEvR1megxQSB1MmEO9Ok/edit)
  * [Prawn Manchurian](https://docs.google.com/document/d/1jErWe895N8k8F3iogJO4oUhSacrpBH6JKPXll5OzR4U/edit#)
  * [Chorizo-lemon Butter Shrimp](https://graphics.stanford.edu/~mdfisher/Recipes/ChorizoLemonShimp.html)
  * [Clam Chowder](https://graphics.stanford.edu/~mdfisher/Recipes/ClamChowder.html)
