@@ -77,7 +77,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Shakshuka](https://docs.google.com/document/d/1e-8LGIoEM8aTt4SBS9wUdDlBz-ADS6x9EQv7zeD8dls)
  * [Pasta with Sun Gold Tomatoes](https://graphics.stanford.edu/~mdfisher/Recipes/SunTomatoPasta.html)
  * [Wild Mushroom Risotto](https://graphics.stanford.edu/~mdfisher/Recipes/WildMushroomRisotto.html)
- * [Curried Couscous with Roasted Cauliflower](https://themissinglokness.com/2018/05/02/mendocino-farms-curried-couscous-with-roasted-cauliflower/)
+ * [Curried Couscous with Roasted Cauliflower](https://docs.google.com/document/d/1svXiMMxxvM6gDa8BQMI9-gQAymvKnStzRR5TfOvuMJ8/edit?usp=sharing)
  * [Lentil Soup](https://www.foodnetwork.com/recipes/alton-brown/lentil-soup-recipe-1947017)
  * [Minestrone](https://docs.google.com/document/d/1mi8oMGFdnP70Xu5f5QsFjdznqCamt6R5xCXoR_hzRIM/edit#)
 
