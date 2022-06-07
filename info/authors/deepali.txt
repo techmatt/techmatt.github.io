@@ -1,0 +1,3 @@
+name=Deepali Aneja
+website=https://research.adobe.com/person/deepali-aneja/
+affiliation=University of Massachusetts Amherst
