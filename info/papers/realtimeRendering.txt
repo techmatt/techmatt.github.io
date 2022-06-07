@@ -1,5 +1,5 @@
 title=Real-time Rendering Techniques with Hardware Tessellation
-authors=matthias,BenjaminKeinert,matt,MarcStamminger,CharlesLoop,HenryShafer
+authors=matthias,Benjamin Keinert,matt,Marc Stamminger,Charles Loop,Henry Shafer
 conference=Computer Graphics Forum 2015
 pdf=papers/realtimeRendering.pdf
 thumbnail=realtimeRendering.png
