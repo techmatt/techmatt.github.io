@@ -3,4 +3,4 @@ authors=zhan,matt,Yang Zhou,deepali,Rushikesh Dudhat,Li Yi,evangelosKalogerakis
 conference=CVPR 2022
 project=https://zhan-xu.github.io/parts/
 video=https://www.youtube.com/watch?v=YQtbRXFKNZE
-code=https://github.com/ZhanXu
+code=https://github.com/zhan-xu/APES
