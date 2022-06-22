@@ -39,12 +39,14 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Chicken Tortilla Soup](https://docs.google.com/document/d/1rtZom7DF-x4ryLCNYPVBHSs3z8KGFJiFdcQd1qrXRXc/edit#heading=h.kpt57slarqcm)
  * [Salsa Verde Pasta](https://docs.google.com/document/d/1TAWAG6rMdHTfxTKeQvtz1tIVPQP9eJdQhLaWjHHpALc)
  * [Garlic Teriyaki Chicken Thighs](https://docs.google.com/document/d/18Ic2xpqRpbKGnFVPb5L_7SlEwdI30OTAm6GyF09KvqI/edit?usp=sharing)
+
 <h2>Sausage</h2>
  * [Sausage Tomato Cream Pasta](https://docs.google.com/document/d/1Gql2YxaVid29OWHVbCKiFphHe4AOZhcvr9-p907Rl3o/edit#)
  * [Creamy sausage pasta](https://docs.google.com/document/d/1CZevn5--yB-AByZfbFtVayvIKSdT2PoniLwo4DW5gIE)
  * [Rigatoni with Sausage and Fennel](https://docs.google.com/document/d/15F0M9jhXFkpZ03cLdd9ElNrFdXjrwDSxDykE6mcDbpQ/edit)
  * [Sausages with Balsamic Vinegar](https://docs.google.com/document/d/12WBzZdcfmqFuXGLODHXlJv2JYECc7FdAB_J9ImVRUyU/edit#heading=h.10fl1y55fgcf)
  * [Zuppa Toscana](https://docs.google.com/document/d/1sX-EVwGxkd615IcAmkSbd8XCkn5swyUL1qKp7BTa6TA/edit?folder=0B6uWj6vvbcVVRm9XUmU1eGYxWTg#)
+ * [Pasta alla Vodka](https://docs.google.com/document/d/1uhS-3t_V-BSLxn9DYnzxbAIftg7s7aKBTOuZfpoMEzg/edit?usp=sharing)
 
 <h2>Shrimp and Seafood</h2>
  * [Spicy Cajun Shrimp](https://docs.google.com/document/d/1gbyZNfkzgqLJMmin9H1ERRfeEvR1megxQSB1MmEO9Ok/edit)
