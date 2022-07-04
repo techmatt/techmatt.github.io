@@ -84,6 +84,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Minestrone](https://docs.google.com/document/d/1mi8oMGFdnP70Xu5f5QsFjdznqCamt6R5xCXoR_hzRIM/edit#)
 
 <h2>Sides</h2>
+ * [Korean Cucumber Salad](https://docs.google.com/document/d/1irQ6wBAHMWfoDcz0LXZ4hy33_ZvqxyD_ixmP8L7RuU0/edit#)
  * [Chai Tea](https://docs.google.com/document/d/1x2-FUnFK0LcT4wv9nkJh3kEa0oG6_B3Cfrrs9DFItEE/edit?usp=sharing)
  * [Best Skillet Cornbread](https://www.foodnetwork.com/recipes/alexandra-guarnaschelli/cast-iron-skillet-corn-bread-recipe-2012669)
  * [Spicy Pickled Onions](https://docs.google.com/document/d/14mD_9HYr9YbKyn27RuaXvUs_b3rPuF2RR1BMM4NoUWk/edit?usp=sharing)
