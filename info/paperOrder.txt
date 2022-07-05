@@ -1,6 +1,6 @@
-articulatedPartExtraction
-ASSET
 crossInstanceConsistency
+ASSET
+articulatedPartExtraction
 GLASS
 characterGAN
 marioNette
