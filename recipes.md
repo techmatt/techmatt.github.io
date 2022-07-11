@@ -89,7 +89,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Best Skillet Cornbread](https://www.foodnetwork.com/recipes/alexandra-guarnaschelli/cast-iron-skillet-corn-bread-recipe-2012669)
  * [Spicy Pickled Onions](https://docs.google.com/document/d/14mD_9HYr9YbKyn27RuaXvUs_b3rPuF2RR1BMM4NoUWk/edit?usp=sharing)
  * [Yellow Indian Rice](https://www.budgetbytes.com/yellow-jasmine-rice/)
- * [Sichuan Green Beans](https://dinnerthendessert.com/spicy-chinese-sichuan-green-beans/)
+ * [Sichuan Green Beans](https://docs.google.com/document/d/1Sv3JfovCOS25xVYglLmxN79X5vLp40y2E7_9jr4XpB4/edit#)
  * [Spinach Walnut Strawberry Salad](https://aggieskitchen.com/spinach-strawberry-and-walnut-salad-with-raspberry-balsamic-vinaigrette/)
  * [Skillet potatoes](https://docs.google.com/document/d/1dtIO2rtytks0XU-SP1J3zwhdEW2SFRGjGeAYfx5bzy0/edit?usp=sharing)
  * [Melting Potatoes](https://docs.google.com/document/d/1aojcDomrKIp2avzbe0rmGmVm9wG0ZsFNC5m3A2eOfy8/edit?usp=sharing)
