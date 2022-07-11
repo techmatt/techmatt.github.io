@@ -85,7 +85,6 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 
 <h2>Sides</h2>
  * [Korean Cucumber Salad](https://docs.google.com/document/d/1irQ6wBAHMWfoDcz0LXZ4hy33_ZvqxyD_ixmP8L7RuU0/edit#)
- * [Chai Tea](https://docs.google.com/document/d/1x2-FUnFK0LcT4wv9nkJh3kEa0oG6_B3Cfrrs9DFItEE/edit?usp=sharing)
  * [Best Skillet Cornbread](https://www.foodnetwork.com/recipes/alexandra-guarnaschelli/cast-iron-skillet-corn-bread-recipe-2012669)
  * [Spicy Pickled Onions](https://docs.google.com/document/d/14mD_9HYr9YbKyn27RuaXvUs_b3rPuF2RR1BMM4NoUWk/edit?usp=sharing)
  * [Yellow Indian Rice](https://www.budgetbytes.com/yellow-jasmine-rice/)
@@ -95,8 +94,12 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Melting Potatoes](https://docs.google.com/document/d/1aojcDomrKIp2avzbe0rmGmVm9wG0ZsFNC5m3A2eOfy8/edit?usp=sharing)
  * [Basic Polenta](https://docs.google.com/document/d/1F8H75sVoHhtxvMp8PfXxsyZE2K7aBzpt5y9ylQ2s_hk/edit)
  * [Glazed Sugar Snap Peas](https://docs.google.com/document/d/1X2-nYGZrYB1iX4ppSfL0K1dF7hvySvy5tpmB4kIzBy4/edit?usp=sharing)
+ 
+ <h2>Drinks</h2>
+ * [Mixed Drinks}(https://docs.google.com/document/d/1ULydYXrXP6yr37jeIrTvQbx08DEEYIVaZukI10QPeXg/edit?usp=sharing)
  * [State Fair Lemonade](https://docs.google.com/document/d/1wU3xwzgjKqcV-g0Otrm3AoTrIBBtVjhICjdmjChET3Q/edit)
-
+ * [Chai Tea](https://docs.google.com/document/d/1x2-FUnFK0LcT4wv9nkJh3kEa0oG6_B3Cfrrs9DFItEE/edit?usp=sharing)
+ 
  <h2>Baking</h2>
  * [Best Blueberry Lemon Muffins](https://docs.google.com/document/d/1nW5SwQ1XZv1w5PPM-e7QarcTEJrLpJtJpqZXX98wCJA/edit?usp=sharing)
  * [Indian Rice Pudding](https://docs.google.com/document/d/1qkaa4UnKJntMt2_u-CY9Hdv64iAm4u0rBaWyG1028V4/edit?usp=sharing)
@@ -113,5 +116,3 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 * [Spicy Shrimp Pasta](https://nmwsharp.com/recipes/post/spicy-parmesan-shrimp-skillet/)
 * [Sausage and Kale Pasta](https://nmwsharp.com/recipes/post/sausage-and-kale-pasta/)
 * [Chicken Tikka Masala](https://nmwsharp.com/recipes/post/chicken-tikka-masala/)
-
-<h2><a href="https://docs.google.com/document/d/1ULydYXrXP6yr37jeIrTvQbx08DEEYIVaZukI10QPeXg/edit?usp=sharing">Mixed drinks</a></h2>
