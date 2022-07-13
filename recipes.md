@@ -96,7 +96,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Glazed Sugar Snap Peas](https://docs.google.com/document/d/1X2-nYGZrYB1iX4ppSfL0K1dF7hvySvy5tpmB4kIzBy4/edit?usp=sharing)
  
  <h2>Drinks</h2>
- * [Mixed Drinks}(https://docs.google.com/document/d/1ULydYXrXP6yr37jeIrTvQbx08DEEYIVaZukI10QPeXg/edit?usp=sharing)
+ * [Mixed Drinks](https://docs.google.com/document/d/1ULydYXrXP6yr37jeIrTvQbx08DEEYIVaZukI10QPeXg/edit?usp=sharing)
  * [State Fair Lemonade](https://docs.google.com/document/d/1wU3xwzgjKqcV-g0Otrm3AoTrIBBtVjhICjdmjChET3Q/edit)
  * [Chai Tea](https://docs.google.com/document/d/1x2-FUnFK0LcT4wv9nkJh3kEa0oG6_B3Cfrrs9DFItEE/edit?usp=sharing)
  
