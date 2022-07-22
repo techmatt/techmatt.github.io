@@ -1,0 +1,3 @@
+name=Haotian Zhang
+website=https://cs.stanford.edu/~haotianz/
+affiliation=Stanford University

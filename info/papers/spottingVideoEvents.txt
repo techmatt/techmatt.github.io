@@ -1,0 +1,5 @@
+title=Spotting Temporally Precise, Fine-Grained Events in Video
+authors=jamesHong,haotianZhang,michaelGharbi,matt,kayvon
+conference=ECCV 2022
+project=https://jhong93.github.io/projects/spot.html
+code=https://github.com/jhong93/spot
