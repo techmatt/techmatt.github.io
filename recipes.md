@@ -63,6 +63,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Japanese Ginger Pork](https://docs.google.com/document/d/1lVBeksf0I28VDc-jO6LxFaCPfHJ02UObjB4DqfPRSGU/edit#)
  * [Slow Cooker Apple Cider Pork](https://docs.google.com/document/d/116bhvbBJqXs75EItpjSJPEFTe8ZFnszj6rVzD6pcTYw/edit?usp=sharing)
  * [Slow Cooker Pork Ragu](https://docs.google.com/document/d/1e7thIU4QFqAVQUNEbKwrPZ2glVJPYzqWk1niiaqqIyc/edit)
+ * [Boneless Country Style Pork Ribs](https://docs.google.com/document/d/1cqarchi0-aeXXx8cH5NuAH4S_jN8JF0CMuZx6smoXT0/edit#heading=h.n6w19iwy57yg)
  
 <h2>Beef</h2>
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
