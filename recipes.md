@@ -111,6 +111,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Millionaire’s Shortbread](https://docs.google.com/document/d/1IMl_nmjvZl09Q9f9FAzZNKyhl--w0OpJZ-LD-dvRDLU/edit#)
  * [English Muffin Bread](https://docs.google.com/document/d/1JLDeuajWiR4tJTkYcii5DTdy49JxE6r7KMVRBPkNARs/edit)
  * [Lemon Bundt Cake](https://docs.google.com/document/d/1CtFu4W2K0mmwpPE-S6DVR5eeW9jl9SWmjP_rFbtfTrg/edit?usp=sharing)
+ * [Ultimate Cinnamon Buns](https://docs.google.com/document/d/1gtXqn9GbvUxMvku0RxNfLaZd6v9Ms3SM9Q0TyiRmqHQ/edit#heading=h.pp6wma6e159m)
  
 <h2>To be evaluated</h2>
 * [Barley Soup](https://nmwsharp.com/recipes/post/barley-soup/)
