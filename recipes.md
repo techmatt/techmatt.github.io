@@ -115,6 +115,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Ultimate Cinnamon Buns](https://docs.google.com/document/d/1gtXqn9GbvUxMvku0RxNfLaZd6v9Ms3SM9Q0TyiRmqHQ/edit#heading=h.pp6wma6e159m)
  
 <h2>To be evaluated</h2>
+* [Slow Cooker Chicken Tagine](https://www.food.com/recipe/easy-crock-pot-moroccan-chicken-chickpea-and-apricot-tagine-137530)
 * [Barley Soup](https://nmwsharp.com/recipes/post/barley-soup/)
 * [Spicy Shrimp Pasta](https://nmwsharp.com/recipes/post/spicy-parmesan-shrimp-skillet/)
 * [Sausage and Kale Pasta](https://nmwsharp.com/recipes/post/sausage-and-kale-pasta/)
