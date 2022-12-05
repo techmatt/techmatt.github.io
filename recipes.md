@@ -76,6 +76,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Southwest Beef and Chile Pizza](https://graphics.stanford.edu/~mdfisher/Recipes/SouthwestBeefAndChilePizza.html)
  * [Cajun Pot Roast](https://graphics.stanford.edu/~mdfisher/Recipes/CajunPotRoast.html)
  * [Best Beef Stew](https://docs.google.com/document/d/1Ec5VIbdQzsJoax3-dyzR2YzImbmvjEz8S1mAjnC9Yhg/edit)
+ * [Classic Shepherd's Pie](https://docs.google.com/document/d/18hJ1_VhrR0dqJHIIEgcnfcfT7Unnp7j72n43TGL-l4U/edit?usp=sharing)
 
 <h2>Vegetarian</h2>
  * [Shakshuka](https://docs.google.com/document/d/1e-8LGIoEM8aTt4SBS9wUdDlBz-ADS6x9EQv7zeD8dls)
@@ -104,6 +105,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  
  <h2>Baking</h2>
  * [Best Blueberry Lemon Muffins](https://docs.google.com/document/d/1nW5SwQ1XZv1w5PPM-e7QarcTEJrLpJtJpqZXX98wCJA/edit?usp=sharing)
+ * [Blueberry Buckle](https://docs.google.com/document/d/1ww5DJ4a9dgjxo05lIQSjdrp75U4u6N0eY6RIo1HrY5I/edit?usp=sharing)
  * [Indian Rice Pudding](https://docs.google.com/document/d/1qkaa4UnKJntMt2_u-CY9Hdv64iAm4u0rBaWyG1028V4/edit?usp=sharing)
  * [3-layer Chocolate Cake](https://docs.google.com/document/d/1CaOWEWPosfuRCCVqP1jn7BWJGbVHIAruJaGCrCeKBTs/edit)
  * [Perfect Chocolate Chip Cookies](https://docs.google.com/document/d/1R4OAapMQTRckXLydJ_OxV5Wi42BrxzFML1_pXzfEUks/edit#)
