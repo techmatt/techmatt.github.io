@@ -1,0 +1,5 @@
+title=Unsupervised 3D Shape Reconstruction by Part Retrieval and Assembly
+authors=xianghao,paul,matt,sid,daniel
+conference=CVPR 2023
+project=https://arxiv.org/abs/2303.01999
+code=https://arxiv.org/abs/2303.01999

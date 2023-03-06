@@ -1,0 +1,5 @@
+title=RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation
+authors=titas,ZexiangXu,matt,Paul Henderson,Hakan Bilen,niloy,paul
+conference=CVPR 2023
+project=https://arxiv.org/abs/2211.09869
+code=https://arxiv.org/abs/2211.09869
