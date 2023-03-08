@@ -115,6 +115,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [English Muffin Bread](https://docs.google.com/document/d/1JLDeuajWiR4tJTkYcii5DTdy49JxE6r7KMVRBPkNARs/edit)
  * [Lemon Bundt Cake](https://docs.google.com/document/d/1CtFu4W2K0mmwpPE-S6DVR5eeW9jl9SWmjP_rFbtfTrg/edit?usp=sharing)
  * [Ultimate Cinnamon Buns](https://docs.google.com/document/d/1gtXqn9GbvUxMvku0RxNfLaZd6v9Ms3SM9Q0TyiRmqHQ/edit#heading=h.pp6wma6e159m)
+ * [Coffee Mochi Cake](https://docs.google.com/document/d/1lMKHNPqt0xjpohwa1tdAEWmKUwwnySgoovGeSI4f8oM/edit?usp=sharing)
  
 <h2>To be evaluated</h2>
 * [Slow Cooker Chicken Tagine](https://www.food.com/recipe/easy-crock-pot-moroccan-chicken-chickpea-and-apricot-tagine-137530)
