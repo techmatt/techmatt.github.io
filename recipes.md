@@ -32,7 +32,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Coconut Red Curry Chicken](https://cooking.nytimes.com/recipes/1016196-coconut-red-curry-with-tofu)
  * [Spicy Chicken Veggie Udon](https://docs.google.com/document/d/1s-Pb0z3gBYwz1aohguNRfDTUX90oW0i4lGI1gnPbPeo/edit?usp=sharing)
  * [Broiled Chicken Tikka Masala](https://www.bonappetit.com/recipe/chicken-tikka-masala)
- * Japanese Chicken Curry
+ * [Japanese Chicken Curry](https://docs.google.com/document/d/17QognZy4p-vq1bBluA-BMr6bjxiWX37moDzTXK_zbWw/edit#)
  * [French Cassoulet](https://www.jocooks.com/recipes/classic-french-cassoulet/)
  * [Chicken Feta Saag](https://docs.google.com/document/d/1XSE0-XSyUp_EDVQ9Mr-M-x6gbmU6xo6uBcnv1FxKUR4/edit)
  * [Curried Coconut Chicken](https://www.allrecipes.com/recipe/68532/curried-coconut-chicken/) (Add two bell peppers)
