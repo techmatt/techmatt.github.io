@@ -1,0 +1,5 @@
+title=DualVector: Unsupervised Vector Font Synthesis with Dual-Part Representation
+authors=Ying-Tian Liu,zhifei,Yuan-Chen Guo,matt,zhaowen,Song-Hai Zhang
+conference=CVPR 2023
+project=https://arxiv.org/abs/2305.10462
+code=https://github.com/thuliu-yt16/dualvector
