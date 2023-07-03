@@ -57,7 +57,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 
 <h2>Pork</h2>
  * [Spicy Glazed Pork Tenderloin](https://docs.google.com/document/d/1gpomaaLQM3B7Kf4GQIRFVDSFx47Fpr4IRLwkm4U9Iy8/edit?usp=sharing)
- * [Spicy Pork Stiry Fry](https://docs.google.com/document/d/1-k0JRIhdEZK-zAJqxOzZZgY_7pbe73yoPu1YDqOJLgA/edit)
+ * [Spicy Pork Stir Fry](https://docs.google.com/document/d/1-k0JRIhdEZK-zAJqxOzZZgY_7pbe73yoPu1YDqOJLgA/edit)
  * [Pan Fried Porkchops](https://docs.google.com/document/d/1pPN6X_iVLhcD19JZk3QvwVwaWl4zb9GqfpF4PX3MDrI/edit?usp=sharing)
  * [Stir-fry Pork Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
  * [Gochujang Glazed Pork Chops](https://docs.google.com/document/d/1HCGttzmW8BRlhrLad6RmbvdAQlWtplFQSIcDRAthWFw/edit?usp=sharing)
