@@ -1,0 +1,3 @@
+name=Ravi Ramamoorthi
+website=https://cseweb.ucsd.edu/~ravir/
+affiliation=UCSD

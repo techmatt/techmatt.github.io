@@ -1,0 +1,5 @@
+title=Discontinuity-Aware 2D Neural Fields
+authors=yash,michaelGharbi,matt,iliyan,ravi,tzumao
+conference=SIGGRAPH Asia 2023
+project=https://yashbelhe.github.io/danf/index.html
+video=https://yashbelhe.github.io/danf/DiscontinuityAwareNeuralFields_SigAsia2023_supplemental.mp4

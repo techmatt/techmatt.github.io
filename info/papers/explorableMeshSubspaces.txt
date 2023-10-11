@@ -1,0 +1,5 @@
+title=Explorable Mesh Deformation Subspaces from Unstructured 3D Generative Models
+authors=arman,paul,vova,matt,sid,noam,daniel
+conference=SIGGRAPH Asia 2023
+project=https://armanmaesumi.github.io/explorable_subspaces/
+code=https://github.com/ArmanMaesumi/generative-mesh-subspaces

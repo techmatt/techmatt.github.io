@@ -1,3 +1,5 @@
+discontinuityAwareNeuralFields
+explorableMeshSubspaces
 dualVector
 renderDiffusion
 partRetrievalAndAssembly

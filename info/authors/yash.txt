@@ -1,0 +1,3 @@
+name=Yash Belhe
+website=https://yashbelhe.github.io/
+affiliation=UCSD

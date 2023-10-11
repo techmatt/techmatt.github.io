@@ -1,0 +1,3 @@
+name=Arman Maesumi
+website=https://armanmaesumi.github.io/
+affiliation=Brown University
