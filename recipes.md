@@ -12,6 +12,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Chimichurri Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/ChimichurriSauce.html)
 
 <h2>Chicken</h2>
+ * [Chicken Piccata](https://docs.google.com/document/d/1MruQg880yGqrXWOSEnOSEir7iJFLQLCXKYmNFznddRg/edit)
  * [Chicken Karaage](https://docs.google.com/document/d/1E5BAlxXhCCTFCPITEpwBYamc9uKT3ZwVyW5bnqyVoyU/edit#)
  * [Schnitzel Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/SchnitzelChicken.html)
  * [Lemon Chicken in Cream Sauce](https://docs.google.com/document/d/1BxGbkJRDdHq42LynJELMZd3SlTMij0Ke9sx2-KqNKsw/edit?usp=sharing)
