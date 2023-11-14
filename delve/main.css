@@ -1,0 +1,330 @@
+#templates {
+    display:none;
+}
+
+
+#in-delve {
+    width: 100%; float:left;
+}
+#split {
+    width: 100%;
+    float:left;
+}
+
+.bubble {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:5px;
+}
+.centered-button {
+    margin: 0 auto;
+}
+
+
+body {
+    background-color: black;
+    color:white;
+}
+
+/* Introduction */
+#before-delve {
+    width: 100%;
+}
+#before-delve .left-panel {
+    float:left;
+    width: 60%;
+    padding: 10px;
+}
+#before-delve .right-panel {
+    float:right;
+    width: 40%;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.entrance-title {
+    text-align: center;
+}
+#entrance-explanation {}
+
+/* Entrances */
+.entrance-picture {
+    max-height: 100%;
+    overflow: hidden;
+    border:1px solid black;
+    z-index: 2;
+}
+.entrance {
+    display:flex!important;
+    justify-content:space-between;
+    align-items: center;
+    height: 110px;
+    background: brown;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:5px;
+}
+.entrance-name {
+    color:white;
+    font-size: 2em;
+    z-index: 2;
+    width:100%;
+    text-align: center;
+}
+#entrance-buttons {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.entrance-button {
+    width:80px;
+    height:80px;
+    font-size: 1.5em;
+}
+.entrance .holdButtonProgress {
+    z-index: 1;
+}
+#new-entrance {
+    height: 110px;
+    width: 100%;
+    background-color: lightblue;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:5px;
+    color: black;
+}
+#resume-delve {
+    height: 110px;
+    width: 100%;
+    background-color: lightgreen;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:5px;
+    color: black;
+}
+#clear-cache {
+    height: 110px;
+    width: 100%;
+    background-color: purple;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:5px;
+    color: black;
+}
+
+/* Top bar */
+#in-delve-header {
+    display:flex;
+    position:top;
+    width:100%;
+    height:100px;
+}
+.top-pane {
+    /* width: 14.2857142857%; */
+    width: 16.666666666666%;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:5px;
+    font-size:0.8em;
+    color: white;
+    text-align: center;
+}
+.top-pane.active {
+    color: black;
+    background-color: lightgreen;
+}
+.top-pane-title {
+    font-size: 2em;
+    text-align: center;
+}
+.top-pane-description {
+    text-align:center;
+}
+.active .while-inactive {display:none;}
+.active .while-active {display:block;}
+.inactive .while-active {display:none;}
+.inactive .while-inactive {display:block;}
+
+/* Timer */
+#delve-timer.negative-timer {
+    color: red;
+}
+
+/* Resume code */
+#in-delve-resume-code-pane {
+    background-color: black;
+    color:white;
+    z-index: 9999;
+    float:left;
+    width:80%;
+}
+#in-delve-resume-code-code {
+    position:relative;
+    display:block;
+    text-align:center;
+    font-size:3em;
+}
+
+/* Rooms */
+#room {}
+.room-header-div {
+    color:white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.room-header-div::before, .room-header-div::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid white;
+}
+.room-header-div:not(:empty)::before {
+    margin-right: .25em;
+}
+.room-header-div:not(:empty)::after {
+    margin-left: .25em;
+}
+#room-picture-text {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+#room-title {
+    text-align: center;
+    width:100%;
+    float:right;
+    font-size: 2em;
+}
+#room-text-and-title {
+    width:100%;
+    float:right;
+}
+#room-picture {
+    width: 500px;
+    height: 500px;
+    float:left;
+}
+
+#room-left-panel {
+    float: left;
+    width:70%
+}
+#room-right-panel {
+    float: right;
+    width:30%
+}
+
+/* Message */
+#message {
+    background-color: rgb(64,64,64);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:5px;
+}
+#message-text {
+    width:100%;
+}
+#room-message-text {
+    color:#66FF00;
+    text-align:center;
+    font-size: 2em;
+}
+
+/* Room Inventory Grid */
+#room-items-pane {
+    background-color: rgb(64,64,64);
+}
+
+#room-items-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#room-items-container-left {
+    grid-column: 1 / 1;
+    grid-row: 1/1;
+}
+
+/* Items */
+.item {
+    display: flex;
+    background:black;
+    justify-content: space-between;
+    /* border-radius:5px; */
+    padding:5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.item.none-left {
+    color: grey;
+    text-decoration: line-through;
+}
+.item .name {
+    width: 100%;
+}
+.item .bulkyness-container {
+    width:8em;
+}
+.item .quantity-container {
+    width:7em;
+}
+.item .location {
+    width:100%;
+}
+.total-bulkyness {
+    margin-left:1em;
+}
+
+/* Actions */
+
+
+/* Connections */
+#room-connections,
+#room-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(20%, 1fr));
+    gap: 1rem;
+}
+.connection-requirements {
+    width:100%;
+    color:black;
+}
+
+.connection {
+    width:100%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding:5px;
+}
+.connection .connection {background-color: grey;}
+.connection .connection .connection {background-color: white;}
+.connection .connection .connection .connection {background-color: grey;}
+.connection .connection .connection .connection .connection {background-color: white;}
+.connection .connection .connection .connection .connection .connection {background-color: grey;}
+.connection .connection .connection .connection .connection .connection .connection {background-color: white;}
+/* If you are considering nesting further, don't. */
+
+.connection-container {
+    /* width: 24%; */
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(64,64,64);
+    color: black;
+    display:flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    padding:5px;
+}
+.connection-operator {
+    font-size: 1.5em;
+    text-align: center;
+}
+.connection-text-requirement {
+    text-align: center;
+}
+
+.connection-text {
+    text-align: center;
+    height:100%;
+}
