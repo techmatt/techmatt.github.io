@@ -1,3 +1,4 @@
+vectorFusion
 discontinuityAwareNeuralFields
 explorableMeshSubspaces
 dualVector

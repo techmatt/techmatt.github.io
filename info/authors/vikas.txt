@@ -1,0 +1,3 @@
+name=Vikas Thamizharasan
+website=https://vikastmz.github.io/
+affiliation=University of Massachusetts Amherst

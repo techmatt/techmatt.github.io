@@ -1,0 +1,3 @@
+name=Alec Jacobson
+website=https://www.cs.toronto.edu/~jacobson/
+affiliation=Stanford University
