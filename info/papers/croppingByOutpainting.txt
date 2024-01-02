@@ -1,5 +1,5 @@
 title=Learning Subject-Aware Cropping by Outpainting Professional Photos
-authors=jamesHong,luYuan,michaelGharbi,matt,kayvon 
+authors=jamesHong,luYuan,michaelGharbi,matt,kayvon
 conference=AAAI 2024
 project=https://jhong93.github.io/projects/crop.html
 code=https://github.com/jhong93/gencrop
