@@ -1,0 +1,3 @@
+name=Lu Yuan
+website=https://www.linkedin.com/in/sylvia-yuan-38792a193/
+affiliation=Stanford University

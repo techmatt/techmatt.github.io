@@ -137,7 +137,6 @@ namespace WebGenerator
                 {
                     pdfLink = "pdf";
                 }
-
                 if (p.ContainsKey("project"))
                 {
                     webpageLink = "<a href=\"" + p["project"] + "\">project</a>";
