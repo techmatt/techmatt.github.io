@@ -16,7 +16,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Chicken Karaage](https://docs.google.com/document/d/1E5BAlxXhCCTFCPITEpwBYamc9uKT3ZwVyW5bnqyVoyU/edit#)
  * [Schnitzel Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/SchnitzelChicken.html)
  * [Lemon Chicken in Cream Sauce](https://docs.google.com/document/d/1BxGbkJRDdHq42LynJELMZd3SlTMij0Ke9sx2-KqNKsw/edit?usp=sharing)
- * [Lemon Chicken with Thyme](https://graphics.stanford.edu/~mdfisher/Recipes/LemonChickenWithThyme.html)
+ * [Lemon Chicken with Thyme](https://docs.google.com/document/d/1-9eueLWu-DfUzdioCBqFmGxK_GlDouF9IjjGE7OLaqE/edit?usp=sharing)
  * [Coq au Vin](https://docs.google.com/document/d/1oY_Y08do26a8Ua1Kdr9008Es00JrKYgzkSN4CY8JEjU/edit?usp=sharing)
  * [Grilled Chicken Parmesan](https://graphics.stanford.edu/~mdfisher/Recipes/GrilledChickenParmesan.html)
  * [Buffalo Wings](https://www.dinneratthezoo.com/baked-buffalo-wings/)
