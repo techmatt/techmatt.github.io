@@ -18,7 +18,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Lemon Chicken in Cream Sauce](https://docs.google.com/document/d/1BxGbkJRDdHq42LynJELMZd3SlTMij0Ke9sx2-KqNKsw/edit?usp=sharing)
  * [Lemon Chicken with Thyme](https://docs.google.com/document/d/1-9eueLWu-DfUzdioCBqFmGxK_GlDouF9IjjGE7OLaqE/edit?usp=sharing)
  * [Coq au Vin](https://docs.google.com/document/d/1oY_Y08do26a8Ua1Kdr9008Es00JrKYgzkSN4CY8JEjU/edit?usp=sharing)
- * [Grilled Chicken Parmesan](https://graphics.stanford.edu/~mdfisher/Recipes/GrilledChickenParmesan.html)
+ * [Grilled Chicken Parmesan](https://docs.google.com/document/d/14CknSkoSM6-n0bMx7cNXBINDS9_FqzmuR1LIGjVsIuo)
  * [Buffalo Wings](https://www.dinneratthezoo.com/baked-buffalo-wings/)
  * [Chicken Kiev](https://graphics.stanford.edu/~mdfisher/Recipes/ChickenKiev.html)
  * [Chicken Costoletta](https://docs.google.com/document/d/1E5l6b-7IUEy5f8ACUPpyda_nkJDjhB5m1WUsNk51Fk8)
