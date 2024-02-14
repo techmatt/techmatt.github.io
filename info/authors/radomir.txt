@@ -1,3 +1,3 @@
-name=Radomír Měch
+name=Radomir Mech
 website=https://research.adobe.com/person/radomir-mech/
 affiliation=Stanford University
