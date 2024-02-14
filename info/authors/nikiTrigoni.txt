@@ -1,0 +1,3 @@
+name=Niki Trigoni
+website=https://www.cs.ox.ac.uk/people/niki.trigoni/
+affiliation=Stanford University

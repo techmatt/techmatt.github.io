@@ -1,0 +1,4 @@
+title=Learning Continuous 3D Words for Text-to-Image Generation
+authors=taYing,matheus,thibault,matt,radomir,andrewMarkham,nikiTrigoni
+conference=ArXiv 2024
+project=https://arxiv.org/abs/2402.08654

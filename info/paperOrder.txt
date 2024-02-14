@@ -1,3 +1,4 @@
+continuous3DWords
 croppingByOutpainting
 vectorFusion
 discontinuityAwareNeuralFields
