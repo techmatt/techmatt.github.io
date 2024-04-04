@@ -61,7 +61,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Spicy Glazed Pork Tenderloin](https://docs.google.com/document/d/1gpomaaLQM3B7Kf4GQIRFVDSFx47Fpr4IRLwkm4U9Iy8/edit?usp=sharing)
  * [Spicy Pork Stir Fry](https://docs.google.com/document/d/1-k0JRIhdEZK-zAJqxOzZZgY_7pbe73yoPu1YDqOJLgA/edit)
  * [Pan Fried Porkchops](https://docs.google.com/document/d/1pPN6X_iVLhcD19JZk3QvwVwaWl4zb9GqfpF4PX3MDrI/edit?usp=sharing)
- * [Stir-fry Pork Udon](https://www.bonappetit.com/recipe/stir-fried-udon-with-pork)
+ * [Stir-fry Pork Udon](https://docs.google.com/document/d/16A2N4KY30sJHBySEjefVvvErVyXFTFw6Fw057LkDG6E/edit?usp=sharing)
  * [Gochujang Glazed Pork Chops](https://docs.google.com/document/d/1HCGttzmW8BRlhrLad6RmbvdAQlWtplFQSIcDRAthWFw/edit?usp=sharing)
  * [Japanese Ginger Pork](https://docs.google.com/document/d/1lVBeksf0I28VDc-jO6LxFaCPfHJ02UObjB4DqfPRSGU/edit#)
  * [Slow Cooker Apple Cider Pork](https://docs.google.com/document/d/116bhvbBJqXs75EItpjSJPEFTe8ZFnszj6rVzD6pcTYw/edit?usp=sharing)
