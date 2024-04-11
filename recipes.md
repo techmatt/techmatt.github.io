@@ -70,7 +70,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  
 <h2>Beef</h2>
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
- * [Hamburgers](https://www.onceuponachef.com/recipes/steakhouse-burgers.html)
+ * [Hamburgers](https://docs.google.com/document/d/1Ryp3VAdR6Pc-fl0JWHsdcXPr-66OldFtOPpBNKRr4y4/edit)
  * [Chili con Carne](https://docs.google.com/document/d/1wc888OOfWNWjOyQ6VWfp6QL54ouaEbuGE5N4pWSXxxg/edit?usp=sharing)
  * [Vietnamese Beef Stew](https://docs.google.com/document/d/1yFBHsswHQdtEq9jjrhOKNkt08V34GaYc7hN9PcKGhVw/edit?usp=sharing)
  * [Beef Bulgogi](https://docs.google.com/document/d/1lUyhlG1_VNoxfzLHAJksjssMgnR3fldBc47anvFYMFs/edit#heading=h.ccrzh72itc7n)
