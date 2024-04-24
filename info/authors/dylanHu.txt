@@ -1,0 +1,3 @@
+name=Dylan Hu
+website=https://dylan.hu/
+affiliation=Simon Fraser University

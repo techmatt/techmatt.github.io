@@ -1,0 +1,4 @@
+title=Region-Aware Simplification and Stylization of 3D Line Drawings
+authors=vivienNguyen,matt,aaronHertzmann,szymon
+conference=Compute Graphics Forum 2024
+project=https://viviehn.github.io/projects/line-simp/

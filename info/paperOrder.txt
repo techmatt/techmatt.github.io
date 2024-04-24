@@ -1,6 +1,8 @@
+unifiedNoiseModel
+vectorFusion
 continuous3DWords
 croppingByOutpainting
-vectorFusion
+lineDrawingStylization
 discontinuityAwareNeuralFields
 explorableMeshSubspaces
 dualVector

@@ -1,0 +1,5 @@
+title=One Noise to Rule Them All:
+Learning a Unified Model of Spatially-Varying Noise Patterns
+authors=arman,dylanHu,Krishi Saripalli,vova,matt,soren,daniel
+conference=SIGGRAPH 2024
+project=https://armanmaesumi.github.io/onenoise/
