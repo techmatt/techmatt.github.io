@@ -1,0 +1,5 @@
+title=Personalized Residuals for Concept-Driven Text-to-Image Generation
+authors=cusuh,matt,jamesHays,nicholasKolkin,yuchen,richardZhang,tobias
+conference=CVPR 2024
+project=https://cusuh.github.io/personalized-residuals/
+arxiv=https://arxiv.org/abs/2405.12978

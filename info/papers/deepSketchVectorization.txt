@@ -1,0 +1,5 @@
+title=Deep Sketch Vectorization via Implicit Surface Extraction
+authors=chuan,yongLi,deepali,matt,edgarSimonSerra,yotam
+conference=SIGGRAPH 2024 (journal paper)
+project=https://cragl.cs.gmu.edu/sketchvector/
+code=https://github.com/Nauhcnay/Deep-Sketch-Vectorization

@@ -1,0 +1,3 @@
+name=Yotam Gingold
+website=https://cragl.cs.gmu.edu/
+affiliation=Adobe Research

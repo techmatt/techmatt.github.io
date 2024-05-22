@@ -1,0 +1,3 @@
+name=Nick Kolkin
+website=https://research.adobe.com/person/nick-kolkin/
+affiliation=Adobe Research

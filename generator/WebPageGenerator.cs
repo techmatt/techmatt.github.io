@@ -27,7 +27,7 @@ namespace WebGenerator
             publicationsHTMLFooter = File.ReadAllText(inputDir + "publicationsHTMLFooter.txt");
             paperOrder = File.ReadAllLines(inputDir + "paperOrder.txt");
 
-            MakePublicationsHTML(outputDir);
+            MakePublicationsHTML(inputDir, outputDir);
         }
 
         void LoadAuthors(string path)
@@ -54,8 +54,9 @@ namespace WebGenerator
             }
         }
 
-        void MakePublicationsHTML(string outputDir)
+        void MakePublicationsHTML(string inputDir, string outputDir)
         {
+            Debug.WriteLine("creating publication page");
             List<string> lines = new List<string>();
 
             lines.Add(publicationsHTMLHeader);
@@ -92,12 +93,25 @@ namespace WebGenerator
                         name = authors[author]["name"];
                         link = authors[author]["website"];
 
-                        name = "<a href=\"" + link + "\">" + name + "</a>";
+                        if (link != "unknown")
+                        {
+                            name = "<a href=\"" + link + "\">" + name + "</a>";
+                        }
                     }
                     else
                     {
                         //throw new Exception("author not found: " + author);
                         Debug.WriteLine("author not found: " + author);
+
+                        bool createMissingAuthors = true;
+                        if(createMissingAuthors)
+                        {
+                            string text = "name=" + author + Environment.NewLine +
+                                          "website=unknown" + Environment.NewLine;
+                            string authorPath = Path.Combine(inputDir + "authors", author + ".txt");
+                            Debug.WriteLine("creating blank author " + author);
+                            File.WriteAllText(authorPath, text);
+                        }
                     }
 
                     if (authorText.Length == 0) authorText = name;

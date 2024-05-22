@@ -1,0 +1,3 @@
+name=Edgar Simo-Serra
+website=https://esslab.jp/~ess/en/
+affiliation=Adobe Research
