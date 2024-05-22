@@ -1,5 +1,7 @@
 unifiedNoiseModel
+deepSketchVectorization
 vectorFusion
+personalizedResiduals
 continuous3DWords
 croppingByOutpainting
 lineDrawingStylization

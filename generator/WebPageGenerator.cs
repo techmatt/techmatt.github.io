@@ -109,7 +109,7 @@ namespace WebGenerator
                             string text = "name=" + author + Environment.NewLine +
                                           "website=unknown" + Environment.NewLine;
                             string authorPath = Path.Combine(inputDir + "authors", author + ".txt");
-                            Debug.WriteLine("creating blank author " + author);
+                            Debug.WriteLine("creating blank author " + author + ", paper=" + title);
                             File.WriteAllText(authorPath, text);
                         }
                     }

@@ -1,3 +1,0 @@
-name=Zhaowen Wang
-website=http://www.ifp.illinois.edu/~wang308/
-affiliation=Adobe Research

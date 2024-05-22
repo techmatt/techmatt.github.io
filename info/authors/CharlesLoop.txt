@@ -1,3 +1,0 @@
-name=Charles Loop
-website=http://research.microsoft.com/en-us/um/people/cloop/
-affiliation=Microsoft Research
