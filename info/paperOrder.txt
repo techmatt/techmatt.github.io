@@ -1,3 +1,4 @@
+neuralVectorLayers
 unifiedNoiseModel
 deepSketchVectorization
 vectorFusion

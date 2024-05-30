@@ -1,0 +1,5 @@
+title=NIVeL: Neural Implicit Vector Layers for Text-to-Vector Generation
+authors=vikas,difan,matt,Nanxuan Zhao,evangelosKalogerakis,Michal Lukac
+conference=CVPR 2024
+project=https://vikastmz.github.io/NIVeL/
+arxiv=https://arxiv.org/abs/2405.15217

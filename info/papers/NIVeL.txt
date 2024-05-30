@@ -1,4 +1,0 @@
-title=NIVeL
-authors=TODO
-conference=CVPR 2024
-project=TODO

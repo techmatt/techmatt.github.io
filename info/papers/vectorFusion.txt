@@ -1,4 +1,4 @@
 title=VecFusion: Vector Font Generation with Diffusion
 authors=vikas,difan,Shantanu Agarwal,matt,michaelGharbi,oliver,alec,evangelosKalogerakis
-conference=CVPR 2024
+conference=CVPR 2024 (highlight paper)
 project=https://arxiv.org/abs/2312.10540
