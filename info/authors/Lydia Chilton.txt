@@ -1,0 +1,2 @@
+name=Lydia Chilton
+website=https://www.engineering.columbia.edu/faculty/lydia-chilton

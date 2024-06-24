@@ -1,0 +1,2 @@
+name=Seth Walker
+website=https://research.adobe.com/person/seth-walker/

@@ -1,7 +1,8 @@
-neuralVectorLayers
+logoMotion
 unifiedNoiseModel
 deepSketchVectorization
 vectorFusion
+neuralVectorLayers
 personalizedResiduals
 continuous3DWords
 croppingByOutpainting
