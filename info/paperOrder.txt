@@ -1,7 +1,7 @@
-contentCreationGoals
-logoMotion
 unifiedNoiseModel
 deepSketchVectorization
+contentCreationGoals
+logoMotion
 vectorFusion
 neuralVectorLayers
 personalizedResiduals
