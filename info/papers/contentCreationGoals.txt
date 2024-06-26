@@ -1,0 +1,4 @@
+title=How do video content creation goals impact which concepts people prioritize for generating B-roll imagery?
+authors=Holly Huey,Mackenzie Leake,deepali,matt,Judith Fan
+conference=Creativity and Cognition 2024
+project=https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/CC24/53/e0c1f3bf-0e3f-11ef-8182-16bb50361d1f/OUT/cc24-53.html

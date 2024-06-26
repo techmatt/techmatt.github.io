@@ -1,3 +1,4 @@
+contentCreationGoals
 logoMotion
 unifiedNoiseModel
 deepSketchVectorization
