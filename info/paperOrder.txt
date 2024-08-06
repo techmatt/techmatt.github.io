@@ -1,3 +1,4 @@
+learnedNeuralDiscontinuities
 unifiedNoiseModel
 deepSketchVectorization
 contentCreationGoals

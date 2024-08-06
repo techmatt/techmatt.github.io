@@ -2,3 +2,4 @@ title=One Noise to Rule Them All: Learning a Unified Model of Spatially-Varying 
 authors=arman,dylanHu,Krishi Saripalli,vova,matt,soren,daniel
 conference=SIGGRAPH 2024 (journal paper)
 project=https://armanmaesumi.github.io/onenoise/
+code=https://github.com/ArmanMaesumi/OneNoise

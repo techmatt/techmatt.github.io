@@ -1,0 +1,4 @@
+title=2D Neural Fields with Learned Discontinuities
+authors=chenxi,Siqi Wang,matt,deepali,alec
+conference=ArXiv 2024
+project=https://arxiv.org/abs/2408.00771
