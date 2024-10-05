@@ -1,3 +1,4 @@
+temporalResidualJacobians
 learnedNeuralDiscontinuities
 unifiedNoiseModel
 deepSketchVectorization

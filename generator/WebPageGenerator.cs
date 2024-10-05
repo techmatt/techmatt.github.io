@@ -198,6 +198,8 @@ namespace WebGenerator
             System.IO.File.WriteAllText(outputDir + "CV.html", allTextCV, new UTF8Encoding(false));
 
             //System.IO.File.WriteAllLines(outputDir + "index.html", lines, Encoding.GetEncoding("UTF-8"));
+
+            Debug.WriteLine("done creating publication page");
         }
     }
 }

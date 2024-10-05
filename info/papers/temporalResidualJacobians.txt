@@ -1,0 +1,4 @@
+title=Temporal Residual Jacobians for Rig-free Motion Transfer
+authors=sanjeev,Niladri Shekhar Dutt,sid,noam,vova,matt,niloy
+conference=ECCV 2024
+project=https://temporaljacobians.github.io/
