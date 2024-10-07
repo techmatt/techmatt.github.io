@@ -7,10 +7,6 @@ title: Recipes
 
 I maintain a list of recipes I cook frequently here so I can reference them more easily while cooking. My old Stanford recipe list is [here](https://graphics.stanford.edu/~mdfisher/recipes.html).
 
-<h2>Multifarious</h2>
- * [Jambalaya](https://docs.google.com/document/d/14X4xxPyGXkeuWIv6M9Guix8jC8WxiCdO5VIE34nzKaY)
- * [Chimichurri Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/ChimichurriSauce.html)
-
 <h2>Chicken</h2>
  * [Chicken Piccata](https://docs.google.com/document/d/1MruQg880yGqrXWOSEnOSEir7iJFLQLCXKYmNFznddRg/edit)
  * [Chicken Karaage](https://docs.google.com/document/d/1E5BAlxXhCCTFCPITEpwBYamc9uKT3ZwVyW5bnqyVoyU/edit#)
@@ -83,6 +79,10 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Best Beef Stew](https://docs.google.com/document/d/1Ec5VIbdQzsJoax3-dyzR2YzImbmvjEz8S1mAjnC9Yhg/edit)
  * [Classic Shepherd's Pie](https://docs.google.com/document/d/18hJ1_VhrR0dqJHIIEgcnfcfT7Unnp7j72n43TGL-l4U/edit?usp=sharing)
  * [Ground Beef Spaghetti](https://docs.google.com/document/d/1KsRMg3U56I5cScFDnliSBxGUiuJQb20rRl_XcSLHVNY/edit#heading=h.wj9enrkwbam4)
+
+<h2>Hybrid</h2>
+ * [Jambalaya](https://docs.google.com/document/d/14X4xxPyGXkeuWIv6M9Guix8jC8WxiCdO5VIE34nzKaY)
+ * [Chimichurri Sauce](https://graphics.stanford.edu/~mdfisher/Recipes/ChimichurriSauce.html)
 
 <h2>Vegetarian</h2>
  * [Shakshuka](https://docs.google.com/document/d/1e-8LGIoEM8aTt4SBS9wUdDlBz-ADS6x9EQv7zeD8dls)
