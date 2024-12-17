@@ -1,0 +1,5 @@
+title=Pattern Analogies: Learning to Perform Programmatic Image Edits by Analogy
+authors=Aditya Ganeshan,thibault,paul,Radomir Mech,matt,Daniel Ritchie
+conference=ArXiv 2024
+project=https://bardofcodes.github.io/patterns/
+code=https://github.com/bardofcodes/pattern_analogies/

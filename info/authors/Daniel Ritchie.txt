@@ -1,0 +1,2 @@
+name=Daniel Ritchie
+website=https://dritchie.github.io/
