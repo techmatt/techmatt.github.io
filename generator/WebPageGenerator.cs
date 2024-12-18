@@ -141,6 +141,7 @@ namespace WebGenerator
                 string codeLink = "";
                 string videoLink = "";
                 string bibtexLink = "";
+                string arxivLink = "";
 
                 pdfLink = "<a href=\"pdfs/" + paperID + ".pdf\">pdf</a>";
 
@@ -163,6 +164,10 @@ namespace WebGenerator
                 {
                     videoLink = "<a href=\"" + p["video"] + "\">video</a>";
                 }
+                if (p.ContainsKey("arxiv"))
+                {
+                    arxivLink = "<a href=\"" + p["arxiv"] + "\">arXiv</a>";
+                }
 
                 if (File.Exists(bibtexFilename))
                 {
@@ -180,8 +185,13 @@ namespace WebGenerator
                 if (videoLink.Length > 0)
                     linkLine += " | " + videoLink;
 
+                if (arxivLink.Length > 0)
+                    linkLine += " | " + arxivLink;
+
                 if (codeLink.Length > 0)
                     linkLine += " | " + codeLink;
+
+                
 
                 lines.Add(linkLine);
                 

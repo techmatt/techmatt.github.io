@@ -3,3 +3,4 @@ authors=Aditya Ganeshan,thibault,paul,Radomir Mech,matt,Daniel Ritchie
 conference=ArXiv 2024
 project=https://bardofcodes.github.io/patterns/
 code=https://github.com/bardofcodes/pattern_analogies/
+arxiv=https://arxiv.org/abs/2412.12463
