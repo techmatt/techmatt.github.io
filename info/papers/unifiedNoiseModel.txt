@@ -3,3 +3,4 @@ authors=arman,dylanHu,Krishi Saripalli,vova,matt,soren,daniel
 conference=SIGGRAPH 2024 (journal paper)
 project=https://armanmaesumi.github.io/onenoise/
 code=https://github.com/ArmanMaesumi/OneNoise
+arxiv=https://arxiv.org/abs/2404.16292
