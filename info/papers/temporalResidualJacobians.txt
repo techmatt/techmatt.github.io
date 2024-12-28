@@ -3,3 +3,4 @@ authors=sanjeev,Niladri Shekhar Dutt,sid,noam,vova,matt,niloy
 conference=ECCV 2024
 project=https://temporaljacobians.github.io/
 arxiv=https://arxiv.org/abs/2407.14958
+code=https://github.com/sanjeevmk/trj
