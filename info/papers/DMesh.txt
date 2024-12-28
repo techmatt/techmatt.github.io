@@ -1,0 +1,5 @@
+title=DMesh++: An Efficient Differentiable Mesh for Complex Shapes
+authors=Sanghyun Son,Matheus Gadelha,Yang Zhou,matt,Zexiang Xu,Yi-Ling Qiao,Ming Lin,Yi Zhou
+conference=ArXiv 2024
+project=https://sonsang.github.io/dmesh2-project/
+arxiv=https://arxiv.org/abs/2412.16776
