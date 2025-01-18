@@ -1,4 +1,5 @@
 title=LogoMotion: Visually Grounded Code Generation for Content-Aware Animation
 authors=Vivian Liu,Rubaiat Habib Kazi,Li-Yi Wei,matt,Timothy Langlois,Seth Walker,Lydia Chilton
 conference=CHI 2025
-project=https://arxiv.org/abs/2405.07065
+project=https://vivian-liu.com/#/logomotion
+arxiv=https://arxiv.org/abs/2405.07065
