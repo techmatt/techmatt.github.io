@@ -1,11 +1,11 @@
+learnedNeuralDiscontinuities
+logoMotion
 DMesh
 patternAnalogies
 temporalResidualJacobians
-learnedNeuralDiscontinuities
 unifiedNoiseModel
 deepSketchVectorization
 contentCreationGoals
-logoMotion
 vectorFusion
 neuralVectorLayers
 personalizedResiduals
