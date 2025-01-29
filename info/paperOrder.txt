@@ -1,3 +1,4 @@
+diffusionCharacterRigging
 learnedNeuralDiscontinuities
 logoMotion
 DMesh
