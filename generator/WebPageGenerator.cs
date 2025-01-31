@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Diagnostics;
+using System.Drawing.Printing;
 
 namespace WebGenerator
 {
@@ -96,6 +97,10 @@ namespace WebGenerator
                         if (link != "unknown")
                         {
                             name = "<a href=\"" + link + "\">" + name + "</a>";
+                        }
+                        else
+                        {
+                            //Console.WriteLine("author website unknown: " + author + ", paper=" + title);
                         }
                     }
                     else
