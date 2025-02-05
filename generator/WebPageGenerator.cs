@@ -133,7 +133,7 @@ namespace WebGenerator
                 if (p.ContainsKey("project"))
                     pubLink = p["project"];
                 else
-                    pubLink = p["pdf"];
+                    pubLink = paperID;
                 pubLink = pubLink.Replace("papers/", "pdfs/");
                 lines.Add("<div class = \"pubName\"><a href=\"" + pubLink + "\">" + title + "</a></div>");
 
@@ -147,6 +147,7 @@ namespace WebGenerator
                 string videoLink = "";
                 string bibtexLink = "";
                 string arxivLink = "";
+                string suppLink = "";
 
                 pdfLink = "<a href=\"pdfs/" + paperID + ".pdf\">pdf</a>";
 
@@ -173,6 +174,10 @@ namespace WebGenerator
                 {
                     arxivLink = "<a href=\"" + p["arxiv"] + "\">arXiv</a>";
                 }
+                if (p.ContainsKey("supp"))
+                {
+                    suppLink = "<a href=\"pdfs/" + paperID + "Supplemental.pdf\">pdf</a>";
+                }
 
                 if (File.Exists(bibtexFilename))
                 {
@@ -187,6 +192,9 @@ namespace WebGenerator
                 if (webpageLink.Length > 0)
                     linkLine += " | " + webpageLink;
 
+                if (suppLink.Length > 0)
+                    linkLine += " | " + suppLink;
+
                 if (videoLink.Length > 0)
                     linkLine += " | " + videoLink;
 
@@ -195,8 +203,6 @@ namespace WebGenerator
 
                 if (codeLink.Length > 0)
                     linkLine += " | " + codeLink;
-
-                
 
                 lines.Add(linkLine);
                 

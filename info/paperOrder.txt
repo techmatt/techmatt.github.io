@@ -1,4 +1,5 @@
 shapeShifter
+imageVectorizationViaGradientReconstruction
 diffusionCharacterRigging
 learnedNeuralDiscontinuities
 logoMotion
