@@ -133,7 +133,7 @@ namespace WebGenerator
                 if (p.ContainsKey("project"))
                     pubLink = p["project"];
                 else
-                    pubLink = paperID;
+                    pubLink = "pdfs/" + paperID + ".pdf";
                 pubLink = pubLink.Replace("papers/", "pdfs/");
                 lines.Add("<div class = \"pubName\"><a href=\"" + pubLink + "\">" + title + "</a></div>");
 
@@ -176,7 +176,7 @@ namespace WebGenerator
                 }
                 if (p.ContainsKey("supp"))
                 {
-                    suppLink = "<a href=\"pdfs/" + paperID + "Supplemental.pdf\">pdf</a>";
+                    suppLink = "<a href=\"pdfs/" + paperID + "Supplemental.pdf\">supplemental</a>";
                 }
 
                 if (File.Exists(bibtexFilename))
