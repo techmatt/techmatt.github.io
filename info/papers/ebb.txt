@@ -4,5 +4,5 @@ conference=Transactions on Graphics 2016
 pdf=pdfs/ebb.pdf
 thumbnail=ebb.png
 teaser=papers/ebbTeaser.png
-code=https://gilbo.github.io/liszt-ebb/
+code=http://ebblang.org/
 blurb=We present Ebb, a domain-specific language (DSL) for simulation, that runs efficiently on both CPUs and GPUs.
