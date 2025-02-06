@@ -1,5 +1,5 @@
 title=ShapeShifter: 3D Variations Using Multiscale and Sparse Point-Voxel Diffusion
 authors=Nissim Maruani,Yifan Wang,matt,Pierre Alliez,mathieu
 conference=ArXiv 2025
-project=https://arxiv.org/abs/2502.02187
+project=https://nissmar.github.io/projects/shapeshifter/
 arxiv=https://arxiv.org/abs/2502.02187
