@@ -1,4 +1,4 @@
 title=How to Train Your Dragon: Automatic Diffusion-Based Rigging for Characters with Diverse Topologies
 authors=Zeqi Gu,difan,Timothy Langlois,matt,Abe Davis
-conference=ArXiv 2025
+conference=Eurographics 2025
 project=https://traindragondiffusion.github.io/

@@ -1,5 +1,5 @@
 title=2D Neural Fields with Learned Discontinuities
 authors=chenxi,Siqi Wang,matt,deepali,alec
-conference=ArXiv 2025
+conference=Eurographics 2025
 arxiv=https://arxiv.org/abs/2408.00771
 project=https://discontinuity2d.github.io/

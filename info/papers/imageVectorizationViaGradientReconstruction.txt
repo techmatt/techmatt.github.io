@@ -1,4 +1,4 @@
 title=Image Vectorization via Gradient Reconstruction
 authors=Souymodip Chakraborty,Vineet Batra,Ankit Phogat,Vishwas Jain,Jaswant Singh Ranawat,Michal Lukac,matt,Kevin Wampler
-conference=ArXiv 2025
+conference=Eurographics 2025
 supp=imageVectorizationViaGradientReconstructionSupplemental.pdf
