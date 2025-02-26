@@ -1,11 +1,11 @@
-meanShiftDistillation
+patternAnalogies
 shapeShifter
+meanShiftDistillation
 imageVectorizationViaGradientReconstruction
 diffusionCharacterRigging
 learnedNeuralDiscontinuities
 logoMotion
 DMesh
-patternAnalogies
 temporalResidualJacobians
 unifiedNoiseModel
 deepSketchVectorization
