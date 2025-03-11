@@ -3,3 +3,4 @@ authors=Nissim Maruani,Yifan Wang,matt,Pierre Alliez,mathieu
 conference=CVPR 2025
 project=https://nissmar.github.io/projects/shapeshifter/
 arxiv=https://arxiv.org/abs/2502.02187
+code=https://github.com/nissmar/ShapeShifter
