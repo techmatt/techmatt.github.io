@@ -15,33 +15,25 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Lemon Chicken with Thyme](https://docs.google.com/document/d/1-9eueLWu-DfUzdioCBqFmGxK_GlDouF9IjjGE7OLaqE/edit?usp=sharing)
  * [Coq au Vin](https://docs.google.com/document/d/1oY_Y08do26a8Ua1Kdr9008Es00JrKYgzkSN4CY8JEjU/edit?usp=sharing)
  * [Grilled Chicken Parmesan](https://docs.google.com/document/d/14CknSkoSM6-n0bMx7cNXBINDS9_FqzmuR1LIGjVsIuo)
- * [Buffalo Wings](https://www.dinneratthezoo.com/baked-buffalo-wings/)
+
  * [Chicken Kiev](https://graphics.stanford.edu/~mdfisher/Recipes/ChickenKiev.html)
- * [Chicken Costoletta](https://docs.google.com/document/d/1E5l6b-7IUEy5f8ACUPpyda_nkJDjhB5m1WUsNk51Fk8)
+
  * [Honey Mustard Chicken](https://docs.google.com/document/d/1whqXwAL65K9JiqoStwJ_OYZrSKS8PWs04zeZSZg2Mxc/edit?usp=sharing)
- * [Chicken in Creamy Dill Sauce](https://docs.google.com/document/d/1u1LjJs5MKAXI_C87ZeAru2k4cwE0ZFCUKfQiaLPdT7k)
  * [Bacon Chicken Pasta](https://docs.google.com/document/d/1MqdEYzI8gR4vj_eahew4bcdlIPl-rPqiFahIKlF8vaw/edit?usp=sharing)
  * [Lemon Chicken Orzo Soup](https://docs.google.com/document/d/1rULNP5J7nyc5w8yqi5ctkNuXG0vjKA1uv-3rfuUBtXk/edit?usp=sharing)
  * [White Bean Chicken Chili](https://docs.google.com/document/d/1WDDhKE3x90qINgOtcucKiodekgkx2-fG_5TZw5ogi8U/edit)
  * [Paprika Chicken](https://docs.google.com/document/d/1jOVlfiKVe3NLC-9DTUCVWlUcsPCUQbla5x_j_BghmSs/edit?usp=sharing)
- * [Maryland Fried Chicken](https://www.seriouseats.com/recipes/2015/01/maryland-fried-chicken-white-gravy-recipe.html)
- * [Spicy Szechuan Chicken](https://www.delish.com/cooking/recipe-ideas/a20651283/szechuan-chicken-recipe/)
- * [Spicy Orange Chicken](https://www.allrecipes.com/recipe/221069/spicy-orange-chicken/)
- * [Coconut Red Curry Chicken](https://cooking.nytimes.com/recipes/1016196-coconut-red-curry-with-tofu)
  * [Spicy Chicken Veggie Udon](https://docs.google.com/document/d/1s-Pb0z3gBYwz1aohguNRfDTUX90oW0i4lGI1gnPbPeo/edit?usp=sharing)
- * [Broiled Chicken Tikka Masala](https://www.bonappetit.com/recipe/chicken-tikka-masala)
  * [Japanese Chicken Curry](https://docs.google.com/document/d/17QognZy4p-vq1bBluA-BMr6bjxiWX37moDzTXK_zbWw/edit#)
  * [French Cassoulet](https://www.jocooks.com/recipes/classic-french-cassoulet/)
- * [Chicken Feta Saag](https://docs.google.com/document/d/1XSE0-XSyUp_EDVQ9Mr-M-x6gbmU6xo6uBcnv1FxKUR4/edit)
- * [Curried Coconut Chicken](https://www.allrecipes.com/recipe/68532/curried-coconut-chicken/) (Add two bell peppers)
- * [Chicken Tortilla Soup](https://docs.google.com/document/d/1rtZom7DF-x4ryLCNYPVBHSs3z8KGFJiFdcQd1qrXRXc/edit#heading=h.kpt57slarqcm)
+* [Chicken Tortilla Soup](https://docs.google.com/document/d/1rtZom7DF-x4ryLCNYPVBHSs3z8KGFJiFdcQd1qrXRXc/edit#heading=h.kpt57slarqcm)
  * [Salsa Verde Pasta](https://docs.google.com/document/d/1TAWAG6rMdHTfxTKeQvtz1tIVPQP9eJdQhLaWjHHpALc)
  * [Garlic Teriyaki Chicken Thighs](https://docs.google.com/document/d/18Ic2xpqRpbKGnFVPb5L_7SlEwdI30OTAm6GyF09KvqI/edit?usp=sharing)
  * [Chicken Wings in Soy Ginger Sauce](https://docs.google.com/document/d/1vqL5z5fR419ZH26M8ehW02qB-sQOMTloORbWMLOfr78/edit#)
 
 <h2>Sausage</h2>
  * [Sausage Tomato Cream Pasta](https://docs.google.com/document/d/1Gql2YxaVid29OWHVbCKiFphHe4AOZhcvr9-p907Rl3o/edit#)
- * [Creamy sausage pasta](https://docs.google.com/document/d/1CZevn5--yB-AByZfbFtVayvIKSdT2PoniLwo4DW5gIE)
+ * [Creamy Sausage Pasta](https://docs.google.com/document/d/1CZevn5--yB-AByZfbFtVayvIKSdT2PoniLwo4DW5gIE)
  * [Rigatoni with Sausage and Fennel](https://docs.google.com/document/d/15F0M9jhXFkpZ03cLdd9ElNrFdXjrwDSxDykE6mcDbpQ/edit)
  * [Sausages with Balsamic Vinegar](https://docs.google.com/document/d/12WBzZdcfmqFuXGLODHXlJv2JYECc7FdAB_J9ImVRUyU/edit#heading=h.10fl1y55fgcf)
  * [Zuppa Toscana](https://docs.google.com/document/d/1sX-EVwGxkd615IcAmkSbd8XCkn5swyUL1qKp7BTa6TA/edit?folder=0B6uWj6vvbcVVRm9XUmU1eGYxWTg#)
@@ -54,8 +46,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Clam Chowder](https://graphics.stanford.edu/~mdfisher/Recipes/ClamChowder.html)
 
 <h2>Pork</h2>
- * [Spicy Glazed Pork Tenderloin](https://docs.google.com/document/d/1gpomaaLQM3B7Kf4GQIRFVDSFx47Fpr4IRLwkm4U9Iy8/edit?usp=sharing)
- * [Spicy Pork Stir Fry](https://docs.google.com/document/d/1-k0JRIhdEZK-zAJqxOzZZgY_7pbe73yoPu1YDqOJLgA/edit)
+ * [Spicy Pork Medallions](https://docs.google.com/document/d/1-k0JRIhdEZK-zAJqxOzZZgY_7pbe73yoPu1YDqOJLgA/edit)
  * [Pan Fried Porkchops](https://docs.google.com/document/d/1pPN6X_iVLhcD19JZk3QvwVwaWl4zb9GqfpF4PX3MDrI/edit?usp=sharing)
  * [Stir-fry Pork Udon](https://docs.google.com/document/d/16A2N4KY30sJHBySEjefVvvErVyXFTFw6Fw057LkDG6E/edit?usp=sharing)
  * [Gochujang Glazed Pork Chops](https://docs.google.com/document/d/1HCGttzmW8BRlhrLad6RmbvdAQlWtplFQSIcDRAthWFw/edit?usp=sharing)
@@ -70,7 +61,6 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
  * [Hamburgers](https://docs.google.com/document/d/1Ryp3VAdR6Pc-fl0JWHsdcXPr-66OldFtOPpBNKRr4y4/edit)
  * [Chili con Carne](https://docs.google.com/document/d/1wc888OOfWNWjOyQ6VWfp6QL54ouaEbuGE5N4pWSXxxg/edit?usp=sharing)
- * [Vietnamese Beef Stew](https://docs.google.com/document/d/1yFBHsswHQdtEq9jjrhOKNkt08V34GaYc7hN9PcKGhVw/edit?usp=sharing)
  * [Beef Bulgogi](https://docs.google.com/document/d/1lUyhlG1_VNoxfzLHAJksjssMgnR3fldBc47anvFYMFs/edit#heading=h.ccrzh72itc7n)
  * [Beef Japchae](https://docs.google.com/document/d/17AqPUg8lChlmqldddotUNPOuj8RgeqZsaJqqn-5f1Oc/edit#heading=h.rmxhpg118123)
  * [Beef Cavatappi](https://docs.google.com/document/d/1YHpelHguPS8SVrwx_CuBKVMzKToGMVPmyBCZcCfb5GA/edit#)
@@ -94,7 +84,6 @@ I maintain a list of recipes I cook frequently here so I can reference them more
 
 <h2>Sides</h2>
  * [Spanish Tortilla](https://docs.google.com/document/d/1AcFvhPwFj64wFFewAOMokVpCl7ne4roBkzkU8oJFFP0/edit?usp=sharing)
- * [Korean Cucumber Salad](https://docs.google.com/document/d/1irQ6wBAHMWfoDcz0LXZ4hy33_ZvqxyD_ixmP8L7RuU0/edit#)
  * [Skillet Cornbread](https://docs.google.com/document/d/1FTQNK5IUoKFCNFl-H3uPbe21OqwQ_7IABCXjlN-efY4/edit?usp=sharing)
  * [Spicy Pickled Onions](https://docs.google.com/document/d/14mD_9HYr9YbKyn27RuaXvUs_b3rPuF2RR1BMM4NoUWk/edit?usp=sharing)
  * [Yellow Indian Rice](https://www.budgetbytes.com/yellow-jasmine-rice/)
@@ -113,10 +102,8 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  <h2>Baking</h2>
  * [Best Blueberry Lemon Muffins](https://docs.google.com/document/d/1nW5SwQ1XZv1w5PPM-e7QarcTEJrLpJtJpqZXX98wCJA/edit?usp=sharing)
  * [Blueberry Buckle](https://docs.google.com/document/d/1ww5DJ4a9dgjxo05lIQSjdrp75U4u6N0eY6RIo1HrY5I/edit?usp=sharing)
- * [Indian Rice Pudding](https://docs.google.com/document/d/1qkaa4UnKJntMt2_u-CY9Hdv64iAm4u0rBaWyG1028V4/edit?usp=sharing)
  * [3-layer Chocolate Cake](https://docs.google.com/document/d/1CaOWEWPosfuRCCVqP1jn7BWJGbVHIAruJaGCrCeKBTs/edit)
  * [Perfect Chocolate Chip Cookies](https://docs.google.com/document/d/1R4OAapMQTRckXLydJ_OxV5Wi42BrxzFML1_pXzfEUks/edit#)
- * [Walnut Chocolate Chip Cookies](https://docs.google.com/document/d/142IjfIdpvpPyR1mcuQhL_8jFn2oK2zMFHMG1goLjqtQ/edit?usp=sharing)
  * [Lemon Bars](https://docs.google.com/document/d/1j4gQPXNJ0gxxDe93lx-4RkuKGrf9ARr3to4KNuzE9CY/edit?usp=sharing)
  * [Millionaire’s Shortbread](https://docs.google.com/document/d/1IMl_nmjvZl09Q9f9FAzZNKyhl--w0OpJZ-LD-dvRDLU/edit#)
  * [English Muffin Bread](https://docs.google.com/document/d/1JLDeuajWiR4tJTkYcii5DTdy49JxE6r7KMVRBPkNARs/edit)
@@ -125,8 +112,18 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Coffee Mochi Cake](https://docs.google.com/document/d/1lMKHNPqt0xjpohwa1tdAEWmKUwwnySgoovGeSI4f8oM/edit?usp=sharing)
  * [French Silk Pie](https://docs.google.com/document/d/1BQv2pNY0Gdmq6pLBu8kjNSl5QrglYuHc3R1IgDNXK2w/edit?usp=sharing)
 <h2>To be evaluated</h2>
+ * [Vietnamese Beef Stew](https://docs.google.com/document/d/1yFBHsswHQdtEq9jjrhOKNkt08V34GaYc7hN9PcKGhVw/edit?usp=sharing)
+ * [Broiled Chicken Tikka Masala](https://www.bonappetit.com/recipe/chicken-tikka-masala)
+* [Maryland Fried Chicken](https://www.seriouseats.com/recipes/2015/01/maryland-fried-chicken-white-gravy-recipe.html)
+ 
 * [Slow Cooker Chicken Tagine](https://www.food.com/recipe/easy-crock-pot-moroccan-chicken-chickpea-and-apricot-tagine-137530)
 * [Barley Soup](https://nmwsharp.com/recipes/post/barley-soup/)
 * [Spicy Shrimp Pasta](https://nmwsharp.com/recipes/post/spicy-parmesan-shrimp-skillet/)
 * [Sausage and Kale Pasta](https://nmwsharp.com/recipes/post/sausage-and-kale-pasta/)
 * [Chicken Tikka Masala](https://nmwsharp.com/recipes/post/chicken-tikka-masala/)
+
+<h2>Jason Jail</h2>
+* [Buffalo Wings](https://www.dinneratthezoo.com/baked-buffalo-wings/)
+ * [Chicken Costoletta](https://docs.google.com/document/d/1E5l6b-7IUEy5f8ACUPpyda_nkJDjhB5m1WUsNk51Fk8)
+  * [Chicken in Creamy Dill Sauce](https://docs.google.com/document/d/1u1LjJs5MKAXI_C87ZeAru2k4cwE0ZFCUKfQiaLPdT7k)
+   * [Chicken Feta Saag](https://docs.google.com/document/d/1XSE0-XSyUp_EDVQ9Mr-M-x6gbmU6xo6uBcnv1FxKUR4/edit)
