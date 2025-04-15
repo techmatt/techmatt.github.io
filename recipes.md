@@ -15,9 +15,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Lemon Chicken with Thyme](https://docs.google.com/document/d/1-9eueLWu-DfUzdioCBqFmGxK_GlDouF9IjjGE7OLaqE/edit?usp=sharing)
  * [Coq au Vin](https://docs.google.com/document/d/1oY_Y08do26a8Ua1Kdr9008Es00JrKYgzkSN4CY8JEjU/edit?usp=sharing)
  * [Grilled Chicken Parmesan](https://docs.google.com/document/d/14CknSkoSM6-n0bMx7cNXBINDS9_FqzmuR1LIGjVsIuo)
-
  * [Chicken Kiev](https://graphics.stanford.edu/~mdfisher/Recipes/ChickenKiev.html)
-
  * [Honey Mustard Chicken](https://docs.google.com/document/d/1whqXwAL65K9JiqoStwJ_OYZrSKS8PWs04zeZSZg2Mxc/edit?usp=sharing)
  * [Bacon Chicken Pasta](https://docs.google.com/document/d/1MqdEYzI8gR4vj_eahew4bcdlIPl-rPqiFahIKlF8vaw/edit?usp=sharing)
  * [Lemon Chicken Orzo Soup](https://docs.google.com/document/d/1rULNP5J7nyc5w8yqi5ctkNuXG0vjKA1uv-3rfuUBtXk/edit?usp=sharing)
@@ -115,7 +113,6 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Vietnamese Beef Stew](https://docs.google.com/document/d/1yFBHsswHQdtEq9jjrhOKNkt08V34GaYc7hN9PcKGhVw/edit?usp=sharing)
  * [Broiled Chicken Tikka Masala](https://www.bonappetit.com/recipe/chicken-tikka-masala)
 * [Maryland Fried Chicken](https://www.seriouseats.com/recipes/2015/01/maryland-fried-chicken-white-gravy-recipe.html)
- 
 * [Slow Cooker Chicken Tagine](https://www.food.com/recipe/easy-crock-pot-moroccan-chicken-chickpea-and-apricot-tagine-137530)
 * [Barley Soup](https://nmwsharp.com/recipes/post/barley-soup/)
 * [Spicy Shrimp Pasta](https://nmwsharp.com/recipes/post/spicy-parmesan-shrimp-skillet/)
