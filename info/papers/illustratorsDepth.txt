@@ -1,4 +1,4 @@
-title=Illustrator’s Depth: Monocular Layer Index Prediction for Image Decomposition
+title=Illustrator's Depth: Monocular Layer Index Prediction for Image Decomposition
 authors=nissim,peiying,sid,matt,cherry,vova,Pierre Alliez,mathieu,yifan
 conference=ArXiv 2025
 arxiv=https://arxiv.org/abs/2511.17454
