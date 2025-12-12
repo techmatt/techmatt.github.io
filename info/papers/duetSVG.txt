@@ -1,0 +1,5 @@
+title=DuetSVG: Unified Multimodal SVG Generation with Internal Visual Guidance
+authors=peiying,cherry,matt,Yiran Xu,Jing Liao,difan
+conference=ArXiv 2025
+arxiv=https://arxiv.org/pdf/2512.10894
+project=https://arxiv.org/pdf/2512.10894

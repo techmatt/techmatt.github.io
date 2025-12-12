@@ -1,7 +1,8 @@
+duetSVG
 illustratorsDepth
+meanShiftDistillation
 patternAnalogies
 shapeShifter
-meanShiftDistillation
 imageVectorizationViaGradientReconstruction
 diffusionCharacterRigging
 learnedNeuralDiscontinuities

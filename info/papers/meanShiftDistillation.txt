@@ -1,5 +1,5 @@
 title=Mean-Shift Distillation for Diffusion Mode Seeking
 authors=vikas,Nikitas Chatzis,Iliyan Georgiev,matt,difan,Nanxuan Zhao,evangelosKalogerakis,Michal Lukac
-conference=ArXiv 2025
+conference=WACV 2026
 project=https://vikastmz.github.io/MSD/
 arxiv=https://arxiv.org/abs/2502.15989
