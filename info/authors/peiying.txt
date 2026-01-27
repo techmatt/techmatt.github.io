@@ -1,2 +1,2 @@
 name=Peiying Zhang
-website=https://scholar.google.com/citations?user=rlCwTlIAAAAJ&hl=en
+website=https://peiying-z.github.io/
