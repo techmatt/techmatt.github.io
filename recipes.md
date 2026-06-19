@@ -81,6 +81,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Minestrone](https://docs.google.com/document/d/1mi8oMGFdnP70Xu5f5QsFjdznqCamt6R5xCXoR_hzRIM/edit#)
 
 <h2>Sides</h2>
+ * [Purple Rice](https://docs.google.com/document/d/1j2F_AHqcOH87BCqJuXSIxHAsIAAu4-A-EY0DoVIL-LM/edit?tab=t.0#heading=h.vnn6ivfhz6xd)
  * [Spanish Tortilla](https://docs.google.com/document/d/1AcFvhPwFj64wFFewAOMokVpCl7ne4roBkzkU8oJFFP0/edit?usp=sharing)
  * [Skillet Cornbread](https://docs.google.com/document/d/1FTQNK5IUoKFCNFl-H3uPbe21OqwQ_7IABCXjlN-efY4/edit?usp=sharing)
  * [Spicy Pickled Onions](https://docs.google.com/document/d/14mD_9HYr9YbKyn27RuaXvUs_b3rPuF2RR1BMM4NoUWk/edit?usp=sharing)
