@@ -54,6 +54,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Boneless Country Style Pork Ribs](https://docs.google.com/document/d/1cqarchi0-aeXXx8cH5NuAH4S_jN8JF0CMuZx6smoXT0/edit#heading=h.n6w19iwy57yg)
  
 <h2>Beef</h2>
+ * [Warrior Hamburg Steaks](https://docs.google.com/document/d/1CGPTUaXuv-UnYUNslWT9hmLTYIwTV62RNfCSdaLo61I/edit?tab=t.0)
  * [Spicy Beef Stir Fry](https://docs.google.com/document/d/1I5uZ_CwRiGtRMk9wzWBbBlU2sVDg2EvDffldn8wHn-s/edit)
  * [Ground Beef Bulgogi](https://docs.google.com/document/d/150Bc_nMuHjaNHZuZtFc0LNaT51b25T2lRfIrLnxyUpE/edit?usp=sharing)
  * [James' Chili](https://docs.google.com/document/d/1W3cGQTZeIHsNoSQdaOGZoSTwL7M9CnSOWQG8XyYOJbI)
