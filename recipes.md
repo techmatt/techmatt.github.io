@@ -89,6 +89,7 @@ I maintain a list of recipes I cook frequently here so I can reference them more
  * [Yellow Indian Rice](https://www.budgetbytes.com/yellow-jasmine-rice/)
  * [Sichuan Green Beans](https://docs.google.com/document/d/1Sv3JfovCOS25xVYglLmxN79X5vLp40y2E7_9jr4XpB4/edit#)
  * [Spinach Walnut Strawberry Salad](https://aggieskitchen.com/spinach-strawberry-and-walnut-salad-with-raspberry-balsamic-vinaigrette/)
+ * [Korean Stewed Potatoes](https://docs.google.com/document/d/1Gn978CzXlH53G8QFdQEqwCMkm7x-DiRmaoxslpLmp3w/edit?tab=t.0#heading=h.8you7ho4ger3)
  * [Skillet potatoes](https://docs.google.com/document/d/1dtIO2rtytks0XU-SP1J3zwhdEW2SFRGjGeAYfx5bzy0/edit?usp=sharing)
  * [Melting Potatoes](https://docs.google.com/document/d/1aojcDomrKIp2avzbe0rmGmVm9wG0ZsFNC5m3A2eOfy8/edit?usp=sharing)
  * [Basic Polenta](https://docs.google.com/document/d/1F8H75sVoHhtxvMp8PfXxsyZE2K7aBzpt5y9ylQ2s_hk/edit)
