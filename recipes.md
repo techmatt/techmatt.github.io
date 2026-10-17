@@ -8,6 +8,7 @@ title: Recipes
 I maintain a list of recipes I cook frequently here so I can reference them more easily while cooking. My old Stanford recipe list is [here](https://graphics.stanford.edu/~mdfisher/recipes.html).
 
 <h2>Chicken</h2>
+ * [Bourbon Chicken](https://docs.google.com/document/d/1ICVnctdKHerRs6aM1KbSG150YowDPfle4vu46j_dpC0/edit?tab=t.0)
  * [Chicken Piccata](https://docs.google.com/document/d/1MruQg880yGqrXWOSEnOSEir7iJFLQLCXKYmNFznddRg/edit)
  * [Chicken Karaage](https://docs.google.com/document/d/1E5BAlxXhCCTFCPITEpwBYamc9uKT3ZwVyW5bnqyVoyU/edit#)
  * [Schnitzel Chicken](https://graphics.stanford.edu/~mdfisher/Recipes/SchnitzelChicken.html)
