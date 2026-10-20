@@ -249,6 +249,7 @@ async function toWav(blob) {
   return { blob: new Blob([out], { type: "audio/wav" }), seconds: n / rate, peak, samples: ch };
 }
 async function startRec() {
+  stopPlayback();
   try { await mic(); } catch (e) { say(e.message || "Microphone blocked. Allow the microphone for this page and try again.", "err"); return; }
   if (ctx.state === "suspended") await ctx.resume();
   chunks = [];
@@ -276,7 +277,7 @@ async function finishRec() {
     if (first) await keep(true);
     if (wav.seconds < 3) say("That take is very short, so it wasn't saved. Did it catch all three words and their sounds? Keep new saves it anyway.", "warn");
     else if (wav.peak < 0.05) say("That take is very quiet, so it wasn't saved. Move a little closer to the mic and record again (Keep new saves it anyway).", "warn");
-    else if (wav.peak > 0.99) say("That take clipped (too loud). Move back a little.", "warn");
+    else if (wav.peak > 0.99) say("That take clipped (too loud), so it wasn't saved. Move back a little and record again (Keep new saves it anyway).", "warn");
     else if (first) say("Saved. Next card →, or record again to compare.");
     else say("Listen to the new take. Keep it if it's better than the saved one.");
     play(wav.blob);
@@ -284,8 +285,9 @@ async function finishRec() {
   render();
 }
 let playing = null;
+function stopPlayback() { if (playing) { playing.pause(); URL.revokeObjectURL(playing.src); playing = null; } }
 function play(blob) {
-  if (playing) { playing.pause(); URL.revokeObjectURL(playing.src); }
+  stopPlayback();
   playing = new Audio(URL.createObjectURL(blob)); playing.play().catch(() => {});
 }
 async function keep(quiet = false) {
@@ -409,6 +411,7 @@ function render() {
 }
 function go(i) {
   if (state.recording) return;
+  stopPlayback();
   if (state.fresh && i !== state.cur) say("The unsaved new take was dropped.", "warn"); else say("");
   state.cur = Math.max(0, Math.min(GROUPS.length - 1, i)); state.fresh = null; render();
 }
