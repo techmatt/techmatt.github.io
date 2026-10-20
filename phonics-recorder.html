@@ -266,10 +266,16 @@ async function finishRec() {
   try {
     const wav = await toWav(new Blob(chunks, { type: recorder.mimeType || "audio/webm" }));
     state.fresh = wav;
-    const first = !state.saved[groupId(state.cur)];
+    if (wav.peak < 0.003) {
+      state.fresh = null;
+      say("No sound reached the recorder. Check that the microphone is plugged in, selected and allowed for this page, then record again.", "err");
+      render(); return;
+    }
+    const looksOk = wav.seconds >= 3 && wav.peak >= 0.05 && wav.peak <= 0.99;
+    const first = !state.saved[groupId(state.cur)] && looksOk;
     if (first) await keep(true);
-    if (wav.seconds < 3) say("That take is very short. Did it catch all three words and their sounds?", "warn");
-    else if (wav.peak < 0.05) say("That take is very quiet. Move a little closer to the mic.", "warn");
+    if (wav.seconds < 3) say("That take is very short, so it wasn't saved. Did it catch all three words and their sounds? Keep new saves it anyway.", "warn");
+    else if (wav.peak < 0.05) say("That take is very quiet, so it wasn't saved. Move a little closer to the mic and record again (Keep new saves it anyway).", "warn");
     else if (wav.peak > 0.99) say("That take clipped (too loud). Move back a little.", "warn");
     else if (first) say("Saved. Next card →, or record again to compare.");
     else say("Listen to the new take. Keep it if it's better than the saved one.");
