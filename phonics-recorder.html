@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phonics Sound Recorder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a list of sound groups on the left, the one group being recorded large on the right. */
+:root {
+  --bg: #f6f7f4; --panel: #ffffff; --ink: #1d2320; --muted: #5d6862; --line: #dfe3dd;
+  --accent: #2f6f5e; --accent-ink: #ffffff; --rec: #c2412d; --ok: #2f7a3d; --warn: #9a6a12;
+  --chip: #eef1ec; --target: #d0261b;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #151917; --panel: #1d2320; --ink: #e8ece8; --muted: #9aa69f; --line: #2e3631;
+    --accent: #6fbfa6; --accent-ink: #0f1412; --rec: #ef7a63; --ok: #7cc98a; --warn: #e2b65c; --chip: #252c28; --target: #ff5a4a;
+    color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.5 var(--f-body);
+  padding: 20px max(16px, env(safe-area-inset-right, 0px)) 40px max(16px, env(safe-area-inset-left, 0px)); }
+header { max-width: 1100px; margin: 0 auto 18px; display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: end; justify-content: space-between; }
+h1 { font-size: 1.6rem; margin: 0; text-wrap: balance; }
+.sub { color: var(--muted); margin: 2px 0 0; }
+.who { display: flex; gap: 8px; align-items: center; }
+.who input { font: inherit; padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--ink); width: 14em; }
+main { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 20px; }
+@media (max-width: 760px) { main { grid-template-columns: minmax(0, 1fr); } }
+.howto { max-width: 1100px; margin: 0 auto 18px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; }
+.howto summary { cursor: pointer; font-weight: 700; }
+.howto ul { margin: 10px 0 0; padding-left: 1.2em; }
+.howto li { margin: 4px 0; }
+nav { display: flex; flex-direction: column; gap: 6px; }
+nav button { all: unset; cursor: pointer; display: grid; grid-template-columns: 2.2em 1fr auto; gap: 8px; align-items: center;
+  padding: 8px 10px; border-radius: 8px; border: 1px solid transparent; }
+nav button:hover { background: var(--chip); }
+nav button[aria-current="true"] { background: var(--panel); border-color: var(--line); }
+nav button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+nav .n { font-family: var(--f-mono); color: var(--muted); font-size: .85rem; }
+nav .w { font-weight: 700; letter-spacing: .03em; }
+.dot { width: .7em; height: .7em; border-radius: 50%; background: var(--line); }
+.dot.saved { background: var(--ok); }
+.progress { color: var(--muted); font-size: .9rem; margin: 4px 2px 8px; }
+.stage { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 22px; display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+.say { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 560px) { .say { grid-template-columns: minmax(0, 1fr); } }
+.item { border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: flex; flex-direction: column; gap: 6px; }
+.item .word { font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; letter-spacing: .06em; line-height: 1.1; }
+.item .snd { font-family: var(--f-mono); font-size: 1.5rem; color: var(--target); }
+.item .word .hl { color: var(--target); }
+.item .tip { color: var(--muted); font-size: .95rem; }
+.kind { align-self: start; font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--muted); }
+.script { font-family: var(--f-mono); font-size: 1rem; color: var(--muted); overflow-wrap: anywhere; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+button.b { font: inherit; font-weight: 700; padding: 10px 16px; border-radius: 8px; border: 1px solid var(--line); background: var(--chip); color: var(--ink); cursor: pointer; }
+button.b:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+button.b:disabled { opacity: .45; cursor: default; }
+button.b.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+button.b.rec { background: var(--rec); color: #fff; border-color: var(--rec); }
+kbd { font-family: var(--f-mono); font-size: .75rem; border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; margin-left: 6px; opacity: .8; }
+.takes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 560px) { .takes { grid-template-columns: minmax(0, 1fr); } }
+.take { border: 1px solid var(--line); border-radius: 10px; padding: 12px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.take h3 { margin: 0; font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.take canvas { width: 100%; height: 64px; display: block; }
+.take .empty { color: var(--muted); font-size: .95rem; height: 64px; display: flex; align-items: center; }
+.meter { height: 8px; background: var(--chip); border-radius: 4px; overflow: hidden; }
+.meter i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .05s linear; }
+.status { min-height: 1.5em; color: var(--muted); }
+.status.err { color: var(--rec); }
+.status.warn { color: var(--warn); }
+.footer { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 16px; }
+@media (prefers-reduced-motion: reduce) { .meter i { transition: none; } }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Phonics Sound Recorder</h1>
+    <p class="sub"><span id="count">12</span> short takes for a children's reading game. Your recordings stay on this computer until you send the zip.</p>
+  </div>
+  <label class="who">Your name <input id="who" autocomplete="name" placeholder="optional"></label>
+</header>
+
+<details class="howto" id="howto" open>
+  <summary>How to record (read once)</summary>
+  <ul>
+    <li>Each take is one card of three: read the <b>word</b>, then say its <b>sound</b> three times, with a short pause (about a second) between everything. The sound to say is the <b style="color:var(--target)">red</b> part of the word. For example: “VAN … v … v … v … CAN … c … c … c …”.</li>
+    <li><b>Hold</b> sounds are stretched: “sssss”, “mmmmm”, “aaaa”, about a second each.</li>
+    <li><b>Short</b> sounds are crisp, with <b>no “uh”</b> after them: /c/ not “kuh”, /b/ not “buh”. Whisper-short is fine.</li>
+    <li>Vowels are the short sound in the word: A as in ANT, E as in HEN, I as in PIN, O as in FOX, U as in BUG.</li>
+    <li>A quiet room, about a hand's width from the mic. Press <b>Record</b> (or Space), read the card, press <b>Stop</b>. Your first take of a card saves itself. A later take plays back beside the saved one; press <b>Keep new</b> if it's better.</li>
+    <li>When you're done (or any time), press <b>Download zip</b> and send that file back.</li>
+  </ul>
+</details>
+
+<main>
+  <div>
+    <div class="progress" id="progress"></div>
+    <nav id="list" aria-label="Takes"></nav>
+  </div>
+  <section class="stage" aria-live="polite">
+    <div class="say" id="say"></div>
+    <div class="script" id="script"></div>
+    <div class="meter" aria-hidden="true"><i id="level"></i></div>
+    <div class="controls">
+      <button class="b rec" id="recBtn">Record<kbd>Space</kbd></button>
+      <button class="b" id="playNew" disabled>Play new<kbd>N</kbd></button>
+      <button class="b primary" id="keep" disabled>Keep new<kbd>Enter</kbd></button>
+      <button class="b" id="playSaved" disabled>Play saved<kbd>P</kbd></button>
+    </div>
+    <div class="takes">
+      <div class="take"><h3>Saved</h3><div id="savedView"></div></div>
+      <div class="take"><h3>New</h3><div id="newView"></div></div>
+    </div>
+    <div class="status" id="status"></div>
+    <div class="footer">
+      <div class="controls">
+        <button class="b" id="prev">← Previous</button>
+        <button class="b" id="next">Next →</button>
+      </div>
+      <button class="b primary" id="zip">Download zip</button>
+    </div>
+  </section>
+</main>
+
+<script>
+"use strict";
+// What to record. id = the game's sound key; word = a familiar picture word from the game's bank.
+// kind: "hold" (a sound you can stretch) or "short" (a stop sound, no "uh").
+const GROUPS = [
+  [{ id: "m", word: "[M]OP", snd: "m", kind: "hold", tip: "the start of MOP, held: lips closed, mmmm" },
+   { id: "c", word: "[C]AT", snd: "c", kind: "short", tip: "the start of CAT, stopped before the A" },
+   { id: "s", word: "[S]UN", snd: "s", kind: "hold", tip: "the start of SUN, held: a snake hiss, ssss" }],
+  [{ id: "f", word: "[F]AN", snd: "f", kind: "hold", tip: "the start of FAN, held: ffff" },
+   { id: "d", word: "BE[D]", snd: "d", kind: "short", tip: "the very end of BED, with no “duh” after it" },
+   { id: "l", word: "[L]EG", snd: "l", kind: "hold", tip: "the start of LEG, held: llll" }],
+  [{ id: "n", word: "[N]UT", snd: "n", kind: "hold", tip: "the start of NUT, held: nnnn" },
+   { id: "b", word: "[B]AT", snd: "b", kind: "short", tip: "the start of BAT, stopped before the A" },
+   { id: "r", word: "[R]AT", snd: "r", kind: "hold", tip: "the start of RAT, held: a growl, rrrr" }],
+  [{ id: "v", word: "[V]AN", snd: "v", kind: "hold", tip: "the start of VAN, held: vvvv" },
+   { id: "p", word: "[P]IG", snd: "p", kind: "short", tip: "the start of PIG, stopped before the I: just a puff" },
+   { id: "h", word: "[H]AT", snd: "h", kind: "short", tip: "the start of HAT, stopped before the A: just a breath" }],
+  [{ id: "z", word: "[Z]AP", snd: "z", kind: "hold", tip: "the start of ZAP, held: a bee buzz, zzzz" },
+   { id: "t", word: "[T]UB", snd: "t", kind: "short", tip: "the start of TUB, stopped before the U" },
+   { id: "w", word: "[W]EB", snd: "w", kind: "short", tip: "the start of WEB, stopped before the E" }],
+  [{ id: "j", word: "[J]AM", snd: "j", kind: "short", tip: "the start of JAM, stopped before the A" },
+   { id: "g", word: "[G]IFT", snd: "g", kind: "short", tip: "the start of GIFT, stopped before the I (or the end of BUG)" },
+   { id: "y", word: "[Y]OYO", snd: "y", kind: "short", tip: "the start of YOYO, stopped before the O" }],
+  [{ id: "k", word: "[K]EY", snd: "k", kind: "short", tip: "the start of KEY, stopped before the EE (the same sound as C)" },
+   { id: "x", word: "BO[X]", snd: "x", kind: "short", tip: "the very end of BOX: ks" },
+   { id: "a", word: "[A]NT", snd: "a", kind: "hold", tip: "the start of ANT, held: aaaa" }],
+  [{ id: "e", word: "H[E]N", snd: "e", kind: "hold", tip: "the middle of HEN, held: eh" },
+   { id: "i", word: "P[I]N", snd: "i", kind: "hold", tip: "the middle of PIN, held: ih" },
+   { id: "o", word: "F[O]X", snd: "o", kind: "hold", tip: "the middle of FOX, held: ahh" }],
+  [{ id: "u", word: "B[U]G", snd: "u", kind: "hold", tip: "the middle of BUG, held: uhh" },
+   { id: "sh", word: "[SH]IP", snd: "sh", kind: "hold", tip: "the start of SHIP, held: quiet please, shhhh" },
+   { id: "ch", word: "[CH]OP", snd: "ch", kind: "short", tip: "the start of CHOP, stopped before the O" }],
+  [{ id: "th", word: "BA[TH]", snd: "th", kind: "hold", tip: "the end of BATH, held: tongue between teeth, blow" },
+   { id: "long_e", word: "K[EY]", snd: "ee", kind: "hold", tip: "the end of KEY, held: long E, eeee" },
+   { id: "long_o", word: "Y[O]Y[O]", snd: "oh", kind: "hold", tip: "the O in YOYO, held: long O, ohhh" }],
+  [{ id: "q", word: "[QU]EEN", snd: "qu", kind: "short", tip: "the start of QUEEN, stopped before the EE: kw" },
+   { id: "ng", word: "RI[NG]", snd: "ng", kind: "hold", tip: "the end of RING, held: ngng" },
+   { id: "th_voiced", word: "[TH]IS", snd: "th", kind: "hold", tip: "the start of THIS, held: buzzing (not the TH in BATH)" }],
+  [{ id: "long_a", word: "C[A]K[E]", snd: "ay", kind: "hold", tip: "the A in CAKE, held: long A, aaay" },
+   { id: "long_i", word: "K[I]T[E]", snd: "eye", kind: "hold", tip: "the I in KITE, held: long I, eye" },
+   { id: "long_u", word: "C[U]B[E]", snd: "you", kind: "hold", tip: "the U in CUBE, held: long U, you" }],
+];
+const plain = (w) => w.replace(/[\[\]]/g, "");
+const groupId = (i) => "g" + String(i + 1).padStart(2, "0");
+const groupName = (g) => g.map((e) => plain(e.word)).join(" · ");
+
+const state = { cur: 0, saved: {}, fresh: null, recording: false };
+const $ = (id) => document.getElementById(id);
+
+// ---------- storage (best effort; the zip is the real record) ----------
+let dbp = null;
+function db() {
+  if (dbp) return dbp;
+  dbp = new Promise((res) => {
+    try {
+      const r = indexedDB.open("phonics-recorder", 1);
+      r.onupgradeneeded = () => r.result.createObjectStore("takes");
+      r.onsuccess = () => res(r.result);
+      r.onerror = () => res(null);
+    } catch { res(null); }
+  });
+  return dbp;
+}
+async function store(key, blob) {
+  const d = await db(); if (!d) return false;
+  return new Promise((res) => { try { const t = d.transaction("takes", "readwrite"); t.objectStore("takes").put(blob, key); t.oncomplete = () => res(true); t.onerror = () => res(false); } catch { res(false); } });
+}
+async function loadAll() {
+  const d = await db(); if (!d) return {};
+  return new Promise((res) => {
+    const out = {};
+    try {
+      const t = d.transaction("takes", "readonly"); const s = t.objectStore("takes");
+      const c = s.openCursor();
+      c.onsuccess = () => { const k = c.result; if (k) { out[k.key] = k.value; k.continue(); } else res(out); };
+      c.onerror = () => res(out);
+    } catch { res(out); }
+  });
+}
+try { const w = localStorage.getItem("phonics-recorder-who"); if (w) $("who").value = w; } catch {}
+$("who").addEventListener("input", () => { try { localStorage.setItem("phonics-recorder-who", $("who").value); } catch {} });
+
+// ---------- audio ----------
+let ctx = null, stream = null, analyser = null, recorder = null, chunks = [], raf = 0;
+function audioCtx() { if (!ctx) ctx = new (window.AudioContext || window.webkitAudioContext)(); return ctx; }
+async function mic() {
+  if (stream) return stream;
+  if (!navigator.mediaDevices?.getUserMedia) throw new Error("This browser can't record here. Open the file in Chrome, Edge or Firefox.");
+  // Noise suppression and auto gain smear quiet sounds like f, s and th, so they are off.
+  stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false, channelCount: 1 } });
+  const src = audioCtx().createMediaStreamSource(stream);
+  analyser = ctx.createAnalyser(); analyser.fftSize = 1024; src.connect(analyser);
+  return stream;
+}
+function meter() {
+  const buf = new Float32Array(analyser.fftSize);
+  const tick = () => {
+    analyser.getFloatTimeDomainData(buf);
+    let peak = 0; for (const v of buf) peak = Math.max(peak, Math.abs(v));
+    $("level").style.width = Math.min(100, Math.round(peak * 140)) + "%";
+    raf = requestAnimationFrame(tick);
+  };
+  tick();
+}
+async function toWav(blob) {
+  const ab = await blob.arrayBuffer();
+  const audio = await audioCtx().decodeAudioData(ab);
+  const ch = audio.getChannelData(0), rate = audio.sampleRate, n = ch.length;
+  const out = new DataView(new ArrayBuffer(44 + n * 2));
+  const w = (o, s) => { for (let i = 0; i < s.length; i++) out.setUint8(o + i, s.charCodeAt(i)); };
+  w(0, "RIFF"); out.setUint32(4, 36 + n * 2, true); w(8, "WAVE"); w(12, "fmt ");
+  out.setUint32(16, 16, true); out.setUint16(20, 1, true); out.setUint16(22, 1, true);
+  out.setUint32(24, rate, true); out.setUint32(28, rate * 2, true); out.setUint16(32, 2, true); out.setUint16(34, 16, true);
+  w(36, "data"); out.setUint32(40, n * 2, true);
+  for (let i = 0; i < n; i++) { const s = Math.max(-1, Math.min(1, ch[i])); out.setInt16(44 + i * 2, s < 0 ? s * 0x8000 : s * 0x7fff, true); }
+  let peak = 0; for (let i = 0; i < n; i++) peak = Math.max(peak, Math.abs(ch[i]));
+  return { blob: new Blob([out], { type: "audio/wav" }), seconds: n / rate, peak, samples: ch };
+}
+async function startRec() {
+  try { await mic(); } catch (e) { say(e.message || "Microphone blocked. Allow the microphone for this page and try again.", "err"); return; }
+  if (ctx.state === "suspended") await ctx.resume();
+  chunks = [];
+  recorder = new MediaRecorder(stream);
+  recorder.ondataavailable = (e) => { if (e.data.size) chunks.push(e.data); };
+  recorder.onstop = finishRec;
+  recorder.start();
+  state.recording = true; meter(); render();
+  say("Recording… read the card, then press Stop.");
+}
+function stopRec() { if (recorder && recorder.state !== "inactive") recorder.stop(); }
+async function finishRec() {
+  cancelAnimationFrame(raf); $("level").style.width = "0";
+  state.recording = false;
+  try {
+    const wav = await toWav(new Blob(chunks, { type: recorder.mimeType || "audio/webm" }));
+    state.fresh = wav;
+    const first = !state.saved[groupId(state.cur)];
+    if (first) await keep(true);
+    if (wav.seconds < 3) say("That take is very short. Did it catch all three words and their sounds?", "warn");
+    else if (wav.peak < 0.05) say("That take is very quiet. Move a little closer to the mic.", "warn");
+    else if (wav.peak > 0.99) say("That take clipped (too loud). Move back a little.", "warn");
+    else if (first) say("Saved. Next card →, or record again to compare.");
+    else say("Listen to the new take. Keep it if it's better than the saved one.");
+    play(wav.blob);
+  } catch (e) { say("Couldn't read that take: " + (e.message || e), "err"); }
+  render();
+}
+let playing = null;
+function play(blob) {
+  if (playing) { playing.pause(); URL.revokeObjectURL(playing.src); }
+  playing = new Audio(URL.createObjectURL(blob)); playing.play().catch(() => {});
+}
+async function keep(quiet = false) {
+  if (!state.fresh) return;
+  const id = groupId(state.cur);
+  state.saved[id] = state.fresh;
+  const ok = await store(id, state.fresh.blob);
+  state.fresh = null;
+  if (quiet && ok) { render(); return; }
+  say(ok ? "Saved. Next card →" : "Saved for now. This browser can't keep it after closing, so download the zip before you close the page.", ok ? "" : "warn");
+  render();
+}
+
+// ---------- waveform ----------
+function wave(container, wav) {
+  container.innerHTML = "";
+  if (!wav) { const p = document.createElement("div"); p.className = "empty"; p.textContent = "Nothing yet"; container.append(p); return; }
+  const c = document.createElement("canvas"); container.append(c);
+  const dpr = window.devicePixelRatio || 1, W = c.clientWidth || 300, H = 64;
+  c.width = W * dpr; c.height = H * dpr;
+  const g = c.getContext("2d"); g.scale(dpr, dpr);
+  const css = getComputedStyle(document.documentElement);
+  g.fillStyle = css.getPropertyValue("--accent").trim();
+  const s = wav.samples, step = Math.max(1, Math.floor(s.length / W));
+  for (let x = 0; x < W; x++) {
+    let m = 0; for (let i = x * step; i < Math.min(s.length, (x + 1) * step); i++) m = Math.max(m, Math.abs(s[i]));
+    const h = Math.max(1, m * H); g.fillRect(x, (H - h) / 2, 1, h);
+  }
+  const t = document.createElement("div"); t.className = "status"; t.textContent = wav.seconds.toFixed(1) + " s"; container.append(t);
+}
+
+// ---------- zip (stored, no compression; WAV doesn't compress much anyway) ----------
+const CRC = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+function crc32(u8) { let c = 0xffffffff; for (let i = 0; i < u8.length; i++) c = CRC[(c ^ u8[i]) & 0xff] ^ (c >>> 8); return (c ^ 0xffffffff) >>> 0; }
+async function makeZip(files) {
+  const enc = new TextEncoder(), parts = [], central = []; let off = 0;
+  for (const f of files) {
+    const name = enc.encode(f.name), data = new Uint8Array(await f.blob.arrayBuffer()), crc = crc32(data);
+    const h = new DataView(new ArrayBuffer(30));
+    h.setUint32(0, 0x04034b50, true); h.setUint16(4, 20, true); h.setUint16(8, 0, true); h.setUint16(12, 0x21, true);
+    h.setUint32(14, crc, true); h.setUint32(18, data.length, true); h.setUint32(22, data.length, true); h.setUint16(26, name.length, true);
+    parts.push(h, name, data);
+    const c = new DataView(new ArrayBuffer(46));
+    c.setUint32(0, 0x02014b50, true); c.setUint16(4, 20, true); c.setUint16(6, 20, true); c.setUint16(14, 0x21, true);
+    c.setUint32(16, crc, true); c.setUint32(20, data.length, true); c.setUint32(24, data.length, true); c.setUint16(28, name.length, true); c.setUint32(42, off, true);
+    central.push(c, name);
+    off += 30 + name.length + data.length;
+  }
+  const csize = central.reduce((a, p) => a + p.byteLength, 0);
+  const e = new DataView(new ArrayBuffer(22));
+  e.setUint32(0, 0x06054b50, true); e.setUint16(8, files.length, true); e.setUint16(10, files.length, true); e.setUint32(12, csize, true); e.setUint32(16, off, true);
+  return new Blob([...parts, ...central, e], { type: "application/zip" });
+}
+async function downloadZip() {
+  const ids = GROUPS.map((_, i) => groupId(i)).filter((id) => state.saved[id]);
+  if (!ids.length) { say("Nothing saved yet. Record a card and press Keep new first.", "warn"); return; }
+  const manifest = {
+    format: "phonics-recorder/1",
+    recorder: $("who").value.trim() || null,
+    made: new Date().toISOString(),
+    note: "Each take: for each entry, the word, then its sound three times, with pauses.",
+    takes: ids.map((id) => {
+      const i = Number(id.slice(1)) - 1;
+      return { file: "takes/" + id + ".wav", group: id, seconds: +state.saved[id].seconds.toFixed(2),
+        entries: GROUPS[i].map((e) => ({ sound: e.id, word: plain(e.word).toLowerCase(), kind: e.kind, repeats: 3 })) };
+    }),
+    missing: GROUPS.map((_, i) => groupId(i)).filter((id) => !state.saved[id]),
+  };
+  const files = [{ name: "manifest.json", blob: new Blob([JSON.stringify(manifest, null, 2)], { type: "application/json" }) }];
+  for (const id of ids) files.push({ name: "takes/" + id + ".wav", blob: state.saved[id].blob });
+  const zip = await makeZip(files);
+  const a = document.createElement("a");
+  const who = ($("who").value.trim() || "recording").replace(/[^\w-]+/g, "-").toLowerCase();
+  a.href = URL.createObjectURL(zip); a.download = "phonics-" + who + ".zip";
+  document.body.append(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+  say(ids.length === GROUPS.length ? `Zip downloaded with all ${GROUPS.length} takes. Send it back. Thank you!` : `Zip downloaded with ${ids.length} of ${GROUPS.length} takes. You can send it now or finish the rest first.`);
+}
+
+// ---------- UI ----------
+function say(msg, kind = "") { const s = $("status"); s.textContent = msg; s.className = "status" + (kind ? " " + kind : ""); }
+function render() {
+  const g = GROUPS[state.cur], id = groupId(state.cur), done = Object.keys(state.saved).length;
+  $("count").textContent = GROUPS.length;
+  $("progress").textContent = `${done} of ${GROUPS.length} takes saved`;
+  const list = $("list"); list.innerHTML = "";
+  GROUPS.forEach((gr, i) => {
+    const b = document.createElement("button");
+    b.setAttribute("aria-current", i === state.cur ? "true" : "false");
+    b.innerHTML = `<span class="n">${String(i + 1).padStart(2, "0")}</span><span class="w"></span><span class="dot${state.saved[groupId(i)] ? " saved" : ""}" title="${state.saved[groupId(i)] ? "saved" : "not recorded"}"></span>`;
+    b.querySelector(".w").textContent = groupName(gr);
+    b.onclick = () => go(i);
+    list.append(b);
+  });
+  const sayEl = $("say"); sayEl.innerHTML = "";
+  for (const e of g) {
+    const d = document.createElement("div"); d.className = "item";
+    d.innerHTML = `<span class="kind"></span><div class="word"></div><div class="snd"></div><div class="tip"></div>`;
+    d.querySelector(".kind").textContent = e.kind === "hold" ? "hold the sound" : "short sound";
+    const wEl = d.querySelector(".word");
+    for (const part of e.word.split(/(\[[^\]]+\])/)) {
+      if (!part) continue;
+      if (part.startsWith("[")) { const m = document.createElement("span"); m.className = "hl"; m.textContent = part.slice(1, -1); wEl.append(m); }
+      else wEl.append(document.createTextNode(part));
+    }
+    d.querySelector(".snd").textContent = `${e.snd} · ${e.snd} · ${e.snd}`;
+    d.querySelector(".tip").textContent = e.tip;
+    sayEl.append(d);
+  }
+  $("script").textContent = "Read: " + g.map((e) => `${plain(e.word)} … ${e.snd} … ${e.snd} … ${e.snd}`).join(" … ");
+  const rb = $("recBtn");
+  rb.innerHTML = state.recording ? "Stop<kbd>Space</kbd>" : "Record<kbd>Space</kbd>";
+  $("playNew").disabled = !state.fresh || state.recording;
+  $("keep").disabled = !state.fresh || state.recording;
+  $("playSaved").disabled = !state.saved[id] || state.recording;
+  $("prev").disabled = state.cur === 0 || state.recording;
+  $("next").disabled = state.cur === GROUPS.length - 1 || state.recording;
+  $("zip").disabled = state.recording;
+  wave($("savedView"), state.saved[id]);
+  wave($("newView"), state.fresh);
+}
+function go(i) {
+  if (state.recording) return;
+  if (state.fresh && i !== state.cur) say("The unsaved new take was dropped.", "warn"); else say("");
+  state.cur = Math.max(0, Math.min(GROUPS.length - 1, i)); state.fresh = null; render();
+}
+$("recBtn").onclick = () => (state.recording ? stopRec() : startRec());
+$("playNew").onclick = () => state.fresh && play(state.fresh.blob);
+$("playSaved").onclick = () => { const s = state.saved[groupId(state.cur)]; if (s) play(s.blob); };
+$("keep").onclick = keep;
+$("prev").onclick = () => go(state.cur - 1);
+$("next").onclick = () => go(state.cur + 1);
+$("zip").onclick = downloadZip;
+document.addEventListener("keydown", (e) => {
+  if (e.target.tagName === "INPUT") return;
+  if (e.code === "Space") { e.preventDefault(); state.recording ? stopRec() : startRec(); }
+  else if (e.key === "Enter" && state.fresh) { e.preventDefault(); keep(); }
+  else if (e.key === "n" || e.key === "N") { if (state.fresh) play(state.fresh.blob); }
+  else if (e.key === "p" || e.key === "P") { const s = state.saved[groupId(state.cur)]; if (s) play(s.blob); }
+  else if (e.key === "ArrowRight") go(state.cur + 1);
+  else if (e.key === "ArrowLeft") go(state.cur - 1);
+});
+window.addEventListener("beforeunload", (e) => { if (state.fresh || state.recording) { e.preventDefault(); e.returnValue = ""; } });
+
+(async () => {
+  render();
+  const stored = await loadAll();
+  for (const [k, blob] of Object.entries(stored)) {
+    try { state.saved[k] = await toWav(blob); } catch {}
+  }
+  render();
+})();
+</script>
+</body>
+</html>
