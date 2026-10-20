@@ -163,14 +163,14 @@ const GROUPS = [
    { id: "sh", word: "[SH]IP", snd: "sh", kind: "hold", tip: "the start of SHIP, held: quiet please, shhhh" },
    { id: "ch", word: "[CH]OP", snd: "ch", kind: "short", tip: "the start of CHOP, stopped before the O" }],
   [{ id: "th", word: "BA[TH]", snd: "th", kind: "hold", tip: "the end of BATH, held: tongue between teeth, blow" },
-   { id: "long_e", word: "K[EY]", snd: "ee", kind: "hold", tip: "the end of KEY, held: long E, eeee" },
-   { id: "long_o", word: "Y[O]Y[O]", snd: "oh", kind: "hold", tip: "the O in YOYO, held: long O, ohhh" }],
+   { id: "long_e", word: "K[EY]", snd: "ee", kind: "hold", tip: "the end of KEY: E says its own name, held: eeee" },
+   { id: "long_o", word: "G[O]", snd: "oh", kind: "hold", tip: "the end of GO: O says its own name, held: ohhh" }],
   [{ id: "q", word: "[QU]EEN", snd: "qu", kind: "short", tip: "the start of QUEEN, stopped before the EE: kw" },
    { id: "ng", word: "RI[NG]", snd: "ng", kind: "hold", tip: "the end of RING, held: ngng" },
    { id: "th_voiced", word: "[TH]IS", snd: "th", kind: "hold", tip: "the start of THIS, held: buzzing (not the TH in BATH)" }],
-  [{ id: "long_a", word: "C[A]K[E]", snd: "ay", kind: "hold", tip: "the A in CAKE, held: long A, aaay" },
-   { id: "long_i", word: "K[I]T[E]", snd: "eye", kind: "hold", tip: "the I in KITE, held: long I, eye" },
-   { id: "long_u", word: "C[U]B[E]", snd: "you", kind: "hold", tip: "the U in CUBE, held: long U, you" }],
+  [{ id: "long_a", word: "[A]CORN", snd: "ay", kind: "hold", tip: "the start of ACORN: A says its own name, held: aaay" },
+   { id: "long_i", word: "[I]CE", snd: "eye", kind: "hold", tip: "the start of ICE: I says its own name, held: eye" },
+   { id: "long_u", word: "[U]NICORN", snd: "you", kind: "hold", tip: "the start of UNICORN: U says its own name, held: you" }],
 ];
 const plain = (w) => w.replace(/[\[\]]/g, "");
 const groupId = (i) => "g" + String(i + 1).padStart(2, "0");
