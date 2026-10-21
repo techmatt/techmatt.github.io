@@ -94,7 +94,7 @@ kbd { font-family: var(--f-mono); font-size: .75rem; border: 1px solid var(--lin
     <li>First type <b>your name</b> at the top: the game credits the voice to it.</li>
     <li>Each take is one card of three: read the <b>word</b>, then say its <b>sound</b> three times. The sound to say is the <b style="color:var(--target)">red</b> part of the word. For example: “VAN … vvvv … vvvv … vvvv …… PIG … p … p … p ……”.</li>
     <li><b>Pause</b> between everything: at least <b>half a second</b> between the sounds (count “one” in your head), and a full <b>second</b> before the next word. Sounds that run together can't be told apart, and the card has to be recorded again.</li>
-    <li><b>Hold</b> sounds are stretched: “sssss”, “mmmmm”, “aaaa”, about a second each, with no “uh” at the end: “ffff”, not “fuh”.</li>
+    <li><b>Hold</b> sounds are stretched: “sssss”, “mmmmm”, “aaaa”, half a second or a little more each, with no “uh” at the end: “ffff”, not “fuh”.</li>
     <li><b>Short</b> sounds are crisp, with <b>no “uh”</b> after them: /c/ not “kuh”, /b/ not “buh”. Whisper-short is fine.</li>
     <li>Vowels are the short sound in the word: A as in ANT, E as in HEN, I as in PIN, O as in FOX, U as in BUG.</li>
     <li>A quiet room, about a hand's width from the mic. Press <b>Record</b> (or Space), read the card, press <b>Stop</b>. The page counts the sounds it heard (a card is 12: three words and nine sounds). A take that counts out saves itself the first time; one that doesn't says what it heard, so you can record it again. A later take plays back beside the saved one; press <b>Keep new</b> if it's better.</li>
@@ -477,7 +477,7 @@ function render() {
   for (const e of g) {
     const d = document.createElement("div"); d.className = "item";
     d.innerHTML = `<span class="kind"></span><div class="word"></div><div class="snd"></div><div class="tip"></div>`;
-    d.querySelector(".kind").textContent = e.kind === "hold" ? "hold it, about a second" : "short sound";
+    d.querySelector(".kind").textContent = e.kind === "hold" ? "hold it, half a second or so" : "short sound";
     const wEl = d.querySelector(".word");
     for (const part of e.word.split(/(\[[^\]]+\])/)) {
       if (!part) continue;
