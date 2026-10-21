@@ -85,17 +85,19 @@ kbd { font-family: var(--f-mono); font-size: .75rem; border: 1px solid var(--lin
     <h1>Phonics Sound Recorder</h1>
     <p class="sub"><span id="count">12</span> short takes for a children's reading game. Your recordings stay on this computer until you send the zip.</p>
   </div>
-  <label class="who">Your name <input id="who" autocomplete="name" placeholder="optional"></label>
+  <label class="who">Your name <input id="who" autocomplete="name" placeholder="needed before recording" required></label>
 </header>
 
 <details class="howto" id="howto" open>
   <summary>How to record (read once)</summary>
   <ul>
-    <li>Each take is one card of three: read the <b>word</b>, then say its <b>sound</b> three times, with a short pause (about a second) between everything. The sound to say is the <b style="color:var(--target)">red</b> part of the word. For example: “VAN … v … v … v … CAN … c … c … c …”.</li>
-    <li><b>Hold</b> sounds are stretched: “sssss”, “mmmmm”, “aaaa”, about a second each.</li>
+    <li>First type <b>your name</b> at the top: the game credits the voice to it.</li>
+    <li>Each take is one card of three: read the <b>word</b>, then say its <b>sound</b> three times. The sound to say is the <b style="color:var(--target)">red</b> part of the word. For example: “VAN … vvvv … vvvv … vvvv …… PIG … p … p … p ……”.</li>
+    <li><b>Pause</b> between everything: at least <b>half a second</b> between the sounds (count “one” in your head), and a full <b>second</b> before the next word. Sounds that run together can't be told apart, and the card has to be recorded again.</li>
+    <li><b>Hold</b> sounds are stretched: “sssss”, “mmmmm”, “aaaa”, about a second each, with no “uh” at the end: “ffff”, not “fuh”.</li>
     <li><b>Short</b> sounds are crisp, with <b>no “uh”</b> after them: /c/ not “kuh”, /b/ not “buh”. Whisper-short is fine.</li>
     <li>Vowels are the short sound in the word: A as in ANT, E as in HEN, I as in PIN, O as in FOX, U as in BUG.</li>
-    <li>A quiet room, about a hand's width from the mic. Press <b>Record</b> (or Space), read the card, press <b>Stop</b>. Your first take of a card saves itself. A later take plays back beside the saved one; press <b>Keep new</b> if it's better.</li>
+    <li>A quiet room, about a hand's width from the mic. Press <b>Record</b> (or Space), read the card, press <b>Stop</b>. The page counts the sounds it heard (a card is 12: three words and nine sounds). A take that counts out saves itself the first time; one that doesn't says what it heard, so you can record it again. A later take plays back beside the saved one; press <b>Keep new</b> if it's better.</li>
     <li>When you're done (or any time), press <b>Download zip</b> and send that file back.</li>
   </ul>
 </details>
@@ -175,9 +177,13 @@ const GROUPS = [
 const plain = (w) => w.replace(/[\[\]]/g, "");
 const groupId = (i) => "g" + String(i + 1).padStart(2, "0");
 const groupName = (g) => g.map((e) => plain(e.word)).join(" · ");
+const REPEATS = 3;
+const expectedFor = (i) => GROUPS[i].length * (1 + REPEATS);
+const QUIET_PEAK = 10 ** (-30 / 20); // -30 dBFS
 
 const state = { cur: 0, saved: {}, fresh: null, recording: false };
 const $ = (id) => document.getElementById(id);
+const who = () => $("who").value.trim();
 
 // ---------- storage (best effort; the zip is the real record) ----------
 let dbp = null;
@@ -210,7 +216,7 @@ async function loadAll() {
   });
 }
 try { const w = localStorage.getItem("phonics-recorder-who"); if (w) $("who").value = w; } catch {}
-$("who").addEventListener("input", () => { try { localStorage.setItem("phonics-recorder-who", $("who").value); } catch {} });
+$("who").addEventListener("input", () => { try { localStorage.setItem("phonics-recorder-who", $("who").value); } catch {} render(); });
 
 // ---------- audio ----------
 let ctx = null, stream = null, analyser = null, recorder = null, chunks = [], raf = 0;
@@ -246,10 +252,11 @@ async function toWav(blob) {
   w(36, "data"); out.setUint32(40, n * 2, true);
   for (let i = 0; i < n; i++) { const s = Math.max(-1, Math.min(1, ch[i])); out.setInt16(44 + i * 2, s < 0 ? s * 0x8000 : s * 0x7fff, true); }
   let peak = 0; for (let i = 0; i < n; i++) peak = Math.max(peak, Math.abs(ch[i]));
-  return { blob: new Blob([out], { type: "audio/wav" }), seconds: n / rate, peak, samples: ch };
+  return { blob: new Blob([out], { type: "audio/wav" }), seconds: n / rate, peak, samples: ch, rate };
 }
 async function startRec() {
   stopPlayback();
+  if (!who()) { say("Type your name at the top first: the game credits the voice to it.", "err"); $("who").focus(); return; }
   try { await mic(); } catch (e) { say(e.message || "Microphone blocked. Allow the microphone for this page and try again.", "err"); return; }
   if (ctx.state === "suspended") await ctx.resume();
   chunks = [];
@@ -272,14 +279,16 @@ async function finishRec() {
       say("No sound reached the recorder. Check that the microphone is plugged in, selected and allowed for this page, then record again.", "err");
       render(); return;
     }
-    const looksOk = wav.seconds >= 3 && wav.peak >= 0.05 && wav.peak <= 0.99;
-    const first = !state.saved[groupId(state.cur)] && looksOk;
+    wav.count = countTake(wav.samples, wav.rate, expectedFor(state.cur));
+    const counted = wav.count.status === "ok", quiet = wav.peak < QUIET_PEAK, clipped = wav.peak > 0.99;
+    const first = !state.saved[groupId(state.cur)] && counted && !quiet && !clipped;
     if (first) await keep(true);
-    if (wav.seconds < 3) say("That take is very short, so it wasn't saved. Did it catch all three words and their sounds? Keep new saves it anyway.", "warn");
-    else if (wav.peak < 0.05) say("That take is very quiet, so it wasn't saved. Move a little closer to the mic and record again (Keep new saves it anyway).", "warn");
-    else if (wav.peak > 0.99) say("That take clipped (too loud), so it wasn't saved. Move back a little and record again (Keep new saves it anyway).", "warn");
-    else if (first) say("Saved. Next card →, or record again to compare.");
-    else say("Listen to the new take. Keep it if it's better than the saved one.");
+    const dbfs = (20 * Math.log10(wav.peak)).toFixed(0);
+    if (!counted) say(`Not saved: ${countReason(wav.count)}. Record the card again (Keep new saves it anyway, but the game will turn it away).`, "warn");
+    else if (quiet) say(`All ${wav.count.found} sounds heard, but the take is quiet (its loudest is ${dbfs} dBFS, under -30), so it wasn't saved. Move a little closer to the mic and record again (Keep new saves it anyway).`, "warn");
+    else if (clipped) say("That take clipped (too loud), so it wasn't saved. Move back a little and record again (Keep new saves it anyway).", "warn");
+    else if (first) say(`All ${wav.count.found} sounds heard. Saved. Next card →, or record again to compare.`);
+    else say(`All ${wav.count.found} sounds heard. Listen to the new take, and keep it if it's better than the saved one.`);
     play(wav.blob);
   } catch (e) { say("Couldn't read that take: " + (e.message || e), "err"); }
   render();
@@ -301,6 +310,80 @@ async function keep(quiet = false) {
   render();
 }
 
+// ---------- counting the sounds in a take ----------
+// The game's importer (tools/voice/split.ts, `npm run voice:import`) refuses a take whose sounds
+// don't count out, so the page counts each take the same way the moment it stops. This block is
+// that detector, ported: the same numbers, the same steps. tests/unit/voiceImport.test.ts runs it
+// beside the importer's, so keep the two in step. (It is plain JS between the markers.)
+// detector:begin
+const SPLIT = { winS: 0.02, hopS: 0.01, highpassHz: 80, emptyDb: -60, threshFrac: 0.25, mergeS: 0.25, minRunS: 0.06, dropDb: 20 };
+const RAN_TOGETHER_S = 0.14;
+const dbOf = (p) => 10 * Math.log10(p + 1e-12);
+// A 4th-order Butterworth high-pass run forwards then backwards, the ends padded with an odd reflection.
+function highpass(x, rate, hz) {
+  const pad = Math.min(x.length - 1, Math.round(rate * 0.1)), n = x.length + 2 * pad, y = new Float64Array(n);
+  for (let i = 0; i < pad; i++) y[i] = 2 * x[0] - x[pad - i];
+  for (let i = 0; i < x.length; i++) y[pad + i] = x[i];
+  for (let i = 0; i < pad; i++) y[pad + x.length + i] = 2 * x[x.length - 1] - x[x.length - 2 - i];
+  const w = (2 * Math.PI * hz) / rate;
+  const sections = [1 / (2 * Math.cos(Math.PI / 8)), 1 / (2 * Math.cos((3 * Math.PI) / 8))].map((q) => {
+    const alpha = Math.sin(w) / (2 * q), c = Math.cos(w), a0 = 1 + alpha;
+    return { b0: (1 + c) / 2 / a0, b1: -(1 + c) / a0, b2: (1 + c) / 2 / a0, a1: (-2 * c) / a0, a2: (1 - alpha) / a0 };
+  });
+  const run = (from, to, step) => {
+    for (const s of sections) {
+      let x1 = 0, x2 = 0, y1 = 0, y2 = 0;
+      for (let i = from; i !== to; i += step) {
+        const v = y[i], o = s.b0 * v + s.b1 * x1 + s.b2 * x2 - s.a1 * y1 - s.a2 * y2;
+        x2 = x1; x1 = v; y2 = y1; y1 = o; y[i] = o;
+      }
+    }
+  };
+  run(0, n, 1); run(n - 1, -1, -1);
+  return Float32Array.from(y.subarray(pad, pad + x.length));
+}
+// How many sounds a take holds: { status: "ok" | "empty" | "count", found, expected, joins, dropped, seconds }.
+function countTake(raw, rate, expected) {
+  const x = raw.length > 1 ? highpass(raw, rate, SPLIT.highpassHz) : Float32Array.from(raw);
+  const win = Math.floor(rate * SPLIT.winS), hop = Math.floor(rate * SPLIT.hopS);
+  const n = Math.max(0, Math.floor((x.length - win) / hop) + 1), env = new Float32Array(n);
+  for (let k = 0; k < n; k++) { let e = 0; for (let i = k * hop; i < k * hop + win; i++) e += x[i] * x[i]; env[k] = dbOf(e / win); }
+  const t = (i) => (i * hop) / rate;
+  let peak = -Infinity; for (const v of env) peak = Math.max(peak, v);
+  const out = { seconds: x.length / rate, expected, found: 0, joins: [], dropped: [] };
+  if (!n || peak < SPLIT.emptyDb) return { ...out, status: "empty" };
+  const sorted = Float64Array.from(env).sort(), at = 0.1 * (sorted.length - 1), lo = Math.floor(at);
+  const floor = sorted[lo] + (sorted[Math.min(sorted.length - 1, lo + 1)] - sorted[lo]) * (at - lo);
+  const thr = floor + SPLIT.threshFrac * (peak - floor);
+  const runs = [];
+  for (let i = 0; i < n; ) {
+    if (env[i] > thr) {
+      let j = i; while (j < n && env[j] > thr) j++;
+      const last = runs[runs.length - 1];
+      if (last && t(i - last[1]) < SPLIT.mergeS) { out.joins.push({ at: t(last[1]), gapS: t(i - last[1]) }); last[1] = j; }
+      else runs.push([i, j]);
+      i = j;
+    } else i++;
+  }
+  for (const [a, b] of runs) {
+    let rp = -Infinity; for (let i = a; i < b; i++) rp = Math.max(rp, env[i]);
+    const why = t(b - a) < SPLIT.minRunS ? "short" : rp < peak - SPLIT.dropDb ? "faint" : null;
+    if (why) out.dropped.push({ start: t(a), end: t(b), peakDb: rp, why }); else out.found++;
+  }
+  return { ...out, status: out.found === expected ? "ok" : "count" };
+}
+// Why a take didn't count out, in plain words, with where to listen.
+function countReason(s) {
+  const at = (xs) => xs.map((v) => `${v.toFixed(1)} s`).join(", "), why = [];
+  const ran = s.joins.filter((j) => j.gapS >= RAN_TOGETHER_S);
+  if (ran.length) why.push(`sounds ran together at ${at(ran.map((j) => j.at))} (pauses of ${Math.round(Math.min(...ran.map((j) => j.gapS)) * 1000)} ms or so: leave about a second)`);
+  const faint = s.dropped.filter((d) => d.why === "faint");
+  if (faint.length) why.push(`${faint.length === 1 ? "a sound" : `${faint.length} sounds`} at ${at(faint.map((d) => d.start))} too quiet to tell from noise (say ${faint.length === 1 ? "it" : "them"} louder, or closer to the mic)`);
+  if (!why.length) why.push(s.found > s.expected ? 'an extra sound (a cough, an "um", a bump) or a word said in two pieces' : `sounds missing (the take is ${s.seconds.toFixed(1)} s: did it stop early?)`);
+  return `found ${s.found} sounds, expected ${s.expected}: ${why.join("; ")}`;
+}
+// detector:end
+
 // ---------- waveform ----------
 function wave(container, wav) {
   container.innerHTML = "";
@@ -316,7 +399,11 @@ function wave(container, wav) {
     let m = 0; for (let i = x * step; i < Math.min(s.length, (x + 1) * step); i++) m = Math.max(m, Math.abs(s[i]));
     const h = Math.max(1, m * H); g.fillRect(x, (H - h) / 2, 1, h);
   }
-  const t = document.createElement("div"); t.className = "status"; t.textContent = wav.seconds.toFixed(1) + " s"; container.append(t);
+  const t = document.createElement("div"); t.className = "status";
+  const n = wav.count;
+  t.textContent = wav.seconds.toFixed(1) + " s" + (n ? (n.status === "ok" ? ` · all ${n.found} sounds` : ` · ${n.found} of ${n.expected} sounds`) : "");
+  if (n && n.status !== "ok") t.className = "status warn";
+  container.append(t);
 }
 
 // ---------- zip (stored, no compression; WAV doesn't compress much anyway) ----------
@@ -344,15 +431,17 @@ async function makeZip(files) {
 async function downloadZip() {
   const ids = GROUPS.map((_, i) => groupId(i)).filter((id) => state.saved[id]);
   if (!ids.length) { say("Nothing saved yet. Record a card and press Keep new first.", "warn"); return; }
+  if (!who()) { say("Type your name at the top first: the game credits the voice to it.", "err"); $("who").focus(); return; }
   const manifest = {
-    format: "phonics-recorder/1",
-    recorder: $("who").value.trim() || null,
+    format: "phonics-recorder/2",
+    recorder: who(),
     made: new Date().toISOString(),
-    note: "Each take: for each entry, the word, then its sound three times, with pauses.",
+    note: "Each take: for each entry, the word, then its sound three times, with pauses. counted: the sounds the page heard in it.",
     takes: ids.map((id) => {
       const i = Number(id.slice(1)) - 1;
-      return { file: "takes/" + id + ".wav", group: id, seconds: +state.saved[id].seconds.toFixed(2),
-        entries: GROUPS[i].map((e) => ({ sound: e.id, word: plain(e.word).toLowerCase(), kind: e.kind, repeats: 3 })) };
+      const take = state.saved[id];
+      return { file: "takes/" + id + ".wav", group: id, seconds: +take.seconds.toFixed(2), counted: take.count ? take.count.found : null,
+        entries: GROUPS[i].map((e) => ({ sound: e.id, word: plain(e.word).toLowerCase(), kind: e.kind, repeats: REPEATS })) };
     }),
     missing: GROUPS.map((_, i) => groupId(i)).filter((id) => !state.saved[id]),
   };
@@ -360,14 +449,16 @@ async function downloadZip() {
   for (const id of ids) files.push({ name: "takes/" + id + ".wav", blob: state.saved[id].blob });
   const zip = await makeZip(files);
   const a = document.createElement("a");
-  const who = ($("who").value.trim() || "recording").replace(/[^\w-]+/g, "-").toLowerCase();
-  a.href = URL.createObjectURL(zip); a.download = "phonics-" + who + ".zip";
+  const name = who().replace(/[^\w-]+/g, "-").toLowerCase();
+  a.href = URL.createObjectURL(zip); a.download = "phonics-" + name + ".zip";
   document.body.append(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(a.href), 10000);
   say(ids.length === GROUPS.length ? `Zip downloaded with all ${GROUPS.length} takes. Send it back. Thank you!` : `Zip downloaded with ${ids.length} of ${GROUPS.length} takes. You can send it now or finish the rest first.`);
 }
 
 // ---------- UI ----------
+// A held sound is written stretched ("vvvv", "shhhh", "oh—"), so it is said stretched.
+const stretched = (e) => (e.kind !== "hold" ? e.snd : e.snd.length === 1 ? e.snd.repeat(4) : /^(sh|th|ng)$/.test(e.snd) ? e.snd + e.snd.slice(-1).repeat(3) : e.snd + "—");
 function say(msg, kind = "") { const s = $("status"); s.textContent = msg; s.className = "status" + (kind ? " " + kind : ""); }
 function render() {
   const g = GROUPS[state.cur], id = groupId(state.cur), done = Object.keys(state.saved).length;
@@ -386,20 +477,22 @@ function render() {
   for (const e of g) {
     const d = document.createElement("div"); d.className = "item";
     d.innerHTML = `<span class="kind"></span><div class="word"></div><div class="snd"></div><div class="tip"></div>`;
-    d.querySelector(".kind").textContent = e.kind === "hold" ? "hold the sound" : "short sound";
+    d.querySelector(".kind").textContent = e.kind === "hold" ? "hold it, about a second" : "short sound";
     const wEl = d.querySelector(".word");
     for (const part of e.word.split(/(\[[^\]]+\])/)) {
       if (!part) continue;
       if (part.startsWith("[")) { const m = document.createElement("span"); m.className = "hl"; m.textContent = part.slice(1, -1); wEl.append(m); }
       else wEl.append(document.createTextNode(part));
     }
-    d.querySelector(".snd").textContent = `${e.snd} · ${e.snd} · ${e.snd}`;
+    d.querySelector(".snd").textContent = [1, 2, 3].map(() => stretched(e)).join(" · ");
     d.querySelector(".tip").textContent = e.tip;
     sayEl.append(d);
   }
-  $("script").textContent = "Read: " + g.map((e) => `${plain(e.word)} … ${e.snd} … ${e.snd} … ${e.snd}`).join(" … ");
+  $("script").textContent = "Read: " + g.map((e) => `${plain(e.word)} … ${stretched(e)} … ${stretched(e)} … ${stretched(e)}`).join(" …… ");
   const rb = $("recBtn");
   rb.innerHTML = state.recording ? "Stop<kbd>Space</kbd>" : "Record<kbd>Space</kbd>";
+  rb.disabled = !state.recording && !who();
+  rb.title = rb.disabled ? "Type your name at the top first" : "";
   $("playNew").disabled = !state.fresh || state.recording;
   $("keep").disabled = !state.fresh || state.recording;
   $("playSaved").disabled = !state.saved[id] || state.recording;
@@ -437,7 +530,11 @@ window.addEventListener("beforeunload", (e) => { if (state.fresh || state.record
   render();
   const stored = await loadAll();
   for (const [k, blob] of Object.entries(stored)) {
-    try { state.saved[k] = await toWav(blob); } catch {}
+    try {
+      const wav = await toWav(blob), i = Number(k.slice(1)) - 1;
+      if (GROUPS[i]) wav.count = countTake(wav.samples, wav.rate, expectedFor(i));
+      state.saved[k] = wav;
+    } catch {}
   }
   render();
 })();
