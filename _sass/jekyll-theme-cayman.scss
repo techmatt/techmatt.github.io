@@ -182,15 +182,15 @@ a {
     font-size: 0.9rem;
   }
 
+  // Phones: compact buttons that wrap side by side (centered by the header's text-align),
+  // rather than one full-width bar each, which filled the first screen.
   @include small {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
+    padding: 0.4rem 0.75rem;
+    margin: 0 0.2rem 0.5rem;
     font-size: 0.9rem;
 
     + .btn {
-      margin-top: 1rem;
-      margin-left: 0;
+      margin-left: 0.2rem;
     }
   }
 }
@@ -415,6 +415,38 @@ a {
     dd {
       padding: 0;
       margin-bottom: 1rem;
+    }
+  }
+
+  // The photo + bio table in _layouts/default.html. On phones, stack the photo above the
+  // text instead of squeezing the text into a narrow column beside it.
+  table.bio {
+    @include small {
+      // tbody too: left as a row group, it keeps a table (and the 180px <col>) around the cells.
+      tbody,
+      tr,
+      td {
+        display: block;
+        width: auto;
+      }
+
+      td {
+        padding: 0;
+      }
+
+      td:first-child {
+        text-align: center;
+        margin-bottom: 0.75rem;
+
+        img {
+          width: 160px;
+        }
+      }
+
+      td > div {
+        margin-top: 0.5rem;
+        text-align: center;
+      }
     }
   }
 
