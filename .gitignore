@@ -5,3 +5,6 @@ _site
 /generator/bin
 /generator/obj
 /CV.html
+# Local-preview lock only: GitHub Pages builds with its own gem versions, and a committed
+# lock goes stale and draws Dependabot alerts. `bundle install` recreates it locally.
+/Gemfile.lock

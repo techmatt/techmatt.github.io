@@ -5,6 +5,9 @@ Matt Fisher's personal site: a Jekyll (GitHub Pages, Cayman theme) site. The fro
 `index.html` by hand; change the data in `info/` and regenerate.
 
 Local preview: `bundle exec jekyll serve`, then http://127.0.0.1:4000 (see `notes.txt`).
+GitHub Pages uses the legacy branch build (`master`, `/`) with GitHub's own gem versions, so
+`Gemfile.lock` is gitignored on purpose: a committed lock went stale and drew dozens of
+Dependabot alerts without affecting the live site. Don't commit it again.
 
 ## Layout
 
@@ -59,8 +62,9 @@ Local preview: `bundle exec jekyll serve`, then http://127.0.0.1:4000 (see `note
 8. Updating a paper later (e.g. arXiv to a venue): edit `conference=` and regenerate.
    `CV.html` expands venue acronyms via a list in `WebPageGenerator.cs`.
 
-If `WebPageGenerator.cs` changes, the exe must be rebuilt (Visual Studio, `WebGenerator.sln`)
-before `regenerate.ps1` sees the change.
+`generator/bin` is gitignored, so the exe exists only where it has been built. On a fresh
+clone, or if `WebPageGenerator.cs` changes, build it first (Visual Studio,
+`generator/WebGenerator.sln`, Debug) before running `regenerate.ps1`.
 
 ## Conventions
 
