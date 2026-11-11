@@ -42,6 +42,10 @@ Local preview: `bundle exec jekyll serve`, then http://127.0.0.1:4000 (see `note
    near-duplicates such as `Henry Shafer`/`HenrySchafer`. For a new author, create
    `info/authors/<Full Name>.txt` with `name=<Full Name>` and `website=unknown`, unless a
    homepage is known. (The generator also auto-creates blank files for unknown keys.)
+   To find websites, search the web and propose candidates for the user to confirm. Good
+   targets: a personal or GitHub Pages site, Google Scholar, a university or Adobe Research
+   page. Do not use LinkedIn: the user doesn't want it linked. If nothing good turns up,
+   leave `website=unknown`.
 5. PDF: `curl -sL https://arxiv.org/pdf/<number> -o pdfs/<id>.pdf`.
 6. Thumbnail: crop the teaser figure (usually Figure 1 on page 1) to `thumbnails/<id>.png`,
    about 900-1000 px wide. PyMuPDF is not installed globally; install it into a scratch dir
