@@ -91,14 +91,16 @@ kbd { font-family: var(--f-mono); font-size: .75rem; border: 1px solid var(--lin
 <details class="howto" id="howto" open>
   <summary>How to record (read once)</summary>
   <ul>
+    <li id="targetNote" hidden></li>
     <li>First type <b>your name</b> at the top: the game credits the voice to it.</li>
     <li>Each take is one card of three: read the <b>word</b>, then say its <b>sound</b> three times. The sound to say is the <b style="color:var(--target)">red</b> part of the word. For example: “VAN … vvvv … vvvv … vvvv …… PIG … p … p … p ……”.</li>
     <li><b>Pause</b> between everything: at least <b>half a second</b> between the sounds (count “one” in your head), and a full <b>second</b> before the next word. Sounds that run together can't be told apart, and the card has to be recorded again.</li>
-    <li><b>Hold</b> sounds are stretched: “sssss”, “mmmmm”, “aaaa”, half a second or a little more each, with no “uh” at the end: “ffff”, not “fuh”.</li>
-    <li><b>Short</b> sounds are crisp, with <b>no “uh”</b> after them: /c/ not “kuh”, /b/ not “buh”. Whisper-short is fine.</li>
-    <li>Vowels are the short sound in the word: A as in ANT, E as in HEN, I as in PIN, O as in FOX, U as in BUG.</li>
-    <li>A quiet room, about a hand's width from the mic. Press <b>Record</b> (or Space), read the card, press <b>Stop</b>. The page counts the sounds it heard (a card is 12: three words and nine sounds). A take that counts out saves itself the first time; one that doesn't says what it heard, so you can record it again. A later take plays back beside the saved one; press <b>Keep new</b> if it's better.</li>
+    <li><b>Hold</b> sounds are stretched: “sssss”, “mmmmm”, “aaaa”, half a second or a little more each, with no “uh” at the end: “ssss”, not “suh”.</li>
+    <li><b>Short</b> sounds are crisp, with <b>no “uh”</b> after them: /c/ not “kuh”, /b/ not “buh”. Whisper-short is fine. F is the one exception: “fuh”, as its card says.</li>
+    <li>Vowels are the short sound in the word: A as in CAT, E as in HEN, I as in PIN, O as in FOX, U as in BUG.</li>
+    <li>A quiet room, about a hand's width from the mic. Press <b>Record</b> (or Space), read the card, press <b>Stop</b>. The page counts the sounds it heard (<span id="cardCount">a card is 12: three words and nine sounds</span>). A take that counts out saves itself the first time; one that doesn't says what it heard, so you can record it again. A later take plays back beside the saved one; press <b>Keep new</b> if it's better.</li>
     <li>When you're done (or any time), press <b>Download zip</b> and send that file back.</li>
+    <li>Only some sounds? Add <b>?only=</b> and their names to the page's address, commas between: <code>phonics-recorder.html?only=f,a</code> shows just F and A, one card each. <b>?missing</b> shows every sound the game still needs. The names: <span id="soundNames"></span>.</li>
   </ul>
 </details>
 
@@ -134,13 +136,14 @@ kbd { font-family: var(--f-mono); font-size: .75rem; border: 1px solid var(--lin
 
 <script>
 "use strict";
+// cards:begin
 // What to record. id = the game's sound key; word = a familiar picture word from the game's bank.
 // kind: "hold" (a sound you can stretch) or "short" (a stop sound, no "uh").
-const GROUPS = [
+const ALL_GROUPS = [
   [{ id: "m", word: "[M]OP", snd: "m", kind: "hold", tip: "the start of MOP, held: lips closed, mmmm" },
    { id: "c", word: "[C]AT", snd: "c", kind: "short", tip: "the start of CAT, stopped before the A" },
    { id: "s", word: "[S]UN", snd: "s", kind: "hold", tip: "the start of SUN, held: a snake hiss, ssss" }],
-  [{ id: "f", word: "[F]AN", snd: "f", kind: "hold", tip: "the start of FAN, held: ffff" },
+  [{ id: "f", word: "[F]AN", snd: "fuh", kind: "short", tip: "the start of FAN, said “fuh”: a short F with its “uh”, not held (the game plays it whole)" },
    { id: "d", word: "BE[D]", snd: "d", kind: "short", tip: "the very end of BED, with no “duh” after it" },
    { id: "l", word: "[L]EG", snd: "l", kind: "hold", tip: "the start of LEG, held: llll" }],
   [{ id: "n", word: "[N]UT", snd: "n", kind: "hold", tip: "the start of NUT, held: nnnn" },
@@ -157,7 +160,7 @@ const GROUPS = [
    { id: "y", word: "[Y]OYO", snd: "y", kind: "short", tip: "the start of YOYO, stopped before the O" }],
   [{ id: "k", word: "[K]EY", snd: "k", kind: "short", tip: "the start of KEY, stopped before the EE (the same sound as C)" },
    { id: "x", word: "BO[X]", snd: "x", kind: "short", tip: "the very end of BOX: ks" },
-   { id: "a", word: "[A]NT", snd: "a", kind: "hold", tip: "the start of ANT, held: aaaa" }],
+   { id: "a", word: "C[A]T", snd: "a", kind: "hold", tip: "the middle of CAT, held steady: aaaa, the same sound all the way through (not sliding toward I)" }],
   [{ id: "e", word: "H[E]N", snd: "e", kind: "hold", tip: "the middle of HEN, held: eh" },
    { id: "i", word: "P[I]N", snd: "i", kind: "hold", tip: "the middle of PIN, held: ih" },
    { id: "o", word: "F[O]X", snd: "o", kind: "hold", tip: "the middle of FOX, held: ahh" }],
@@ -174,8 +177,53 @@ const GROUPS = [
    { id: "long_i", word: "[I]CE", snd: "eye", kind: "hold", tip: "the start of ICE: I says its own name, held: eye" },
    { id: "long_u", word: "[U]NICORN", snd: "you", kind: "hold", tip: "the start of UNICORN: U says its own name, held: you" }],
 ];
+// missing:begin (written by `npm run recorder:missing`, tools/recorder/missing.ts; never edit by hand)
+const MISSING = [];
+const EXTRA = {
+  long_oo: {"card":13,"e":{"id":"long_oo","word":"Z[OO]","snd":"oo","kind":"hold","tip":"the end of ZOO, held: ooooo, lips round, as in \"moo\""}},
+  schwa: {"card":14,"e":{"id":"schwa","word":"ZEBR[A]","snd":"uh","kind":"hold","tip":"the end of ZEBRA, held: uhhh, the lazy sound at its end, as softly as in the word"}},
+  ow: {"card":15,"e":{"id":"ow","word":"C[OW]","snd":"ow","kind":"hold","tip":"the end of COW, held: ow, as in \"ouch!\", not the OH of SNOW"}},
+};
+// missing:end
+// ?only=f,a: only those sounds, each its own card (the word, then its sound three times); ?missing is
+// ?only= with MISSING. A card's take is "g" + its card + the sound (g02f), so the importer names the card
+// and the takes never mix with the full page's in this browser's storage.
+const SAME_AS = { ck: "k" }; // the K card is the CK sound too (voice:import fills both)
+const pad2 = (n) => String(n).padStart(2, "0");
+function soloCard(id) {
+  const s = SAME_AS[id] || id;
+  for (let i = 0; i < ALL_GROUPS.length; i++) {
+    const e = ALL_GROUPS[i].find((x) => x.id === s);
+    if (e) return { card: i + 1, e };
+  }
+  return EXTRA[s] || null;
+}
+// What the address asks for. Nothing known asked (or nothing missing): the full page, saying why.
+function cardsFor(search) {
+  const q = new URLSearchParams(search);
+  const preset = q.has("missing") ? "missing" : null;
+  const asked = preset ? MISSING : q.has("only") ? (q.get("only") || "").toLowerCase().split(/[\s,+;]+/).filter(Boolean) : null;
+  const full = { groups: ALL_GROUPS, ids: ALL_GROUPS.map((_, i) => "g" + pad2(i + 1)), targeted: false, preset, asked, unknown: [], tag: "" };
+  if (!asked) return full;
+  const cards = [], unknown = [];
+  for (const id of asked) {
+    const c = soloCard(id);
+    if (!c) unknown.push(id);
+    else if (!cards.some((d) => d.e.id === c.e.id)) cards.push(c);
+  }
+  if (!cards.length) return { ...full, unknown };
+  return {
+    groups: cards.map((c) => [c.e]), ids: cards.map((c) => "g" + pad2(c.card) + c.e.id), targeted: true, preset, asked, unknown,
+    tag: preset ? "-" + preset : "-only-" + cards.map((c) => c.e.id).join("-"),
+  };
+}
+const SOUND_NAMES = [...ALL_GROUPS.flat().map((e) => e.id), ...Object.keys(EXTRA)];
+// cards:end
+const CARDS = cardsFor(location.search);
+const GROUPS = CARDS.groups;
 const plain = (w) => w.replace(/[\[\]]/g, "");
-const groupId = (i) => "g" + String(i + 1).padStart(2, "0");
+const groupId = (i) => CARDS.ids[i];
+const groupIndex = (id) => GROUPS.findIndex((_, i) => groupId(i) === id);
 const groupName = (g) => g.map((e) => plain(e.word)).join(" · ");
 const REPEATS = 3;
 const expectedFor = (i) => GROUPS[i].length * (1 + REPEATS);
@@ -438,7 +486,7 @@ async function downloadZip() {
     made: new Date().toISOString(),
     note: "Each take: for each entry, the word, then its sound three times, with pauses. counted: the sounds the page heard in it.",
     takes: ids.map((id) => {
-      const i = Number(id.slice(1)) - 1;
+      const i = groupIndex(id);
       const take = state.saved[id];
       return { file: "takes/" + id + ".wav", group: id, seconds: +take.seconds.toFixed(2), counted: take.count ? take.count.found : null,
         entries: GROUPS[i].map((e) => ({ sound: e.id, word: plain(e.word).toLowerCase(), kind: e.kind, repeats: REPEATS })) };
@@ -450,7 +498,7 @@ async function downloadZip() {
   const zip = await makeZip(files);
   const a = document.createElement("a");
   const name = who().replace(/[^\w-]+/g, "-").toLowerCase();
-  a.href = URL.createObjectURL(zip); a.download = "phonics-" + name + ".zip";
+  a.href = URL.createObjectURL(zip); a.download = "phonics-" + name + CARDS.tag + ".zip";
   document.body.append(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(a.href), 10000);
   say(ids.length === GROUPS.length ? `Zip downloaded with all ${GROUPS.length} takes. Send it back. Thank you!` : `Zip downloaded with ${ids.length} of ${GROUPS.length} takes. You can send it now or finish the rest first.`);
@@ -526,13 +574,33 @@ document.addEventListener("keydown", (e) => {
 });
 window.addEventListener("beforeunload", (e) => { if (state.fresh || state.recording) { e.preventDefault(); e.returnValue = ""; } });
 
+// The header note: what this page asks for, and how to ask for a set of sounds.
+{
+  const label = (e) => `${(/\[([^\]]+)\]/.exec(e.word) || [, e.id])[1]} in ${plain(e.word)}`;
+  const note = $("targetNote");
+  if (CARDS.targeted) {
+    document.title = CARDS.preset ? "Phonics Sound Recorder: the missing sounds" : "Phonics Sound Recorder: " + GROUPS.length + (GROUPS.length === 1 ? " sound" : " sounds");
+    document.querySelector("h1").textContent = document.title;
+    note.innerHTML = `This page shows only ${CARDS.preset ? "the <b>sounds still missing</b> (or to be recorded again)" : "<b>these sounds</b>"}: <span></span>. Each card here is <b>one</b> word and its sound three times (4 sounds).`;
+    note.querySelector("span").textContent = GROUPS.map((g) => label(g[0])).join(", ");
+    $("cardCount").textContent = "a card here is 4: one word and three sounds";
+  } else if (CARDS.asked) {
+    note.textContent = CARDS.preset ? "Nothing is missing: every sound the game sounds out has a recording. This is the full page." : "No sound here is called " + CARDS.unknown.join(", ") + ". This is the full page.";
+  }
+  if (CARDS.targeted && CARDS.unknown.length) note.append(` (No sound here is called ${CARDS.unknown.join(", ")}.)`);
+  note.hidden = !CARDS.asked;
+  $("soundNames").textContent = SOUND_NAMES.join(" ");
+}
 (async () => {
   render();
   const stored = await loadAll();
   for (const [k, blob] of Object.entries(stored)) {
     try {
-      const wav = await toWav(blob), i = Number(k.slice(1)) - 1;
-      if (GROUPS[i]) wav.count = countTake(wav.samples, wav.rate, expectedFor(i));
+      // Only this page's cards: the full set and a targeted page (?only, ?missing) keep their takes apart.
+      const i = groupIndex(k);
+      if (i < 0) continue;
+      const wav = await toWav(blob);
+      wav.count = countTake(wav.samples, wav.rate, expectedFor(i));
       state.saved[k] = wav;
     } catch {}
   }
