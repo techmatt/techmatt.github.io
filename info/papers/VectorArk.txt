@@ -1,0 +1,5 @@
+title=VectorArk: Learning Practical Image Vectorization with Rounded Polygon Representation
+authors=Tarun Gehlaut,difan,Charu Bansal,Krutik Malani,Souymodip Chakraborty,Ankit Phogat,matt,Vineet Batra
+conference=CVPR 2026
+arxiv=https://arxiv.org/abs/2605.24398
+project=https://vectorark.github.io/
